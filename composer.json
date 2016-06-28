@@ -1,0 +1,42 @@
+{
+    "name": "helsingborg-stad/event-api",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Helsingborg Stad",
+            "email": "webbredaktionen@helsingborg.se"
+        }
+    ],
+    "minimum-stability" : "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/lix-calculator.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/broken-link-detector.git"
+        },
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+
+    "require": {
+        "composer/installers": "~1.0",
+        "johnpbloch/wordpress": "4.5.1",
+        "helsingborg-stad/broken-link-detector": ">=1.0.0",
+        "wpackagist-plugin/varnish-http-purge": "^3.7.2",
+        "wpackagist-plugin/stream": "^3.0.4"
+    },
+
+    "extra": {
+        "path": "/",
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "wp-content/plugins/{$name}": ["type:wordpress-plugin"],
+            "wp-content/themes/{$name}": ["type:wordpress-theme"]
+        }
+    }
+}
