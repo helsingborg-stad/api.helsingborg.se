@@ -10,6 +10,7 @@ composer.lock
 ##########################
 config/database.php
 config/salts.php
+config/developer.php
 
 # Compiled source #
 ###################
