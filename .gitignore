@@ -6,6 +6,10 @@ wp-content/*
 !wp-content/object-cache.php
 composer.lock
 
+# Config files #
+##########################
+config/database.php
+config/salts.php
 
 # Compiled source #
 ###################
