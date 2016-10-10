@@ -34,7 +34,7 @@
     "require": {
         "composer/installers": "~1.0",
         "johnpbloch/wordpress": "4.6.1",
-        "helsingborg-stad/api-event-manager": "^0.3",
+        "helsingborg-stad/api-event-manager": ">=0.3.0",
         "helsingborg-stad/broken-link-detector": ">=1.0.0",
         "wpackagist-plugin/varnish-http-purge": "^3.7.2",
         "wpackagist-plugin/stream": "^3.0.4",
