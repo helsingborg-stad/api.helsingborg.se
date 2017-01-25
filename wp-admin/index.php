@@ -1,3 +1,3 @@
 <?php
 
-    header("Location: /wp/wp-admin");
+    header("Location: /wp/". $_SERVER['REQUEST_URI']);
