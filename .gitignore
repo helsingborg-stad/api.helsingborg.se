@@ -5,6 +5,7 @@ vendor/
 wp-content/*
 !wp-content/object-cache.php
 !wp-content/mu-plugins
+!wp-admin
 composer.lock
 
 # Config files #
