@@ -20,7 +20,7 @@ if (defined('WP_ALLOW_MULTISITE') && WP_ALLOW_MULTISITE) {
     /**
      * Default site config
      */
-    define('DOMAIN_CURRENT_SITE', '');
+    define('DOMAIN_CURRENT_SITE', 'api.helsingborg.se');
     define('PATH_CURRENT_SITE', '/');
     define('SITE_ID_CURRENT_SITE', 1);
     define('BLOG_ID_CURRENT_SITE', 1);
