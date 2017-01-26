@@ -49,7 +49,7 @@
         "wpackagist-plugin/rest-api": "2.0-beta13",
         "helsingborg-stad/better-post-ui": ">=1.0.0",
         "helsingborg-stad/municipio": ">=1.0.0",
-        "helsingborg-stad/wp-content-translator": ">=1.0.0",
+        "helsingborg-stad/wp-content-translator": ">=1.0.0"
     },
 
     "extra": {
