@@ -19,10 +19,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/broken-link-detector.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/helsingborg-stad/better-post-UI.git"
         },
         {
@@ -43,6 +39,7 @@
         "composer/installers": "~1.0",
         "johnpbloch/wordpress": "4.7.1",
         "helsingborg-stad/api-event-manager": ">=0.3.0",
+        "helsingborg-stad/lix-calculator": ">=1.0.0",
         "wpackagist-plugin/stream": "^3.0.4",
         "helsingborg-stad/better-post-ui": ">=1.0.0",
         "helsingborg-stad/municipio": ">=1.0.0",
