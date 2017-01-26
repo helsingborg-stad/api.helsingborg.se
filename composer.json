@@ -41,12 +41,9 @@
 
     "require": {
         "composer/installers": "~1.0",
-        "johnpbloch/wordpress": "4.6.1",
+        "johnpbloch/wordpress": "4.7.1",
         "helsingborg-stad/api-event-manager": ">=0.3.0",
-        "helsingborg-stad/broken-link-detector": ">=1.0.0",
-        "wpackagist-plugin/varnish-http-purge": "^3.7.2",
         "wpackagist-plugin/stream": "^3.0.4",
-        "wpackagist-plugin/rest-api": "2.0-beta13",
         "helsingborg-stad/better-post-ui": ">=1.0.0",
         "helsingborg-stad/municipio": ">=1.0.0",
         "helsingborg-stad/wp-content-translator": ">=1.0.0"
