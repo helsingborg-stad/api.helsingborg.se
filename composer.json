@@ -37,7 +37,7 @@
 
     "require": {
         "composer/installers": "~1.0",
-        "johnpbloch/wordpress": "4.7.1",
+        "johnpbloch/wordpress": "4.7.2",
         "helsingborg-stad/api-event-manager": ">=0.3.0",
         "helsingborg-stad/lix-calculator": ">=1.0.0",
         "wpackagist-plugin/stream": "^3.0.4",
