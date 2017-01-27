@@ -4,13 +4,13 @@
 RedirectMatch 301 /admin/(.*) /wp/wp-admin/$1
 
 # Audio files streaming
-<FilesMatch "\.(mp3|m4a|aac|ogg|webm|wma)$"
+<FilesMatch "\.(mp3|m4a|aac|ogg|webm|wma)$">
   ForceType application/octet-stream
   Header set Content-Disposition attachment
 </FilesMatch>
 
 # Video files streaming
-<FilesMatch "\.(avi|asf|mov|qt|mpg|mpeg|mp4|wmv|divx)$"
+<FilesMatch "\.(avi|asf|mov|qt|mpg|mpeg|mp4|wmv|divx)$">
   ForceType application/octet-stream
   Header set Content-Disposition attachment
 </FilesMatch>
@@ -63,20 +63,9 @@ RedirectMatch 301 /admin/(.*) /wp/wp-admin/$1
     RewriteRule ^(.*)$ $1?author=999999 [L]
 </ifModule>
 
-# Remove spam refereals
-<IfModule mod_rewrite.c>
-    RewriteCond %{HTTP_REFERER} ^.*(ranksonic\.|semalt\.|kambasoft\.|buttons-for-website\.|buttons-for-your-website\.com|4webmasters\.org|social-buttons\.com|best-seo-offer\.com|best-seo-solution\.com).*$ [NC]
-    RewriteRule ^(.*)$ - [F]
-</ifModule>
-
 # Prevent drive-by-download attacks
 <IfModule mod_headers.c>
     Header set X-Content-Type-Options nosniff
-</IfModule>
-
-# Prevent clickjacking attempts
-<IfModule mod_headers.c>
-    Header always append X-Frame-Options SAMEORIGIN
 </IfModule>
 
 # Cache-Control Headers
