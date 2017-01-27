@@ -30,6 +30,10 @@
             "url": "https://github.com/helsingborg-stad/wp-content-translator.git"
         },
         {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/force-ssl.git"
+        },
+        {
             "type":"composer",
             "url":"https://wpackagist.org"
         }
@@ -43,7 +47,8 @@
         "wpackagist-plugin/stream": "^3.0.4",
         "helsingborg-stad/better-post-ui": ">=1.0.0",
         "helsingborg-stad/municipio": ">=1.0.0",
-        "helsingborg-stad/wp-content-translator": ">=1.0.0"
+        "helsingborg-stad/wp-content-translator": ">=1.0.0",
+        "helsingborg-stad/force-ssl" : ">=1.0.0"
     },
 
     "extra": {

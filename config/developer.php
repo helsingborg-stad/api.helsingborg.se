@@ -14,7 +14,4 @@
  */
 
 // Activate debug mode
-define('WP_DEBUG', true);
-
-// Disabled use of memcached
-define('WP_USE_MEMCACHED', false);
+define('WP_DEBUG', false);
