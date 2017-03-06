@@ -16,10 +16,10 @@ RedirectMatch 301 /admin/(.*) /wp/wp-admin/$1
 </FilesMatch>
 
 <IfModule mod_rewrite.c>
-    #RewriteEngine On
-    #RewriteCond %{HTTP_HOST} .*helsingborg.se.*
-    #RewriteCond %{HTTPS} off
-    #RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+    RewriteEngine On
+    RewriteCond %{HTTP_HOST} .*helsingborg.se.*
+    RewriteCond %{HTTPS} off
+    RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 </ifModule>
 
 # Rewrite rules -
@@ -45,7 +45,6 @@ RedirectMatch 301 /admin/(.*) /wp/wp-admin/$1
     RewriteEngine On
     RewriteCond %{REQUEST_METHOD} POST
     RewriteCond %{REQUEST_URI} .(wp-comments-post|wp-login)\.php*
-    RewriteCond %{HTTP_REFERER} !.*intranat.dev.* [OR]
     RewriteCond %{HTTP_REFERER} !.*helsingborg.se.* [OR]
     RewriteCond %{HTTP_USER_AGENT} ^$
     RewriteRule (.*) http://%{REMOTE_ADDR}/$1 [R=301,L]
@@ -56,12 +55,6 @@ RedirectMatch 301 /admin/(.*) /wp/wp-admin/$1
     Order Deny,Allow
     Deny from all
 </FilesMatch>
-
-# Remove author pages
-<IfModule mod_rewrite.c>
-    RewriteCond %{QUERY_STRING} ^author=([0-9]){1,}$ [NC]
-    RewriteRule ^(.*)$ $1?author=999999 [L]
-</ifModule>
 
 # Prevent drive-by-download attacks
 <IfModule mod_headers.c>
