@@ -34,6 +34,14 @@
             "url": "https://github.com/helsingborg-stad/force-ssl.git"
         },
         {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/active-directory-api-wp-integration.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/multisite-role-propagation.git"
+        },
+        {
             "type":"composer",
             "url":"https://wpackagist.org"
         }
@@ -49,7 +57,9 @@
         "helsingborg-stad/better-post-ui": ">=1.0.0",
         "helsingborg-stad/municipio": ">=1.0.0",
         "helsingborg-stad/wp-content-translator": ">=1.0.0",
-        "helsingborg-stad/force-ssl" : ">=1.0.0"
+        "helsingborg-stad/force-ssl" : ">=1.0.0",
+        "helsingborg-stad/active-directory-api-wp-integration": ">=1.0.0",
+        "helsingborg-stad/multisite-role-propagation": ">=1.0.0"
     },
 
     "extra": {
