@@ -44,6 +44,9 @@
         {
             "type": "vcs",
             "url": "https://github.com/helsingborg-stad/multisite-role-propagation.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/helsingborg-stad/acf-export-manager.git"
         },
         {
