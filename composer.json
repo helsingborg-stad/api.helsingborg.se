@@ -57,7 +57,7 @@
 
     "require": {
         "composer/installers": "~1.0",
-        "johnpbloch/wordpress": "4.7.2",
+        "johnpbloch/wordpress": "4.7.4",
         "helsingborg-stad/api-event-manager": ">=0.3.0",
         "helsingborg-stad/api-alarm-manager": ">=0.1.0",
         "helsingborg-stad/lix-calculator": ">=1.0.0",
