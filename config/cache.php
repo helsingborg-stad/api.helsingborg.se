@@ -10,7 +10,7 @@ define('VHP_VARNISH_IP', '127.0.0.1');
  * Use memcached.
  * @var bool
  */
-define('WP_USE_MEMCACHED', true);
+define('WP_USE_MEMCACHED', false);
 
 /**
 * Memcache key salt

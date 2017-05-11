@@ -63,6 +63,7 @@
         "helsingborg-stad/lix-calculator": ">=1.0.0",
         "wpackagist-plugin/stream": "^3.0.4",
         "wpackagist-plugin/user-switching": "1.0.9",
+        "wpackagist-plugin/redis-cache": "1.3.5",
         "helsingborg-stad/better-post-ui": ">=1.0.0",
         "helsingborg-stad/municipio": ">=1.0.0",
         "helsingborg-stad/wp-content-translator": ">=1.0.0",
