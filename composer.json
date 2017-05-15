@@ -57,7 +57,6 @@
 
     "require": {
         "composer/installers": "~1.0",
-        "johnpbloch/wordpress": "4.7.4",
         "helsingborg-stad/api-event-manager": ">=0.3.0",
         "helsingborg-stad/api-alarm-manager": ">=0.1.0",
         "helsingborg-stad/lix-calculator": ">=1.0.0",
@@ -69,7 +68,9 @@
         "helsingborg-stad/wp-content-translator": ">=1.0.0",
         "helsingborg-stad/force-ssl" : ">=1.0.0",
         "helsingborg-stad/active-directory-api-wp-integration": ">=1.0.0",
-        "helsingborg-stad/multisite-role-propagation": ">=1.0.0"
+        "helsingborg-stad/multisite-role-propagation": ">=1.0.0",
+        "johnpbloch/wordpress": "4.7.4.1",
+        "wpackagist-plugin/nginx-helper": "1.9.10"
     },
 
     "extra": {
