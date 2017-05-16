@@ -50,6 +50,10 @@
             "url": "https://github.com/helsingborg-stad/acf-export-manager.git"
         },
         {
+            "type": "vcs",
+            "url": "https://github.com/helsingborg-stad/coordinate-transformation-library.git"
+        },
+        {
             "type":"composer",
             "url":"https://wpackagist.org"
         }
