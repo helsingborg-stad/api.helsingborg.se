@@ -1,5 +1,9 @@
 # Secutiry rules & Wordpress default configuration.
 
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin “*”
+</IfModule>
+
 # Admin redirect
 RedirectMatch 301 /admin/(.*) /wp/wp-admin/$1
 
