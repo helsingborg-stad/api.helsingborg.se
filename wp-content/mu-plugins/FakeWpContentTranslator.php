@@ -31,6 +31,6 @@ class fakeWpContentTranslator
     {
         return json_decode('{"code":"sv_SE","name":"Swedish","nativeName":"Svenska"}');
     }
-
-    new fakeWpContentTranslator();
 }
+
+new fakeWpContentTranslator();
