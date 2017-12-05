@@ -68,7 +68,7 @@
         "helsingborg-stad/force-ssl" : ">=1.0.0",
         "helsingborg-stad/active-directory-api-wp-integration": ">=1.0.0",
         "helsingborg-stad/multisite-role-propagation": ">=1.0.0",
-        "johnpbloch/wordpress": "4.8",
+        "johnpbloch/wordpress": "4.9.1",
         "wpackagist-plugin/nginx-helper": "1.9.10"
     },
 
