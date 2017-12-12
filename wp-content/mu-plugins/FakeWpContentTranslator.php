@@ -24,7 +24,7 @@ class fakeWpContentTranslator
 
     public function avabileResponse()
     {
-        return json_decode('{"sv_SE":{"code":"sv_SE","name":"Swedish","nativeName":"Svenska"},"en_GB":{"code":"en_GB","name":"English (UK)","nativeName":"English (UK)"},"de_DE":{"code":"de_DE","name":"German","nativeName":"Deutsch"}}');
+        return json_decode('{"sv_SE":{"code":"sv_SE","name":"Swedish","nativeName":"Svenska"}}');
     }
 
     public function defaultResponse()
