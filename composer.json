@@ -10,44 +10,8 @@
     "minimum-stability" : "stable",
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/api-event-manager.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/api-alarm-manager.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/lix-calculator.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/better-post-UI.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/Municipio.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/force-ssl.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/active-directory-api-wp-integration.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/multisite-role-propagation.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/acf-export-manager.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/helsingborg-stad/coordinate-transformation-library.git"
+            "type":"composer",
+            "url":"https://packagist.org"
         },
         {
             "type":"composer",
