@@ -9,7 +9,6 @@ wp-content/themes/municipio/
 !wp-content/mu-plugins
 wp-content/mu-plugins/attachmentDownloader.php
 !wp-admin
-composer.lock
 
 # Config files #
 ##########################
