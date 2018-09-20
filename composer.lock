@@ -455,16 +455,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "0.15.10",
+            "version": "0.15.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "ad830e7390430683b490d2ed3aec065d1a915ae7"
+                "reference": "f03f46bde9e4f57000c7a80480da1f5432dda20a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/ad830e7390430683b490d2ed3aec065d1a915ae7",
-                "reference": "ad830e7390430683b490d2ed3aec065d1a915ae7",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/f03f46bde9e4f57000c7a80480da1f5432dda20a",
+                "reference": "f03f46bde9e4f57000c7a80480da1f5432dda20a",
                 "shasum": ""
             },
             "require": {
@@ -495,7 +495,7 @@
                 }
             ],
             "description": "Manage events",
-            "time": "2018-09-20T11:49:24+00:00"
+            "time": "2018-09-20T14:46:16+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
