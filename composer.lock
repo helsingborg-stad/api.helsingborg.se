@@ -455,16 +455,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "0.15.12",
+            "version": "0.15.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "f03f46bde9e4f57000c7a80480da1f5432dda20a"
+                "reference": "b9cd224913ffd44e1b875e0941fb09bc3dac961b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/f03f46bde9e4f57000c7a80480da1f5432dda20a",
-                "reference": "f03f46bde9e4f57000c7a80480da1f5432dda20a",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/b9cd224913ffd44e1b875e0941fb09bc3dac961b",
+                "reference": "b9cd224913ffd44e1b875e0941fb09bc3dac961b",
                 "shasum": ""
             },
             "require": {
@@ -495,7 +495,7 @@
                 }
             ],
             "description": "Manage events",
-            "time": "2018-09-20T14:46:16+00:00"
+            "time": "2018-09-21T07:08:57+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
@@ -1105,16 +1105,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.33.0",
+            "version": "1.34.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "55667c1007a99e82030874b1bb14d24d07108413"
+                "reference": "1dbd3cb01c5645f3e7deda7aa46ef780d95fcc33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/55667c1007a99e82030874b1bb14d24d07108413",
-                "reference": "55667c1007a99e82030874b1bb14d24d07108413",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/1dbd3cb01c5645f3e7deda7aa46ef780d95fcc33",
+                "reference": "1dbd3cb01c5645f3e7deda7aa46ef780d95fcc33",
                 "shasum": ""
             },
             "require": {
@@ -1156,7 +1156,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-08-07T08:39:47+00:00"
+            "time": "2018-09-20T19:36:25+00:00"
         },
         {
             "name": "philo/laravel-blade",
