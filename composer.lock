@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a11f5e82a1fa0b381058d0657f1c9749",
+    "content-hash": "05b1d940d8466385703b1fdcf1e28ec8",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -425,20 +425,21 @@
         },
         {
             "name": "helsingborg-stad/api-alarm-manager",
-            "version": "0.2.7",
+            "version": "1.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-alarm-manager.git",
-                "reference": "eca470c545d58a014d4c81a2bbd8e4f3285ed0b5"
+                "reference": "6f121538d2adb2d44724812ebc97b05fe2dd0d14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-manager/zipball/eca470c545d58a014d4c81a2bbd8e4f3285ed0b5",
-                "reference": "eca470c545d58a014d4c81a2bbd8e4f3285ed0b5",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-manager/zipball/6f121538d2adb2d44724812ebc97b05fe2dd0d14",
+                "reference": "6f121538d2adb2d44724812ebc97b05fe2dd0d14",
                 "shasum": ""
             },
             "require": {
-                "helsingborg-stad/acf-export-manager": ">=1.0.0"
+                "helsingborg-stad/acf-export-manager": ">=1.0.11",
+                "helsingborg-stad/coordinate-transformation-library": ">=1.0.1"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -451,7 +452,7 @@
                     "email": "kristoffer.svanmark@knowit.se"
                 }
             ],
-            "time": "2017-05-11T07:46:00+00:00"
+            "time": "2018-09-21T12:21:31+00:00"
         },
         {
             "name": "helsingborg-stad/api-event-manager",
@@ -524,6 +525,49 @@
             ],
             "description": "Improves the UI and UX of the WordPress admin post form.",
             "time": "2018-09-13T08:45:52+00:00"
+        },
+        {
+            "name": "helsingborg-stad/coordinate-transformation-library",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/coordinate-transformation-library.git",
+                "reference": "37702bca6fad110fa2cd7463bb3359b3b6e5ace1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/coordinate-transformation-library/zipball/37702bca6fad110fa2cd7463bb3359b3b6e5ace1",
+                "reference": "37702bca6fad110fa2cd7463bb3359b3b6e5ace1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Drola\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC BY-NC-SA 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matjaz Drolc",
+                    "email": "mdrolc@gmail.com"
+                },
+                {
+                    "name": "David Gustafsson",
+                    "email": "david.gustafsson@xelera.se"
+                }
+            ],
+            "description": "Transform coordinates between swedish RT90, SWEREF99 and WGS8",
+            "time": "2017-05-16T11:48:10+00:00"
         },
         {
             "name": "helsingborg-stad/force-ssl",
