@@ -315,16 +315,16 @@
         },
         {
             "name": "giggsey/locale",
-            "version": "1.5",
+            "version": "1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/Locale.git",
-                "reference": "3c9cc23c15851c54cb3ccd41a00fd4b5a89feeff"
+                "reference": "da6845720b5d104d319d7e84576f54e44dd9e4f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/Locale/zipball/3c9cc23c15851c54cb3ccd41a00fd4b5a89feeff",
-                "reference": "3c9cc23c15851c54cb3ccd41a00fd4b5a89feeff",
+                "url": "https://api.github.com/repos/giggsey/Locale/zipball/da6845720b5d104d319d7e84576f54e44dd9e4f5",
+                "reference": "da6845720b5d104d319d7e84576f54e44dd9e4f5",
                 "shasum": ""
             },
             "require": {
@@ -360,7 +360,7 @@
                 }
             ],
             "description": "Locale functions required by libphonenumber-for-php",
-            "time": "2018-04-03T15:53:12+00:00"
+            "time": "2018-10-18T07:17:52+00:00"
         },
         {
             "name": "helsingborg-stad/acf-export-manager",
@@ -456,16 +456,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "0.16.13",
+            "version": "0.16.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "9fce822c1b06e8876f60dc7f7b9111c79951bf16"
+                "reference": "ac69ab481c50a55fcf7538e1528c045906f4caa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/9fce822c1b06e8876f60dc7f7b9111c79951bf16",
-                "reference": "9fce822c1b06e8876f60dc7f7b9111c79951bf16",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/ac69ab481c50a55fcf7538e1528c045906f4caa6",
+                "reference": "ac69ab481c50a55fcf7538e1528c045906f4caa6",
                 "shasum": ""
             },
             "require": {
@@ -496,7 +496,7 @@
                 }
             ],
             "description": "Manage events",
-            "time": "2018-10-17T14:47:43+00:00"
+            "time": "2018-10-18T14:57:40+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
