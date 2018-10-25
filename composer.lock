@@ -456,16 +456,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "0.16.14",
+            "version": "0.16.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "ac69ab481c50a55fcf7538e1528c045906f4caa6"
+                "reference": "fc0df4b07ce31bbaee3dbed0b059c4bc91685f18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/ac69ab481c50a55fcf7538e1528c045906f4caa6",
-                "reference": "ac69ab481c50a55fcf7538e1528c045906f4caa6",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/fc0df4b07ce31bbaee3dbed0b059c4bc91685f18",
+                "reference": "fc0df4b07ce31bbaee3dbed0b059c4bc91685f18",
                 "shasum": ""
             },
             "require": {
@@ -496,7 +496,7 @@
                 }
             ],
             "description": "Manage events",
-            "time": "2018-10-18T14:57:40+00:00"
+            "time": "2018-10-25T07:14:41+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
@@ -658,16 +658,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "1.22.10",
+            "version": "1.22.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "12ff78d490fb4df45d31999ef3ae4752d90cc11c"
+                "reference": "5e6ab9d53690ae1cf2336481e6fcc3a9354813cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/12ff78d490fb4df45d31999ef3ae4752d90cc11c",
-                "reference": "12ff78d490fb4df45d31999ef3ae4752d90cc11c",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/5e6ab9d53690ae1cf2336481e6fcc3a9354813cb",
+                "reference": "5e6ab9d53690ae1cf2336481e6fcc3a9354813cb",
                 "shasum": ""
             },
             "require": {
@@ -702,7 +702,7 @@
                 }
             ],
             "description": "A bootstrap theme for creating municipality sites.",
-            "time": "2018-10-17T07:39:19+00:00"
+            "time": "2018-10-22T11:02:15+00:00"
         },
         {
             "name": "helsingborg-stad/polylang-fallback",
@@ -1697,15 +1697,15 @@
         },
         {
             "name": "wpackagist-plugin/classic-editor",
-            "version": "0.4",
+            "version": "0.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/classic-editor/",
-                "reference": "tags/0.4"
+                "reference": "tags/0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/classic-editor.0.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.0.5.zip",
                 "reference": null,
                 "shasum": null
             },
