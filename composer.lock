@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "05b1d940d8466385703b1fdcf1e28ec8",
+    "content-hash": "c4ed6cdfb8cc2facf1d57b45def16426",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -1774,6 +1774,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/user-switching/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-rest-api-log",
+            "version": "1.6.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-rest-api-log/",
+                "reference": "tags/1.6.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-rest-api-log.1.6.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-rest-api-log/"
         }
     ],
     "packages-dev": [],
