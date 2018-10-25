@@ -34,7 +34,8 @@
         "helsingborg-stad/polylang-fallback": ">=1.0.0",
         "johnpbloch/wordpress": "^4.8.3",
         "wpackagist-plugin/nginx-helper": "1.9.10",
-        "wpackagist-plugin/classic-editor": ">=0.4.0"
+        "wpackagist-plugin/classic-editor": ">=0.4.0",
+        "wpackagist-plugin/wp-rest-api-log": "^1.6"
     },
 
     "extra": {
