@@ -397,16 +397,16 @@
         },
         {
             "name": "helsingborg-stad/active-directory-api-wp-integration",
-            "version": "2.2.12",
+            "version": "2.2.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/active-directory-api-wp-integration.git",
-                "reference": "ce108d66c19b912f2ffc89540223fa56ca071cbd"
+                "reference": "b7c4443874666af86cd0472d32227888ca296c0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/active-directory-api-wp-integration/zipball/ce108d66c19b912f2ffc89540223fa56ca071cbd",
-                "reference": "ce108d66c19b912f2ffc89540223fa56ca071cbd",
+                "url": "https://api.github.com/repos/helsingborg-stad/active-directory-api-wp-integration/zipball/b7c4443874666af86cd0472d32227888ca296c0e",
+                "reference": "b7c4443874666af86cd0472d32227888ca296c0e",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -421,7 +421,7 @@
                 }
             ],
             "description": "Simple plugin for verification of existing WordPress users with api.",
-            "time": "2019-01-21T08:27:13+00:00"
+            "time": "2019-02-12T08:59:43+00:00"
         },
         {
             "name": "helsingborg-stad/api-alarm-manager",
@@ -456,16 +456,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "0.17.4",
+            "version": "0.17.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "558f871e7e9d5f5a850338e1b969e9650f9b4d12"
+                "reference": "9b592c1ecefebb425b687b0b9ae2da6a1c4d4d1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/558f871e7e9d5f5a850338e1b969e9650f9b4d12",
-                "reference": "558f871e7e9d5f5a850338e1b969e9650f9b4d12",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/9b592c1ecefebb425b687b0b9ae2da6a1c4d4d1f",
+                "reference": "9b592c1ecefebb425b687b0b9ae2da6a1c4d4d1f",
                 "shasum": ""
             },
             "require": {
@@ -496,7 +496,7 @@
                 }
             ],
             "description": "Manage events",
-            "time": "2019-02-01T12:06:04+00:00"
+            "time": "2019-02-13T13:14:37+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
