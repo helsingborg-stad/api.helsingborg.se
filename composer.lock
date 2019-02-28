@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "aristath/kirki",
-            "version": "v3.0.36",
+            "version": "v3.0.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aristath/kirki.git",
-                "reference": "511be5ee96776d17843186b50c28b4fd33092330"
+                "reference": "276958600817fdbd9320a26d67c98da9ef449714"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aristath/kirki/zipball/511be5ee96776d17843186b50c28b4fd33092330",
-                "reference": "511be5ee96776d17843186b50c28b4fd33092330",
+                "url": "https://api.github.com/repos/aristath/kirki/zipball/276958600817fdbd9320a26d67c98da9ef449714",
+                "reference": "276958600817fdbd9320a26d67c98da9ef449714",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
                 "customizer",
                 "wordpress"
             ],
-            "time": "2019-02-17T12:43:12+00:00"
+            "time": "2019-02-26T22:11:16+00:00"
         },
         {
             "name": "composer/installers",
@@ -449,16 +449,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "0.17.7",
+            "version": "0.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "0e15c6533b8c981a94fe43f3c8c2656566065afc"
+                "reference": "212ee7d2ff7fd44935159c8c3c1faf1627a36588"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/0e15c6533b8c981a94fe43f3c8c2656566065afc",
-                "reference": "0e15c6533b8c981a94fe43f3c8c2656566065afc",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/212ee7d2ff7fd44935159c8c3c1faf1627a36588",
+                "reference": "212ee7d2ff7fd44935159c8c3c1faf1627a36588",
                 "shasum": ""
             },
             "require": {
@@ -489,7 +489,7 @@
                 }
             ],
             "description": "Manage events",
-            "time": "2019-02-19T08:59:03+00:00"
+            "time": "2019-02-28T09:25:30+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
@@ -651,16 +651,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "1.23.0",
+            "version": "1.23.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "e46c1d67874e39ace595f5f10fd19e0fe5c25a00"
+                "reference": "0a9684609bbb70fdb4e708973ca7f7f132d038db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e46c1d67874e39ace595f5f10fd19e0fe5c25a00",
-                "reference": "e46c1d67874e39ace595f5f10fd19e0fe5c25a00",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/0a9684609bbb70fdb4e708973ca7f7f132d038db",
+                "reference": "0a9684609bbb70fdb4e708973ca7f7f132d038db",
                 "shasum": ""
             },
             "require": {
@@ -695,7 +695,7 @@
                 }
             ],
             "description": "A bootstrap theme for creating municipality sites.",
-            "time": "2019-02-06T15:45:08+00:00"
+            "time": "2019-02-22T12:28:24+00:00"
         },
         {
             "name": "helsingborg-stad/polylang-fallback",
