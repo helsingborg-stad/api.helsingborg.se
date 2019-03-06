@@ -449,16 +449,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "0.18.0",
+            "version": "0.18.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "212ee7d2ff7fd44935159c8c3c1faf1627a36588"
+                "reference": "02107168002473b1bf144c041337e8f6781d84bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/212ee7d2ff7fd44935159c8c3c1faf1627a36588",
-                "reference": "212ee7d2ff7fd44935159c8c3c1faf1627a36588",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/02107168002473b1bf144c041337e8f6781d84bc",
+                "reference": "02107168002473b1bf144c041337e8f6781d84bc",
                 "shasum": ""
             },
             "require": {
@@ -489,7 +489,7 @@
                 }
             ],
             "description": "Manage events",
-            "time": "2019-02-28T09:25:30+00:00"
+            "time": "2019-03-06T07:57:18+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
@@ -651,16 +651,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "1.23.4",
+            "version": "1.23.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "f6533565319f032b74f9fc726bf928c87bc8e8d4"
+                "reference": "2e280f6f79eedf0f58406a642663165c226fc4c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/f6533565319f032b74f9fc726bf928c87bc8e8d4",
-                "reference": "f6533565319f032b74f9fc726bf928c87bc8e8d4",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/2e280f6f79eedf0f58406a642663165c226fc4c4",
+                "reference": "2e280f6f79eedf0f58406a642663165c226fc4c4",
                 "shasum": ""
             },
             "require": {
@@ -695,7 +695,7 @@
                 }
             ],
             "description": "A bootstrap theme for creating municipality sites.",
-            "time": "2019-03-04T07:21:58+00:00"
+            "time": "2019-03-04T08:56:35+00:00"
         },
         {
             "name": "helsingborg-stad/polylang-fallback",
@@ -726,16 +726,16 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.8.2",
+            "version": "v5.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "2b390ea16656162a7c1a5f2ad547b4de917324bf"
+                "reference": "b984960d2634c6be97b0dd368a8953e8c4e06ec7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/2b390ea16656162a7c1a5f2ad547b4de917324bf",
-                "reference": "2b390ea16656162a7c1a5f2ad547b4de917324bf",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/b984960d2634c6be97b0dd368a8953e8c4e06ec7",
+                "reference": "b984960d2634c6be97b0dd368a8953e8c4e06ec7",
                 "shasum": ""
             },
             "require": {
@@ -767,11 +767,11 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "https://laravel.com",
-            "time": "2019-02-23T13:57:12+00:00"
+            "time": "2019-03-03T15:13:35+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.8.2",
+            "version": "v5.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -815,7 +815,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v5.8.2",
+            "version": "v5.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -860,7 +860,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v5.8.2",
+            "version": "v5.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -912,16 +912,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.8.2",
+            "version": "v5.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "013cfab5d44c530b56d70cc9ccb891c8b25ebbce"
+                "reference": "0f0291d1bc2f036af3fceb8e46900b58812533c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/013cfab5d44c530b56d70cc9ccb891c8b25ebbce",
-                "reference": "013cfab5d44c530b56d70cc9ccb891c8b25ebbce",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/0f0291d1bc2f036af3fceb8e46900b58812533c4",
+                "reference": "0f0291d1bc2f036af3fceb8e46900b58812533c4",
                 "shasum": ""
             },
             "require": {
@@ -969,11 +969,11 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2019-02-27T14:00:44+00:00"
+            "time": "2019-03-05T13:38:58+00:00"
         },
         {
             "name": "illuminate/view",
-            "version": "v5.8.2",
+            "version": "v5.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
