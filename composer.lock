@@ -651,16 +651,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "1.24.4",
+            "version": "1.24.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "eaf37e8b942e550dec37ad85c6062788f6676b34"
+                "reference": "a7ead7b0231be35b4f3c3d93420c1815106959f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/eaf37e8b942e550dec37ad85c6062788f6676b34",
-                "reference": "eaf37e8b942e550dec37ad85c6062788f6676b34",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/a7ead7b0231be35b4f3c3d93420c1815106959f8",
+                "reference": "a7ead7b0231be35b4f3c3d93420c1815106959f8",
                 "shasum": ""
             },
             "require": {
@@ -695,7 +695,7 @@
                 }
             ],
             "description": "A bootstrap theme for creating municipality sites.",
-            "time": "2019-05-23T13:09:02+00:00"
+            "time": "2019-05-27T13:20:50+00:00"
         },
         {
             "name": "helsingborg-stad/polylang-fallback",
