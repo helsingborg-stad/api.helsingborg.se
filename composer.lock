@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4ed6cdfb8cc2facf1d57b45def16426",
+    "content-hash": "3bf8557e1d2cb1a229abda87b24eea1a",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -1864,6 +1864,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-rest-api-log/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-rest-filter",
+            "version": "1.4.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-rest-filter/",
+                "reference": "tags/1.4.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-rest-filter.1.4.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-rest-filter/"
         }
     ],
     "packages-dev": [],
