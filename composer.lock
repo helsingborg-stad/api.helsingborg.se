@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3bf8557e1d2cb1a229abda87b24eea1a",
+    "content-hash": "d6ad55d05508929e57a1cb08fefd1dad",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -492,6 +492,42 @@
             ],
             "description": "Manage events",
             "time": "2019-12-17T13:05:09+00:00"
+        },
+        {
+            "name": "helsingborg-stad/api-project-manager",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/api-project-manager.git",
+                "reference": "c6bd12641cf2a7708347ed671866a37921162b4a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/c6bd12641cf2a7708347ed671866a37921162b4a",
+                "reference": "c6bd12641cf2a7708347ed671866a37921162b4a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "giggsey/libphonenumber-for-php": "^7.4"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonatan Hanson",
+                    "email": "jonatan.hanson@helsingborg.se"
+                },
+                {
+                    "name": "Nikolas Ramstedt",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "description": "Manage projects",
+            "time": "2020-04-02T08:28:58+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
@@ -1768,9 +1804,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.12.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.12.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1788,9 +1822,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.5.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1808,9 +1840,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/nginx-helper.1.9.10.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/nginx-helper.1.9.10.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1828,9 +1858,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.3.5.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.3.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1848,9 +1876,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-switching.1.0.9.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.0.9.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1868,9 +1894,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-rest-api-log.1.6.7.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wp-rest-api-log.1.6.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1888,9 +1912,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-rest-filter.1.4.3.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wp-rest-filter.1.4.3.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
