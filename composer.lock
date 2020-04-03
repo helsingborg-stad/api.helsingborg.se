@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6ad55d05508929e57a1cb08fefd1dad",
+    "content-hash": "1b983861e4f1f96f3b59a07667023525",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -495,21 +495,21 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager.git",
-                "reference": "c6bd12641cf2a7708347ed671866a37921162b4a"
+                "reference": "f5b48052f55aad36b002ceb4de970a53a9a44470"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/c6bd12641cf2a7708347ed671866a37921162b4a",
-                "reference": "c6bd12641cf2a7708347ed671866a37921162b4a",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/f5b48052f55aad36b002ceb4de970a53a9a44470",
+                "reference": "f5b48052f55aad36b002ceb4de970a53a9a44470",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
-                "giggsey/libphonenumber-for-php": "^7.4"
+                "helsingborg-stad/acf-export-manager": ">=1.0.0"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -527,7 +527,7 @@
                 }
             ],
             "description": "Manage projects",
-            "time": "2020-04-02T08:28:58+00:00"
+            "time": "2020-04-03T06:59:12+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
