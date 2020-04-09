@@ -495,16 +495,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager.git",
-                "reference": "f5b48052f55aad36b002ceb4de970a53a9a44470"
+                "reference": "d0ce16ffd8d6963b8911da1abf8a98fc84f9b917"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/f5b48052f55aad36b002ceb4de970a53a9a44470",
-                "reference": "f5b48052f55aad36b002ceb4de970a53a9a44470",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/d0ce16ffd8d6963b8911da1abf8a98fc84f9b917",
+                "reference": "d0ce16ffd8d6963b8911da1abf8a98fc84f9b917",
                 "shasum": ""
             },
             "require": {
@@ -527,7 +527,7 @@
                 }
             ],
             "description": "Manage projects",
-            "time": "2020-04-03T06:59:12+00:00"
+            "time": "2020-04-09T09:32:23+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
