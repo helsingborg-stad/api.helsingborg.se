@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5811f4d93df2fa6863cb371e99a17671",
+    "content-hash": "387f689816c9d1a6c3be4d4784810de9",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -495,16 +495,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager",
-            "version": "0.5.5",
+            "version": "0.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager.git",
-                "reference": "db7b3df0c0bf73a2740b358a9c1b6ff07ed67e93"
+                "reference": "bfbbf1e0499e8532a7994cabd0b3461c5552f9d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/db7b3df0c0bf73a2740b358a9c1b6ff07ed67e93",
-                "reference": "db7b3df0c0bf73a2740b358a9c1b6ff07ed67e93",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/bfbbf1e0499e8532a7994cabd0b3461c5552f9d1",
+                "reference": "bfbbf1e0499e8532a7994cabd0b3461c5552f9d1",
                 "shasum": ""
             },
             "require": {
@@ -527,7 +527,7 @@
                 }
             ],
             "description": "Manage projects",
-            "time": "2020-06-02T10:22:02+00:00"
+            "time": "2020-06-02T13:37:09+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
