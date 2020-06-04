@@ -5,4 +5,7 @@
  * @var bool
  */
 
-define('COOKIE_DOMAIN', ".helsingborg.se");
+define('COOKIE_DOMAIN', '');
+define('ADMIN_COOKIE_PATH', '/');
+define('COOKIEPATH', '/');
+define('SITECOOKIEPATH', '/');

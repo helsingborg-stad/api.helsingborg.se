@@ -18,6 +18,11 @@
  * @package WordPress
  */
 
+$protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
+
+define('WP_HOME', $protocol . $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', WP_HOME);
+
 require_once 'config/salts.php';
 require_once 'config/cache.php';
 require_once 'config/cookie.php';
