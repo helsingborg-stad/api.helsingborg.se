@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f697f2f12c56fe47f172ccb42d5d9007",
+    "content-hash": "97ae8b2e2ffe8f8c861580c10284d50b",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -511,16 +511,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager",
-            "version": "dev-feature/challanges",
+            "version": "dev-feature/resident-involvment",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager.git",
-                "reference": "e2a6072edfc9598857153ca498a2350d6475fd42"
+                "reference": "37cdce07c0f10b1708aa795f2a08e0d153fb34c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/e2a6072edfc9598857153ca498a2350d6475fd42",
-                "reference": "e2a6072edfc9598857153ca498a2350d6475fd42",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/37cdce07c0f10b1708aa795f2a08e0d153fb34c2",
+                "reference": "37cdce07c0f10b1708aa795f2a08e0d153fb34c2",
                 "shasum": ""
             },
             "require": {
@@ -543,7 +543,11 @@
                 }
             ],
             "description": "Manage projects",
-            "time": "2020-12-02T09:37:28+00:00"
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/api-project-manager/issues",
+                "source": "https://github.com/helsingborg-stad/api-project-manager/tree/feature/resident-involvment"
+            },
+            "time": "2021-02-09T14:16:22+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
@@ -2056,5 +2060,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
