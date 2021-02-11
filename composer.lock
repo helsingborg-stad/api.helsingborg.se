@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0892bf2e710422c0b953a329398e618d",
+    "content-hash": "9d61c69530a8330cc21e4936e062e534",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -511,16 +511,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager",
-            "version": "0.7.2",
+            "version": "0.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager.git",
-                "reference": "6677eca05c34de45fb70368aaa1145a7c8c97630"
+                "reference": "ac6fe4436f604dcd6e20bd34845dacf683f8db5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/6677eca05c34de45fb70368aaa1145a7c8c97630",
-                "reference": "6677eca05c34de45fb70368aaa1145a7c8c97630",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/ac6fe4436f604dcd6e20bd34845dacf683f8db5f",
+                "reference": "ac6fe4436f604dcd6e20bd34845dacf683f8db5f",
                 "shasum": ""
             },
             "require": {
@@ -543,7 +543,11 @@
                 }
             ],
             "description": "Manage projects",
-            "time": "2021-01-07T15:23:28+00:00"
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/api-project-manager/issues",
+                "source": "https://github.com/helsingborg-stad/api-project-manager/tree/0.7.3"
+            },
+            "time": "2021-02-11T08:08:37+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
@@ -2084,5 +2088,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
