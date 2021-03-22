@@ -507,6 +507,10 @@
                 }
             ],
             "description": "Manage events",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/1.1.0"
+            },
             "time": "2021-01-13T07:26:50+00:00"
         },
         {
