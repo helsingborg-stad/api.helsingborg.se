@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "97ae8b2e2ffe8f8c861580c10284d50b",
+    "content-hash": "a9780cd1b3c37216f72e07dccdcc3d52",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -511,16 +511,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager",
-            "version": "dev-feature/resident-involvment",
+            "version": "dev-feature/platform",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager.git",
-                "reference": "37cdce07c0f10b1708aa795f2a08e0d153fb34c2"
+                "reference": "f85eb26d1d3bd34ba704e1b09d545d11339a742e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/37cdce07c0f10b1708aa795f2a08e0d153fb34c2",
-                "reference": "37cdce07c0f10b1708aa795f2a08e0d153fb34c2",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/f85eb26d1d3bd34ba704e1b09d545d11339a742e",
+                "reference": "f85eb26d1d3bd34ba704e1b09d545d11339a742e",
                 "shasum": ""
             },
             "require": {
@@ -545,9 +545,9 @@
             "description": "Manage projects",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-project-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-project-manager/tree/feature/resident-involvment"
+                "source": "https://github.com/helsingborg-stad/api-project-manager/tree/feature/platform"
             },
-            "time": "2021-02-09T14:16:22+00:00"
+            "time": "2021-06-09T12:38:05+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
