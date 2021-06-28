@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f60491372332ab3be630e67c45e0fe07",
+    "content-hash": "7977db3888c153d5533e405bae4414d6",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -589,7 +589,7 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager",
-            "version": "dev-feature/platform",
+            "version": "0.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager.git",
@@ -623,7 +623,7 @@
             "description": "Manage projects",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-project-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-project-manager/tree/feature/platform"
+                "source": "https://github.com/helsingborg-stad/api-project-manager/tree/0.9.0"
             },
             "time": "2021-06-28T11:49:04+00:00"
         },
@@ -2349,9 +2349,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "helsingborg-stad/api-project-manager": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
