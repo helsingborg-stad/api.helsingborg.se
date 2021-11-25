@@ -544,16 +544,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "1.1.6",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "4f3ae35be525f9b8ca21db2da5de998b1b665e14"
+                "reference": "188a36faf5baf3cfdad3910ecca41cb3ed082c11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/4f3ae35be525f9b8ca21db2da5de998b1b665e14",
-                "reference": "4f3ae35be525f9b8ca21db2da5de998b1b665e14",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/188a36faf5baf3cfdad3910ecca41cb3ed082c11",
+                "reference": "188a36faf5baf3cfdad3910ecca41cb3ed082c11",
                 "shasum": ""
             },
             "require": {
