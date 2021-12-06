@@ -544,16 +544,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "1.2.3",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "6b06531e9436b684bb6d32fd6be5a547642a518b"
+                "reference": "659201e5708a4a82e04ed341e48f6801e7b89d7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/6b06531e9436b684bb6d32fd6be5a547642a518b",
-                "reference": "6b06531e9436b684bb6d32fd6be5a547642a518b",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/659201e5708a4a82e04ed341e48f6801e7b89d7a",
+                "reference": "659201e5708a4a82e04ed341e48f6801e7b89d7a",
                 "shasum": ""
             },
             "require": {
@@ -586,9 +586,9 @@
             "description": "Manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/1.2.3"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/1.2.4"
             },
-            "time": "2021-12-02T14:01:45+00:00"
+            "time": "2021-12-06T08:32:01+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager",
@@ -632,16 +632,16 @@
         },
         {
             "name": "helsingborg-stad/better-post-ui",
-            "version": "1.2.12",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/better-post-UI.git",
-                "reference": "0454e8d6f42787244d02f0e976825ed8dca579f0"
+                "reference": "7f28911f057da08a7d72479af14528a0d4453777"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/better-post-UI/zipball/0454e8d6f42787244d02f0e976825ed8dca579f0",
-                "reference": "0454e8d6f42787244d02f0e976825ed8dca579f0",
+                "url": "https://api.github.com/repos/helsingborg-stad/better-post-UI/zipball/7f28911f057da08a7d72479af14528a0d4453777",
+                "reference": "7f28911f057da08a7d72479af14528a0d4453777",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -658,9 +658,9 @@
             "description": "Improves the UI and UX of the WordPress admin post form.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/better-post-UI/issues",
-                "source": "https://github.com/helsingborg-stad/better-post-UI/tree/1.2.12"
+                "source": "https://github.com/helsingborg-stad/better-post-UI/tree/1.3.1"
             },
-            "time": "2018-09-13T08:45:52+00:00"
+            "time": "2021-11-29T15:38:24+00:00"
         },
         {
             "name": "helsingborg-stad/coordinate-transformation-library",
@@ -777,16 +777,16 @@
         },
         {
             "name": "helsingborg-stad/multisite-role-propagation",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/multisite-role-propagation.git",
-                "reference": "16d4992b8d32b3e3d8ef99ed51d37ac54bf917cc"
+                "reference": "5e986998da6d3d660851c0ce74edd8aebda52d06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/multisite-role-propagation/zipball/16d4992b8d32b3e3d8ef99ed51d37ac54bf917cc",
-                "reference": "16d4992b8d32b3e3d8ef99ed51d37ac54bf917cc",
+                "url": "https://api.github.com/repos/helsingborg-stad/multisite-role-propagation/zipball/5e986998da6d3d660851c0ce74edd8aebda52d06",
+                "reference": "5e986998da6d3d660851c0ce74edd8aebda52d06",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -803,9 +803,9 @@
             "description": "Plugin to quickly set a role for a multisite user on multiple blogs in a network",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/multisite-role-propagation/issues",
-                "source": "https://github.com/helsingborg-stad/multisite-role-propagation/tree/1.0.3"
+                "source": "https://github.com/helsingborg-stad/multisite-role-propagation/tree/1.0.4"
             },
-            "time": "2017-05-12T11:30:57+00:00"
+            "time": "2021-12-02T12:54:25+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
@@ -1359,16 +1359,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.54.0",
+            "version": "2.55.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "eed83939f1aed3eee517d03a33f5ec587ac529b5"
+                "reference": "8c2a18ce3e67c34efc1b29f64fe61304368259a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/eed83939f1aed3eee517d03a33f5ec587ac529b5",
-                "reference": "eed83939f1aed3eee517d03a33f5ec587ac529b5",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/8c2a18ce3e67c34efc1b29f64fe61304368259a2",
+                "reference": "8c2a18ce3e67c34efc1b29f64fe61304368259a2",
                 "shasum": ""
             },
             "require": {
@@ -1376,7 +1376,7 @@
                 "php": "^7.1.8 || ^8.0",
                 "symfony/polyfill-mbstring": "^1.0",
                 "symfony/polyfill-php80": "^1.16",
-                "symfony/translation": "^3.4 || ^4.0 || ^5.0"
+                "symfony/translation": "^3.4 || ^4.0 || ^5.0 || ^6.0"
             },
             "require-dev": {
                 "doctrine/dbal": "^2.0 || ^3.0",
@@ -1437,6 +1437,7 @@
                 "time"
             ],
             "support": {
+                "docs": "https://carbon.nesbot.com/docs",
                 "issues": "https://github.com/briannesbitt/Carbon/issues",
                 "source": "https://github.com/briannesbitt/Carbon"
             },
@@ -1450,7 +1451,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-01T21:22:20+00:00"
+            "time": "2021-12-03T14:59:52+00:00"
         },
         {
             "name": "philo/laravel-blade",
@@ -1648,16 +1649,16 @@
         },
         {
             "name": "shortpixel/shortpixel-php",
-            "version": "v1.8.6",
+            "version": "v1.8.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/short-pixel-optimizer/shortpixel-php.git",
-                "reference": "55eeb6dad18adc1fea9f01a3aa460b34cb069c55"
+                "reference": "3ce73d6d5c11031579bb036d7059b570b00e2255"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/short-pixel-optimizer/shortpixel-php/zipball/55eeb6dad18adc1fea9f01a3aa460b34cb069c55",
-                "reference": "55eeb6dad18adc1fea9f01a3aa460b34cb069c55",
+                "url": "https://api.github.com/repos/short-pixel-optimizer/shortpixel-php/zipball/3ce73d6d5c11031579bb036d7059b570b00e2255",
+                "reference": "3ce73d6d5c11031579bb036d7059b570b00e2255",
                 "shasum": ""
             },
             "require": {
@@ -1671,7 +1672,7 @@
                 "symfony/yaml": "~2.0"
             },
             "bin": [
-                "lib/shortpixel"
+                "bin/shortpixel"
             ],
             "type": "library",
             "autoload": {
@@ -1705,9 +1706,9 @@
             "support": {
                 "email": "support@shortpixel.com",
                 "issues": "https://github.com/short-pixel-optimizer/shortpixel-php/issues",
-                "source": "https://github.com/short-pixel-optimizer/shortpixel-php/tree/v1.8.6"
+                "source": "https://github.com/short-pixel-optimizer/shortpixel-php/tree/v1.8.7"
             },
-            "time": "2021-11-17T17:15:12+00:00"
+            "time": "2021-11-24T17:05:21+00:00"
         },
         {
             "name": "symfony/debug",
@@ -2361,5 +2362,5 @@
     "platform-overrides": {
         "php": "7.2"
     },
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
