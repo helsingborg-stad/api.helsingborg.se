@@ -509,16 +509,16 @@
         },
         {
             "name": "helsingborg-stad/api-alarm-manager",
-            "version": "1.1.25",
+            "version": "1.1.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-alarm-manager.git",
-                "reference": "304f3a5d0aecead71681e1b12abc482fb606fa9f"
+                "reference": "45a5669e7ab2c54805f93faa84457908fea2c2c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-manager/zipball/304f3a5d0aecead71681e1b12abc482fb606fa9f",
-                "reference": "304f3a5d0aecead71681e1b12abc482fb606fa9f",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-manager/zipball/45a5669e7ab2c54805f93faa84457908fea2c2c5",
+                "reference": "45a5669e7ab2c54805f93faa84457908fea2c2c5",
                 "shasum": ""
             },
             "require": {
@@ -538,9 +538,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-alarm-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-alarm-manager/tree/1.1.25"
+                "source": "https://github.com/helsingborg-stad/api-alarm-manager/tree/1.1.26"
             },
-            "time": "2019-12-17T13:29:52+00:00"
+            "time": "2022-02-15T12:58:37+00:00"
         },
         {
             "name": "helsingborg-stad/api-event-manager",
@@ -1132,12 +1132,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Illuminate\\Support\\": ""
-                },
                 "files": [
                     "helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Illuminate\\Support\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1874,12 +1874,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1951,12 +1951,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php80\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
@@ -2283,15 +2283,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-nested-pages",
-            "version": "3.1.19",
+            "version": "3.1.20",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-nested-pages/",
-                "reference": "tags/3.1.19"
+                "reference": "tags/3.1.20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.3.1.19.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-nested-pages.3.1.20.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
