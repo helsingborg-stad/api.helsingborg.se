@@ -509,16 +509,16 @@
         },
         {
             "name": "helsingborg-stad/api-alarm-manager",
-            "version": "1.1.26",
+            "version": "1.1.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-alarm-manager.git",
-                "reference": "45a5669e7ab2c54805f93faa84457908fea2c2c5"
+                "reference": "f0b096c1c959ba8aba6d83fda40e88b0161d8019"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-manager/zipball/45a5669e7ab2c54805f93faa84457908fea2c2c5",
-                "reference": "45a5669e7ab2c54805f93faa84457908fea2c2c5",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-manager/zipball/f0b096c1c959ba8aba6d83fda40e88b0161d8019",
+                "reference": "f0b096c1c959ba8aba6d83fda40e88b0161d8019",
                 "shasum": ""
             },
             "require": {
@@ -538,9 +538,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-alarm-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-alarm-manager/tree/1.1.26"
+                "source": "https://github.com/helsingborg-stad/api-alarm-manager/tree/1.1.27"
             },
-            "time": "2022-02-15T12:58:37+00:00"
+            "time": "2022-02-15T13:19:55+00:00"
         },
         {
             "name": "helsingborg-stad/api-event-manager",
