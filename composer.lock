@@ -515,12 +515,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager.git",
-                "reference": "23c78e3ba08dddfa443989eb1e54e285c258cf55"
+                "reference": "0fdd9e60ec22adf47aad41b9be35248e5588872a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/23c78e3ba08dddfa443989eb1e54e285c258cf55",
-                "reference": "23c78e3ba08dddfa443989eb1e54e285c258cf55",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/0fdd9e60ec22adf47aad41b9be35248e5588872a",
+                "reference": "0fdd9e60ec22adf47aad41b9be35248e5588872a",
                 "shasum": ""
             },
             "require": {
@@ -547,7 +547,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-project-manager/issues",
                 "source": "https://github.com/helsingborg-stad/api-project-manager/tree/feature/refine-model"
             },
-            "time": "2022-02-24T10:04:58+00:00"
+            "time": "2022-02-28T12:05:07+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
