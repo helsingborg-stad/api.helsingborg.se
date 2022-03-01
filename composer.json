@@ -38,7 +38,8 @@
     "wpackagist-plugin/wp-rest-filter": "^1.4",
     "helsingborg-stad/api-project-manager": "dev-feature/refine-model",
     "wpackagist-plugin/require-featured-image": "^1.5",
-    "wpackagist-plugin/wp-webhooks": "^2.0"
+    "wpackagist-plugin/wp-webhooks": "^2.0",
+    "helsingborg-stad/api-project-manager-dashboard": "dev-feature/webpack-react"
   },
   "extra": {
     "path": "/",

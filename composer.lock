@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "74d7e24e9994103142d98a4f2ec9e99a",
+    "content-hash": "1044b3326edbe1eb20d774b6c150579c",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -548,6 +548,38 @@
                 "source": "https://github.com/helsingborg-stad/api-project-manager/tree/feature/refine-model"
             },
             "time": "2022-02-28T12:05:07+00:00"
+        },
+        {
+            "name": "helsingborg-stad/api-project-manager-dashboard",
+            "version": "dev-feature/webpack-react",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/api-project-manager-dashboard.git",
+                "reference": "63b1aa4c44d51d7055dfb709169d953dc6c1c87f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-dashboard/zipball/63b1aa4c44d51d7055dfb709169d953dc6c1c87f",
+                "reference": "63b1aa4c44d51d7055dfb709169d953dc6c1c87f",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolas Ramstedt @ Helsingborg Stad",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "description": "Dashboard plugin for project related data.",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/api-project-manager-dashboard/issues",
+                "source": "https://github.com/helsingborg-stad/api-project-manager-dashboard/tree/feature/webpack-react"
+            },
+            "time": "2022-03-01T17:50:25+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
@@ -2055,7 +2087,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "helsingborg-stad/api-project-manager": 20
+        "helsingborg-stad/api-project-manager": 20,
+        "helsingborg-stad/api-project-manager-dashboard": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
