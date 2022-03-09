@@ -555,12 +555,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-dashboard.git",
-                "reference": "c652bef3cf7127b097eb212fecf65611baa81346"
+                "reference": "f8db66a8e91e5d3fb1294a66ff2000ec5db92c37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-dashboard/zipball/c652bef3cf7127b097eb212fecf65611baa81346",
-                "reference": "c652bef3cf7127b097eb212fecf65611baa81346",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-dashboard/zipball/f8db66a8e91e5d3fb1294a66ff2000ec5db92c37",
+                "reference": "f8db66a8e91e5d3fb1294a66ff2000ec5db92c37",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -579,7 +579,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-project-manager-dashboard/issues",
                 "source": "https://github.com/helsingborg-stad/api-project-manager-dashboard/tree/feature/webpack-react"
             },
-            "time": "2022-03-04T10:28:22+00:00"
+            "time": "2022-03-09T14:37:52+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
