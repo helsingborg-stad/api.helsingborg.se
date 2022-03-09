@@ -544,16 +544,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "1.2.7",
+            "version": "1.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "9dfe23e3ca91c9e3673475efe23bda39e1f551b4"
+                "reference": "27da0daf5a114388661a683e2b1039df84edcf60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/9dfe23e3ca91c9e3673475efe23bda39e1f551b4",
-                "reference": "9dfe23e3ca91c9e3673475efe23bda39e1f551b4",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/27da0daf5a114388661a683e2b1039df84edcf60",
+                "reference": "27da0daf5a114388661a683e2b1039df84edcf60",
                 "shasum": ""
             },
             "require": {
@@ -586,9 +586,9 @@
             "description": "Manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/1.2.7"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/1.2.8"
             },
-            "time": "2022-01-28T12:01:07+00:00"
+            "time": "2022-03-09T14:01:34+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager",
