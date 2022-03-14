@@ -515,12 +515,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager.git",
-                "reference": "18e6584532d12b7469cf7f777c031477b76b5532"
+                "reference": "eda6701bbf03972b66e0df22dbd78db4b3ef5fcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/18e6584532d12b7469cf7f777c031477b76b5532",
-                "reference": "18e6584532d12b7469cf7f777c031477b76b5532",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/eda6701bbf03972b66e0df22dbd78db4b3ef5fcf",
+                "reference": "eda6701bbf03972b66e0df22dbd78db4b3ef5fcf",
                 "shasum": ""
             },
             "require": {
@@ -547,7 +547,7 @@
                 "issues": "https://github.com/helsingborg-stad/api-project-manager/issues",
                 "source": "https://github.com/helsingborg-stad/api-project-manager/tree/feature/refine-model"
             },
-            "time": "2022-03-14T08:32:23+00:00"
+            "time": "2022-03-14T08:36:10+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-dashboard",
