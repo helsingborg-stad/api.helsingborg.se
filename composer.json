@@ -36,7 +36,7 @@
     "wpackagist-plugin/classic-editor": ">=0.4.0",
     "wpackagist-plugin/wp-rest-api-log": "^1.6",
     "wpackagist-plugin/wp-rest-filter": "^1.4",
-    "helsingborg-stad/api-project-manager": ">=0.9.0",
+    "helsingborg-stad/api-project-manager": "0.10.0",
     "wpackagist-plugin/require-featured-image": "^1.5",
     "wpackagist-plugin/wp-webhooks": "^2.0",
     "wpackagist-plugin/wp-nested-pages": "^3.1"
