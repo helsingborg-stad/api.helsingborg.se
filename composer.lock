@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1044b3326edbe1eb20d774b6c150579c",
+    "content-hash": "5aae345dd7deaf7fd7365df8dbee2f28",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -511,16 +511,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager",
-            "version": "dev-feature/refine-model",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager.git",
-                "reference": "eda6701bbf03972b66e0df22dbd78db4b3ef5fcf"
+                "reference": "b12d629758748ba670673c92f35820884c9de6ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/eda6701bbf03972b66e0df22dbd78db4b3ef5fcf",
-                "reference": "eda6701bbf03972b66e0df22dbd78db4b3ef5fcf",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/b12d629758748ba670673c92f35820884c9de6ce",
+                "reference": "b12d629758748ba670673c92f35820884c9de6ce",
                 "shasum": ""
             },
             "require": {
@@ -545,9 +545,9 @@
             "description": "Manage projects",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-project-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-project-manager/tree/feature/refine-model"
+                "source": "https://github.com/helsingborg-stad/api-project-manager/tree/0.10.0"
             },
-            "time": "2022-03-14T08:36:10+00:00"
+            "time": "2022-03-25T07:00:53+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-dashboard",
@@ -2087,7 +2087,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "helsingborg-stad/api-project-manager": 20,
         "helsingborg-stad/api-project-manager-dashboard": 20
     },
     "prefer-stable": false,
