@@ -39,7 +39,8 @@
     "helsingborg-stad/api-project-manager": "0.10.0",
     "wpackagist-plugin/require-featured-image": "^1.5",
     "wpackagist-plugin/wp-webhooks": "^2.0",
-    "wpackagist-plugin/wp-nested-pages": "^3.1"
+    "wpackagist-plugin/wp-nested-pages": "^3.1",
+    "helsingborg-stad/api-project-manager-dashboard": "^1.0"
   },
   "extra": {
     "path": "/",
