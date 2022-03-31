@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7810222e2f9f011f3f0e87e2833fb4ce",
+    "content-hash": "e59329c1afb2be2958f294a01cd62f71",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -592,16 +592,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager",
-            "version": "0.10.0",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager.git",
-                "reference": "b12d629758748ba670673c92f35820884c9de6ce"
+                "reference": "f1311d04b86df0917caa36ed212d9133aaf15158"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/b12d629758748ba670673c92f35820884c9de6ce",
-                "reference": "b12d629758748ba670673c92f35820884c9de6ce",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/f1311d04b86df0917caa36ed212d9133aaf15158",
+                "reference": "f1311d04b86df0917caa36ed212d9133aaf15158",
                 "shasum": ""
             },
             "require": {
@@ -626,9 +626,9 @@
             "description": "Manage projects",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-project-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-project-manager/tree/0.10.0"
+                "source": "https://github.com/helsingborg-stad/api-project-manager/tree/0.10.1"
             },
-            "time": "2022-03-25T07:00:53+00:00"
+            "time": "2022-03-31T14:26:42+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-dashboard",
