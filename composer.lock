@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a196bc554b5a4b43f7b0604b3430207",
+    "content-hash": "e59329c1afb2be2958f294a01cd62f71",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -629,6 +629,38 @@
                 "source": "https://github.com/helsingborg-stad/api-project-manager/tree/0.10.1"
             },
             "time": "2022-03-31T14:26:42+00:00"
+        },
+        {
+            "name": "helsingborg-stad/api-project-manager-dashboard",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/api-project-manager-dashboard.git",
+                "reference": "ee93ecb5d23e657254ec3a4c5bd05328673db820"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-dashboard/zipball/ee93ecb5d23e657254ec3a4c5bd05328673db820",
+                "reference": "ee93ecb5d23e657254ec3a4c5bd05328673db820",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolas Ramstedt @ Helsingborg Stad",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "description": "Dashboard plugin for project related data.",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/api-project-manager-dashboard/issues",
+                "source": "https://github.com/helsingborg-stad/api-project-manager-dashboard/tree/1.0.0"
+            },
+            "time": "2022-03-28T08:13:08+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
