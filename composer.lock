@@ -509,16 +509,16 @@
         },
         {
             "name": "helsingborg-stad/api-alarm-manager",
-            "version": "1.1.27",
+            "version": "1.1.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-alarm-manager.git",
-                "reference": "f0b096c1c959ba8aba6d83fda40e88b0161d8019"
+                "reference": "9233a05e7e840df1bc9bbca041bb146460e7c3e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-manager/zipball/f0b096c1c959ba8aba6d83fda40e88b0161d8019",
-                "reference": "f0b096c1c959ba8aba6d83fda40e88b0161d8019",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-manager/zipball/9233a05e7e840df1bc9bbca041bb146460e7c3e8",
+                "reference": "9233a05e7e840df1bc9bbca041bb146460e7c3e8",
                 "shasum": ""
             },
             "require": {
@@ -538,9 +538,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-alarm-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-alarm-manager/tree/1.1.27"
+                "source": "https://github.com/helsingborg-stad/api-alarm-manager/tree/1.1.28"
             },
-            "time": "2022-02-15T13:19:55+00:00"
+            "time": "2022-06-09T09:59:05+00:00"
         },
         {
             "name": "helsingborg-stad/api-event-manager",
@@ -1809,6 +1809,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": "symfony/error-handler",
             "time": "2022-04-12T15:19:55+00:00"
         },
         {
