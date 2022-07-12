@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "796422b9c56abeb0219be781498112cd",
+    "content-hash": "01cef2732f9923cbbceccf1549179cc0",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -632,16 +632,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager-dashboard",
-            "version": "1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager-dashboard.git",
-                "reference": "ee93ecb5d23e657254ec3a4c5bd05328673db820"
+                "reference": "c1d3f88bdf19b4b5dc99d7682f2587f588a0d5df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-dashboard/zipball/ee93ecb5d23e657254ec3a4c5bd05328673db820",
-                "reference": "ee93ecb5d23e657254ec3a4c5bd05328673db820",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager-dashboard/zipball/c1d3f88bdf19b4b5dc99d7682f2587f588a0d5df",
+                "reference": "c1d3f88bdf19b4b5dc99d7682f2587f588a0d5df",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -658,9 +658,9 @@
             "description": "Dashboard plugin for project related data.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-project-manager-dashboard/issues",
-                "source": "https://github.com/helsingborg-stad/api-project-manager-dashboard/tree/1.0.0"
+                "source": "https://github.com/helsingborg-stad/api-project-manager-dashboard/tree/v1.0.1"
             },
-            "time": "2022-03-28T08:13:08+00:00"
+            "time": "2022-07-12T05:58:01+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
