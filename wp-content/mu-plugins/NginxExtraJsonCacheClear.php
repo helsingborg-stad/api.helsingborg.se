@@ -55,7 +55,7 @@ class NginxExtraJsonCacheClear
 
         // Get recursive files and nuke em!
         $cacheFiles = [];
-        exec($command, $cacheFiles);
+	exec($command, $cacheFiles);
         foreach ($cacheFiles as $cacheFile) {
             if (file_exists($cacheFile)) {
                 unlink($cacheFile);
