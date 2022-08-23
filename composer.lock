@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "01cef2732f9923cbbceccf1549179cc0",
+    "content-hash": "1d89c9c0991cd5069e41fdff16b96400",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -544,16 +544,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "1.3.8",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "581af92698be029ea793b605658c93bae2f88e48"
+                "reference": "14bf64b7480c03b91df723c2af7606a1e6150847"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/581af92698be029ea793b605658c93bae2f88e48",
-                "reference": "581af92698be029ea793b605658c93bae2f88e48",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/14bf64b7480c03b91df723c2af7606a1e6150847",
+                "reference": "14bf64b7480c03b91df723c2af7606a1e6150847",
                 "shasum": ""
             },
             "require": {
@@ -586,9 +586,9 @@
             "description": "Manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/1.3.8"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/1.4.0"
             },
-            "time": "2022-06-30T09:03:50+00:00"
+            "time": "2022-08-23T09:08:29+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager",
