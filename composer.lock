@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d89c9c0991cd5069e41fdff16b96400",
+    "content-hash": "8ac8ec6973a7c2e998a2714a716448c0",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -592,16 +592,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager",
-            "version": "0.10.1",
+            "version": "0.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager.git",
-                "reference": "f1311d04b86df0917caa36ed212d9133aaf15158"
+                "reference": "3be5cbcc62d6dccc59655ba9ad56384d7ca9a42c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/f1311d04b86df0917caa36ed212d9133aaf15158",
-                "reference": "f1311d04b86df0917caa36ed212d9133aaf15158",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/3be5cbcc62d6dccc59655ba9ad56384d7ca9a42c",
+                "reference": "3be5cbcc62d6dccc59655ba9ad56384d7ca9a42c",
                 "shasum": ""
             },
             "require": {
@@ -626,9 +626,9 @@
             "description": "Manage projects",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-project-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-project-manager/tree/0.10.1"
+                "source": "https://github.com/helsingborg-stad/api-project-manager/tree/0.11.0"
             },
-            "time": "2022-03-31T14:26:42+00:00"
+            "time": "2023-01-03T13:58:49+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-dashboard",
@@ -2404,5 +2404,5 @@
     "platform-overrides": {
         "php": "7.2"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
