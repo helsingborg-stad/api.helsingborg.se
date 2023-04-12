@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ac8ec6973a7c2e998a2714a716448c0",
+    "content-hash": "504e0b3bc8708ea7b20b7f919ee76cd5",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -661,6 +661,52 @@
                 "source": "https://github.com/helsingborg-stad/api-project-manager-dashboard/tree/v1.0.1"
             },
             "time": "2022-07-12T05:58:01+00:00"
+        },
+        {
+            "name": "helsingborg-stad/api-volunteer-manager",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
+                "reference": "d34300ca81b9f5e415b707c70c0e0810ed57837e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/d34300ca81b9f5e415b707c70c0e0810ed57837e",
+                "reference": "d34300ca81b9f5e415b707c70c0e0810ed57837e",
+                "shasum": ""
+            },
+            "require": {
+                "helsingborg-stad/acf-export-manager": ">=1.0.0"
+            },
+            "require-dev": {
+                "brain/monkey": "^2.6",
+                "codedungeon/phpunit-result-printer": "^0.32.0",
+                "mockery/mockery": "dev-master@dev",
+                "phpunit/phpunit": "^9.6"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "VolunteerManager\\": "source/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin @ Helsingborg Stad",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "Creates a api that may be used to manage volunteer assignments",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
+                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/0.1.0"
+            },
+            "time": "2023-04-04T13:31:45+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
