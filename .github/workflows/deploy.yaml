@@ -12,30 +12,40 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    # - uses: actions/checkout@v3
 
-    - uses: helsingborg-stad/municipio-deploy/3.0@master
+    - name: Compress backup files.
+      uses: appleboy/ssh-action@master
       with:
-        deploy-host: ${{ secrets.DEPLOY_REMOTE_HOST_PROD_APIV2_HBG_SE }}
-        deploy-port: ${{ secrets.DEPLOY_REMOTE_PORT_PROD_APIV2_HBG_SE }}
-        deploy-host-path: ${{ secrets.DEPLOY_REMOTE_PATH_PROD_APIV2_HBG_SE }}
-        deploy-host-backup-path: ${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_PROD_APIV2_HBG_SE }}
-        deploy-host-user: ${{ secrets.DEPLOY_REMOTE_USER_PROD_APIV2_HBG_SE }}
-        deploy-host-user-key: ${{ secrets.DEPLOY_KEY_PROD_APIV2_HBG_SE }}
-        deploy-host-web-server-user: ${{ secrets.WEB_SERVER_USER_PROD_APIV2_HBG_SE }}
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        acf-url: ${{ secrets.ACF_URL }}
+        script: la -al
+        host: ${{ secrets.DEPLOY_REMOTE_HOST_PROD_APIV2_HBG_SE }}
+        username: ${{ secrets.DEPLOY_REMOTE_USER_PROD_APIV2_HBG_SE }}
+        key: ${{ secrets.DEPLOY_KEY_PROD_APIV2_HBG_SE }}
+        port: ${{ secrets.DEPLOY_REMOTE_PORT_PROD_APIV2_HBG_SE }}
+        debug: true
 
-  zipped-plugins:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-    - uses: helsingborg-stad/wordpress-plugin-unzipper@main
-      with:
-        deploy-host: ${{ secrets.DEPLOY_REMOTE_HOST_PROD_APIV2_HBG_SE }}
-        deploy-host-path: ${{ secrets.DEPLOY_REMOTE_PATH_PROD_APIV2_HBG_SE }}
-        deploy-host-user: ${{ secrets.DEPLOY_REMOTE_USER_PROD_APIV2_HBG_SE }}
-        deploy-host-user-key: ${{ secrets.DEPLOY_KEY_PROD_APIV2_HBG_SE }}
-        deploy-host-web-server-user: ${{ secrets.WEB_SERVER_USER_PROD_APIV2_HBG_SE }}
-        github-token: ${{ secrets.HBG_GH_TOKEN }}
-        plugin-repo: ${{ secrets.PAID_PLUGINS_REPO }}
+    # - uses: helsingborg-stad/municipio-deploy/3.0@master
+    #   with:
+    #     deploy-host: ${{ secrets.DEPLOY_REMOTE_HOST_PROD_APIV2_HBG_SE }}
+    #     deploy-port: ${{ secrets.DEPLOY_REMOTE_PORT_PROD_APIV2_HBG_SE }}
+    #     deploy-host-path: ${{ secrets.DEPLOY_REMOTE_PATH_PROD_APIV2_HBG_SE }}
+    #     deploy-host-backup-path: ${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_PROD_APIV2_HBG_SE }}
+    #     deploy-host-user: ${{ secrets.DEPLOY_REMOTE_USER_PROD_APIV2_HBG_SE }}
+    #     deploy-host-user-key: ${{ secrets.DEPLOY_KEY_PROD_APIV2_HBG_SE }}
+    #     deploy-host-web-server-user: ${{ secrets.WEB_SERVER_USER_PROD_APIV2_HBG_SE }}
+    #     github-token: ${{ secrets.GITHUB_TOKEN }}
+    #     acf-url: ${{ secrets.ACF_URL }}
+
+  # zipped-plugins:
+  #   needs: build
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - uses: helsingborg-stad/wordpress-plugin-unzipper@main
+  #     with:
+  #       deploy-host: ${{ secrets.DEPLOY_REMOTE_HOST_PROD_APIV2_HBG_SE }}
+  #       deploy-host-path: ${{ secrets.DEPLOY_REMOTE_PATH_PROD_APIV2_HBG_SE }}
+  #       deploy-host-user: ${{ secrets.DEPLOY_REMOTE_USER_PROD_APIV2_HBG_SE }}
+  #       deploy-host-user-key: ${{ secrets.DEPLOY_KEY_PROD_APIV2_HBG_SE }}
+  #       deploy-host-web-server-user: ${{ secrets.WEB_SERVER_USER_PROD_APIV2_HBG_SE }}
+  #       github-token: ${{ secrets.HBG_GH_TOKEN }}
+  #       plugin-repo: ${{ secrets.PAID_PLUGINS_REPO }}
