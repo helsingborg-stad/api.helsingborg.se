@@ -28,7 +28,8 @@
     "wpackagist-plugin/classic-editor": "^0.4.0",
     "wpackagist-plugin/wp-rest-api-log": "^1.6.9",
     "wpackagist-plugin/wp-rest-filter": "^1.4.3",
-    "helsingborg-stad/api-volunteer-manager": "^0.1.0"
+    "helsingborg-stad/api-volunteer-manager": "^0.1.0",
+    "helsingborg-stad/active-directory-api-wp-integration": "^2.4.1"
   },
   "extra": {
     "path": "/",

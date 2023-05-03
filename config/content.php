@@ -10,7 +10,7 @@ define('WP_CONTENT_URL', 'http://api.helsingborg.se/wp-content');
  * Use municipio as default theme.
  * @var string
  */
- define('WP_DEFAULT_THEME', 'municipio');
+ define('WP_DEFAULT_THEME', 'blank');
 
 /**
  * Limit number of post revisions per post

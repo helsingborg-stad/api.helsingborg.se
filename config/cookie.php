@@ -5,4 +5,4 @@
  * @var bool
  */
 
-define('COOKIE_DOMAIN', ".helsingborg.se");
+define('COOKIE_DOMAIN', ".municipio.tech");

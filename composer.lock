@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84e846bf2353ced9acef529f57d666c1",
+    "content-hash": "1ed1bbb3747c8975aeef749212c4d5cc",
     "packages": [
         {
             "name": "composer/installers",
@@ -193,6 +193,38 @@
                 "source": "https://github.com/helsingborg-stad/acf-export-manager/tree/master"
             },
             "time": "2018-05-29T07:52:24+00:00"
+        },
+        {
+            "name": "helsingborg-stad/active-directory-api-wp-integration",
+            "version": "2.4.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/active-directory-api-wp-integration.git",
+                "reference": "d8161ed2b0b629873306030263d0d9bdcb7990a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/active-directory-api-wp-integration/zipball/d8161ed2b0b629873306030263d0d9bdcb7990a0",
+                "reference": "d8161ed2b0b629873306030263d0d9bdcb7990a0",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "Simple plugin for verification of existing WordPress users with api.",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/issues",
+                "source": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/tree/2.4.8"
+            },
+            "time": "2020-10-20T21:23:26+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
