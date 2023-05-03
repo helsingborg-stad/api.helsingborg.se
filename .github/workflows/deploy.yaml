@@ -1,0 +1,41 @@
+name: Build and deploy api v2.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [apiv2]
+    paths-ignore:
+      - .github/**
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: helsingborg-stad/municipio-deploy/3.0@add-port
+      with:
+        deploy-host: ${{ secrets.DEPLOY_REMOTE_HOST_PROD_APIV2_HBG_SE }}
+        deploy-port: ${{ secrets.DEPLOY_REMOTE_PORT_PROD_APIV2_HBG_SE }}
+        deploy-host-path: ${{ secrets.DEPLOY_REMOTE_PATH_PROD_APIV2_HBG_SE }}
+        deploy-host-backup-path: ${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_PROD_APIV2_HBG_SE }}
+        deploy-host-user: ${{ secrets.DEPLOY_REMOTE_USER_PROD_APIV2_HBG_SE }}
+        deploy-host-user-key: ${{ secrets.DEPLOY_KEY_PROD_APIV2_HBG_SE }}
+        deploy-host-web-server-user: ${{ secrets.WEB_SERVER_USER_PROD_APIV2_HBG_SE }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        acf-url: ${{ secrets.ACF_URL }}
+
+  zipped-plugins:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: helsingborg-stad/wordpress-plugin-unzipper@main
+      with:
+        deploy-host: ${{ secrets.DEPLOY_REMOTE_HOST_PROD_APIV2_HBG_SE }}
+        deploy-host-path: ${{ secrets.DEPLOY_REMOTE_PATH_PROD_APIV2_HBG_SE }}
+        deploy-host-user: ${{ secrets.DEPLOY_REMOTE_USER_PROD_APIV2_HBG_SE }}
+        deploy-host-user-key: ${{ secrets.DEPLOY_KEY_PROD_APIV2_HBG_SE }}
+        deploy-host-web-server-user: ${{ secrets.WEB_SERVER_USER_PROD_APIV2_HBG_SE }}
+        github-token: ${{ secrets.HBG_GH_TOKEN }}
+        plugin-repo: ${{ secrets.PAID_PLUGINS_REPO }}
