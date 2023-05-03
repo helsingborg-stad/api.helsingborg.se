@@ -33,6 +33,7 @@ jobs:
     - uses: helsingborg-stad/wordpress-plugin-unzipper@main
       with:
         deploy-host: ${{ secrets.DEPLOY_REMOTE_HOST_PROD_APIV2_HBG_SE }}
+        deploy-port: ${{ secrets.DEPLOY_REMOTE_PORT_PROD_APIV2_HBG_SE }}
         deploy-host-path: ${{ secrets.DEPLOY_REMOTE_PATH_PROD_APIV2_HBG_SE }}
         deploy-host-user: ${{ secrets.DEPLOY_REMOTE_USER_PROD_APIV2_HBG_SE }}
         deploy-host-user-key: ${{ secrets.DEPLOY_KEY_PROD_APIV2_HBG_SE }}
