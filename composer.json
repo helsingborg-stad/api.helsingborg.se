@@ -1,6 +1,7 @@
 {
-  "name": "helsingborg-stad/event-api",
-  "license": "GNU",
+  "name": "helsingborg-stad/apiv2",
+  "description": "Version 2 of helsingborg stad API!",
+  "license": "MIT",
   "authors": [
     {
       "name": "Helsingborg Stad",
@@ -24,7 +25,7 @@
     "helsingborg-stad/better-post-ui": "^1.0.0",
     "helsingborg-stad/force-ssl": "^1.0.0",
     "johnpbloch/wordpress": "^6.0.0",
-    "wpackagist-plugin/classic-editor": ">=0.4.0",
+    "wpackagist-plugin/classic-editor": "^0.4.0",
     "wpackagist-plugin/wp-rest-api-log": "^1.6.9",
     "wpackagist-plugin/wp-rest-filter": "^1.4.3",
     "helsingborg-stad/api-volunteer-manager": "^0.1.0"
