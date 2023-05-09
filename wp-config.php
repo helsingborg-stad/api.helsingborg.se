@@ -28,6 +28,13 @@ require_once 'config/update.php';
 require_once 'config/upload.php';
 
 /**
+ * SMTP configuration.
+ */
+if (file_exists(__DIR__ . '/config/smtp.php')) {
+    require_once 'config/smtp.php';
+}
+
+/**
  * Multisite settings
  *
  * To enable this site as a multisite please rename the config/multisite-example.php file to
