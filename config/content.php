@@ -4,7 +4,7 @@
 * Tell WordPress to load from local wp-content, and not vendor wp.
 */
 define('WP_CONTENT_DIR', dirname(dirname(__FILE__)) . '/wp-content');
-define('WP_CONTENT_URL', 'http://api.helsingborg.se/wp-content');
+define('WP_CONTENT_URL', 'http://g.se/wp-content');
 
 /**
  * Use municipio as default theme.
