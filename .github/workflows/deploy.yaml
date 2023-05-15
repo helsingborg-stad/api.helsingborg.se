@@ -26,3 +26,26 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         acf-url: ${{ secrets.ACF_URL }}
 
+  extra-plugins:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with: 
+        repository: ${{ secrets.PAID_PLUGINS_REPO }}
+        token: ${{ secrets.HBG_GH_TOKEN }}
+
+    - name: unzip and remove
+      run: unzip \*.zip && rm *.zip && rm -r .git .github
+      shell: bash
+
+    - name: The rsync deployment to www-data user.
+      uses: burnett01/rsync-deployments@4.1
+      with:
+        switches: -avzrog --chown=${{ secrets.WEB_SERVER_USER_PROD_APIV2_HBG_SE }}:${{ secrets.WEB_SERVER_USER_PROD_APIV2_HBG_SE }}
+        path: .
+        remote_path: ${{ secrets.DEPLOY_REMOTE_PATH_PROD_APIV2_HBG_SE }}/wp-content/plugins
+        remote_host: ${{ secrets.DEPLOY_REMOTE_HOST_PROD_APIV2_HBG_SE }}
+        remote_user: ${{ secrets.DEPLOY_REMOTE_USER_PROD_APIV2_HBG_SE }}
+        remote_key: ${{ secrets.DEPLOY_KEY_PROD_APIV2_HBG_SE }}
+        remote_port: ${{ secrets.DEPLOY_REMOTE_PORT_PROD_APIV2_HBG_SE }}
