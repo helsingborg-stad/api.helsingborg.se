@@ -27,6 +27,7 @@ jobs:
         acf-url: ${{ secrets.ACF_URL }}
 
   extra-plugins:
+    needs: build
     runs-on: ubuntu-latest
 
     steps:
