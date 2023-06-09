@@ -34,7 +34,7 @@
     "helsingborg-stad/api-volunteer-manager": "dev-master",
     "helsingborg-stad/active-directory-api-wp-integration": "^2.4.1",
     "helsingborg-stad/api-alarm-manager": ">=1.2.1",
-    "helsingborg-stad/municipio": "dev-3.0/develop"
+    "wpackagist-plugin/litespeed-cache": "^5.3.0"
   },
   "extra": {
     "path": "/",
