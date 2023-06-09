@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2fa43b7ed30c608648c9efc4e9b4619c",
+    "content-hash": "fb69dc6846bc1f42115bfd41bafd327e",
     "packages": [
         {
             "name": "bueltge/must-use-loader",
@@ -373,16 +373,16 @@
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
-            "version": "dev-master",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
-                "reference": "3463ac6f368317849eaad1e97c9333e6a0172542"
+                "reference": "0291bc542bd2df57c09f7e4d0f547bc9864474ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/3463ac6f368317849eaad1e97c9333e6a0172542",
-                "reference": "3463ac6f368317849eaad1e97c9333e6a0172542",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/0291bc542bd2df57c09f7e4d0f547bc9864474ca",
+                "reference": "0291bc542bd2df57c09f7e4d0f547bc9864474ca",
                 "shasum": ""
             },
             "require": {
@@ -395,7 +395,6 @@
                 "mockery/mockery": "dev-master@dev",
                 "phpunit/phpunit": "^9.6"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -415,9 +414,9 @@
             "description": "Creates a api that may be used to manage volunteer assignments",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/master"
+                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/0.3.0"
             },
-            "time": "2023-06-08T14:42:32+00:00"
+            "time": "2023-06-09T12:46:30+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
@@ -1019,12 +1018,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "helsingborg-stad/api-volunteer-manager": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
