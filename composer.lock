@@ -337,16 +337,16 @@
         },
         {
             "name": "helsingborg-stad/api-alarm-manager",
-            "version": "1.3.2",
+            "version": "1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-alarm-manager.git",
-                "reference": "b24346d742a4dbb5c5c4c6b97c8f745281bcbe5e"
+                "reference": "9d7a6dfff77ef665455cc869658f364a6a7e966b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-manager/zipball/b24346d742a4dbb5c5c4c6b97c8f745281bcbe5e",
-                "reference": "b24346d742a4dbb5c5c4c6b97c8f745281bcbe5e",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-manager/zipball/9d7a6dfff77ef665455cc869658f364a6a7e966b",
+                "reference": "9d7a6dfff77ef665455cc869658f364a6a7e966b",
                 "shasum": ""
             },
             "require": {
@@ -367,9 +367,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-alarm-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-alarm-manager/tree/1.3.2"
+                "source": "https://github.com/helsingborg-stad/api-alarm-manager/tree/1.3.3"
             },
-            "time": "2023-06-08T10:56:39+00:00"
+            "time": "2023-06-12T10:12:53+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
@@ -1023,5 +1023,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
