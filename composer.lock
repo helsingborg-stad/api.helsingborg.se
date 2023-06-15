@@ -205,16 +205,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.5.0",
+            "version": "v6.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "e94e7353302b0c11ec3cfff7180cd0b1743975d2"
+                "reference": "71278f20b0a623389beefe87a641d03948a38870"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/e94e7353302b0c11ec3cfff7180cd0b1743975d2",
-                "reference": "e94e7353302b0c11ec3cfff7180cd0b1743975d2",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/71278f20b0a623389beefe87a641d03948a38870",
+                "reference": "71278f20b0a623389beefe87a641d03948a38870",
                 "shasum": ""
             },
             "require": {
@@ -262,9 +262,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.5.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.7.0"
             },
-            "time": "2023-05-12T15:47:07+00:00"
+            "time": "2023-06-14T15:29:26+00:00"
         },
         {
             "name": "helsingborg-stad/acf-export-manager",
@@ -373,16 +373,16 @@
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
-            "version": "0.3.1",
+            "version": "0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
-                "reference": "278ee90ecff90dbe7b7fde099c55163ed6a1aff9"
+                "reference": "83442e7384e78b368d78539d7fdf7c4bc8bc553a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/278ee90ecff90dbe7b7fde099c55163ed6a1aff9",
-                "reference": "278ee90ecff90dbe7b7fde099c55163ed6a1aff9",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/83442e7384e78b368d78539d7fdf7c4bc8bc553a",
+                "reference": "83442e7384e78b368d78539d7fdf7c4bc8bc553a",
                 "shasum": ""
             },
             "require": {
@@ -414,9 +414,9 @@
             "description": "Creates a api that may be used to manage volunteer assignments",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/0.3.1"
+                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/0.3.2"
             },
-            "time": "2023-06-12T13:02:41+00:00"
+            "time": "2023-06-15T09:15:43+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
@@ -1023,5 +1023,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
