@@ -373,16 +373,16 @@
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
-            "version": "0.3.4",
+            "version": "0.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
-                "reference": "28a5cd05b825935f10b34e942edf5d02b59c7f71"
+                "reference": "d2b14715cd698df2807271d0e3998585b277e267"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/28a5cd05b825935f10b34e942edf5d02b59c7f71",
-                "reference": "28a5cd05b825935f10b34e942edf5d02b59c7f71",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/d2b14715cd698df2807271d0e3998585b277e267",
+                "reference": "d2b14715cd698df2807271d0e3998585b277e267",
                 "shasum": ""
             },
             "require": {
@@ -414,9 +414,9 @@
             "description": "Creates a api that may be used to manage volunteer assignments",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/0.3.4"
+                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/0.3.5"
             },
-            "time": "2023-06-19T12:29:33+00:00"
+            "time": "2023-06-20T11:34:59+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
