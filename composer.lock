@@ -205,16 +205,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.7.0",
+            "version": "v6.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "71278f20b0a623389beefe87a641d03948a38870"
+                "reference": "48b0210c51718d682e53210c24d25c5a10a2299b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/71278f20b0a623389beefe87a641d03948a38870",
-                "reference": "71278f20b0a623389beefe87a641d03948a38870",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/48b0210c51718d682e53210c24d25c5a10a2299b",
+                "reference": "48b0210c51718d682e53210c24d25c5a10a2299b",
                 "shasum": ""
             },
             "require": {
@@ -262,9 +262,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.7.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.8.0"
             },
-            "time": "2023-06-14T15:29:26+00:00"
+            "time": "2023-06-20T16:45:35+00:00"
         },
         {
             "name": "helsingborg-stad/acf-export-manager",
@@ -305,16 +305,16 @@
         },
         {
             "name": "helsingborg-stad/active-directory-api-wp-integration",
-            "version": "2.4.8",
+            "version": "2.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/active-directory-api-wp-integration.git",
-                "reference": "d8161ed2b0b629873306030263d0d9bdcb7990a0"
+                "reference": "6ef7c87554a7d652ff7e99a295b498102de8b8a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/active-directory-api-wp-integration/zipball/d8161ed2b0b629873306030263d0d9bdcb7990a0",
-                "reference": "d8161ed2b0b629873306030263d0d9bdcb7990a0",
+                "url": "https://api.github.com/repos/helsingborg-stad/active-directory-api-wp-integration/zipball/6ef7c87554a7d652ff7e99a295b498102de8b8a4",
+                "reference": "6ef7c87554a7d652ff7e99a295b498102de8b8a4",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -331,9 +331,9 @@
             "description": "Simple plugin for verification of existing WordPress users with api.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/issues",
-                "source": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/tree/2.4.8"
+                "source": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/tree/2.4.13"
             },
-            "time": "2020-10-20T21:23:26+00:00"
+            "time": "2023-06-29T08:59:55+00:00"
         },
         {
             "name": "helsingborg-stad/api-alarm-manager",
@@ -373,16 +373,16 @@
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
-            "version": "0.3.5",
+            "version": "0.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
-                "reference": "d2b14715cd698df2807271d0e3998585b277e267"
+                "reference": "b8a8f1032ab175b43543d09f469edb5fed476bc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/d2b14715cd698df2807271d0e3998585b277e267",
-                "reference": "d2b14715cd698df2807271d0e3998585b277e267",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/b8a8f1032ab175b43543d09f469edb5fed476bc3",
+                "reference": "b8a8f1032ab175b43543d09f469edb5fed476bc3",
                 "shasum": ""
             },
             "require": {
@@ -414,9 +414,9 @@
             "description": "Creates a api that may be used to manage volunteer assignments",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/0.3.5"
+                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/0.3.6"
             },
-            "time": "2023-06-20T11:34:59+00:00"
+            "time": "2023-07-04T11:45:34+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
@@ -926,15 +926,15 @@
         },
         {
             "name": "wpackagist-plugin/litespeed-cache",
-            "version": "5.4",
+            "version": "5.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/litespeed-cache/",
-                "reference": "tags/5.4"
+                "reference": "tags/5.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.5.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.5.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -944,15 +944,15 @@
         },
         {
             "name": "wpackagist-plugin/redis-cache",
-            "version": "2.4.1",
+            "version": "2.4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/2.4.1"
+                "reference": "tags/2.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.2.4.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.2.4.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
