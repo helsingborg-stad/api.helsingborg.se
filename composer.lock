@@ -593,16 +593,16 @@
         },
         {
             "name": "helsingborg-stad/api-project-manager",
-            "version": "0.11.13",
+            "version": "0.11.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-project-manager.git",
-                "reference": "4f8c64599b15eee7d3e38173ccea7690eb4b3a3c"
+                "reference": "e2db61144cfa582709d58a9560201a65a5ab391f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/4f8c64599b15eee7d3e38173ccea7690eb4b3a3c",
-                "reference": "4f8c64599b15eee7d3e38173ccea7690eb4b3a3c",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-project-manager/zipball/e2db61144cfa582709d58a9560201a65a5ab391f",
+                "reference": "e2db61144cfa582709d58a9560201a65a5ab391f",
                 "shasum": ""
             },
             "require": {
@@ -627,9 +627,9 @@
             "description": "Manage projects",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-project-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-project-manager/tree/0.11.13"
+                "source": "https://github.com/helsingborg-stad/api-project-manager/tree/0.11.16"
             },
-            "time": "2023-07-12T14:19:15+00:00"
+            "time": "2023-08-14T14:05:07+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager-dashboard",
