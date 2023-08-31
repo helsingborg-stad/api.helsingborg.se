@@ -25,6 +25,7 @@ jobs:
         deploy-host-web-server-user: ${{ secrets.WEB_SERVER_USER_PROD_APIV2_HBG_SE }}
         github-token: ${{ secrets.GITHUB_TOKEN }}
         acf-url: ${{ secrets.ACF_URL }}
+        php-version: 8.2
 
   extra-plugins:
     needs: build
