@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d1372e8c5015357bd0e702a6b540b3e",
+    "content-hash": "7228343448d20ff6c8a4d864a833d08c",
     "packages": [
         {
             "name": "bueltge/must-use-loader",
@@ -373,16 +373,16 @@
         },
         {
             "name": "helsingborg-stad/api-schools-manager",
-            "version": "0.0.7",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-schools-manager.git",
-                "reference": "6861e1055b45f437c10ab407b4bc8245b8bf03a7"
+                "reference": "2ec1ab8d492a810d9aec97e630c90dd8ff152ddc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-manager/zipball/6861e1055b45f437c10ab407b4bc8245b8bf03a7",
-                "reference": "6861e1055b45f437c10ab407b4bc8245b8bf03a7",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-manager/zipball/2ec1ab8d492a810d9aec97e630c90dd8ff152ddc",
+                "reference": "2ec1ab8d492a810d9aec97e630c90dd8ff152ddc",
                 "shasum": ""
             },
             "require": {
@@ -427,9 +427,9 @@
             "description": "Creates a api that may be used to manage schools",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-schools-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-schools-manager/tree/0.0.7"
+                "source": "https://github.com/helsingborg-stad/api-schools-manager/tree/0.1.2"
             },
-            "time": "2023-09-01T05:55:56+00:00"
+            "time": "2023-09-01T07:58:17+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",

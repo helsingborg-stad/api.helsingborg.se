@@ -35,7 +35,7 @@
     "helsingborg-stad/active-directory-api-wp-integration": "^2.4.1",
     "helsingborg-stad/api-alarm-manager": ">=1.2.1",
     "wpackagist-plugin/litespeed-cache": "^5.3.0",
-    "helsingborg-stad/api-schools-manager": "^0.0.7"
+    "helsingborg-stad/api-schools-manager": "^0.1.2"
   },
   "extra": {
     "path": "/",
