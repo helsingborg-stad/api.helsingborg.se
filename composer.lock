@@ -373,16 +373,16 @@
         },
         {
             "name": "helsingborg-stad/api-schools-manager",
-            "version": "0.1.3",
+            "version": "0.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-schools-manager.git",
-                "reference": "cb9b82f9db6aef991f3e60360178a2897c617475"
+                "reference": "de6497ae618e99839304d0567bb154f70744760a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-manager/zipball/cb9b82f9db6aef991f3e60360178a2897c617475",
-                "reference": "cb9b82f9db6aef991f3e60360178a2897c617475",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-manager/zipball/de6497ae618e99839304d0567bb154f70744760a",
+                "reference": "de6497ae618e99839304d0567bb154f70744760a",
                 "shasum": ""
             },
             "require": {
@@ -390,12 +390,13 @@
                 "php": ">=8.0"
             },
             "require-dev": {
+                "10up/wp_mock": "^1.0",
                 "brainmaestro/composer-git-hooks": "^2.8",
                 "codedungeon/phpunit-result-printer": "^0.32.0",
+                "lucatume/function-mocker": "^1.3",
                 "phpcompatibility/phpcompatibility-wp": "*",
                 "squizlabs/php_codesniffer": "^3.7",
-                "wp-coding-standards/wpcs": "^3.0",
-                "yoast/phpunit-polyfills": "1.1"
+                "wp-coding-standards/wpcs": "^3.0"
             },
             "type": "wordpress-plugin",
             "extra": {
@@ -427,9 +428,9 @@
             "description": "Creates a api that may be used to manage schools",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-schools-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-schools-manager/tree/0.1.3"
+                "source": "https://github.com/helsingborg-stad/api-schools-manager/tree/0.1.9"
             },
-            "time": "2023-09-01T08:25:20+00:00"
+            "time": "2023-09-06T06:28:14+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
