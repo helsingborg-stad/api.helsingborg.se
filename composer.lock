@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f486d61fd7d10ed606b2d88fd448044c",
+    "content-hash": "e80ba97da11cd6e6d35a6860aacebcf9",
     "packages": [
         {
             "name": "bueltge/must-use-loader",
@@ -373,21 +373,21 @@
         },
         {
             "name": "helsingborg-stad/api-schools-manager",
-            "version": "0.1.9",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-schools-manager.git",
-                "reference": "de6497ae618e99839304d0567bb154f70744760a"
+                "reference": "a61c800cec7224db74cbb5d185cd6938d051c410"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-manager/zipball/de6497ae618e99839304d0567bb154f70744760a",
-                "reference": "de6497ae618e99839304d0567bb154f70744760a",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-manager/zipball/a61c800cec7224db74cbb5d185cd6938d051c410",
+                "reference": "a61c800cec7224db74cbb5d185cd6938d051c410",
                 "shasum": ""
             },
             "require": {
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
-                "php": ">=8.0"
+                "php": ">=8.1"
             },
             "require-dev": {
                 "10up/wp_mock": "^1.0",
@@ -428,9 +428,9 @@
             "description": "Creates a api that may be used to manage schools",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-schools-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-schools-manager/tree/0.1.9"
+                "source": "https://github.com/helsingborg-stad/api-schools-manager/tree/0.2.1"
             },
-            "time": "2023-09-06T06:28:14+00:00"
+            "time": "2023-09-06T14:28:59+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
