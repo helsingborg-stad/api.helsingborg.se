@@ -8,6 +8,7 @@ wp-content/themes/municipio/
 !wp-content/object-cache.php
 !wp-content/mu-plugins
 wp-content/mu-plugins/attachmentDownloader.php
+wp-content/mu-plugins/wpmu-acf-google-maps-key
 !wp-admin
 
 # Config files #
