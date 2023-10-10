@@ -373,16 +373,16 @@
         },
         {
             "name": "helsingborg-stad/api-schools-manager",
-            "version": "0.4.4",
+            "version": "0.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-schools-manager.git",
-                "reference": "1812b13db2a9beabc40c4f9c69d85907b334b5d0"
+                "reference": "05d8a6ee0ed58b37667f70d3b3cae32d23001520"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-manager/zipball/1812b13db2a9beabc40c4f9c69d85907b334b5d0",
-                "reference": "1812b13db2a9beabc40c4f9c69d85907b334b5d0",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-manager/zipball/05d8a6ee0ed58b37667f70d3b3cae32d23001520",
+                "reference": "05d8a6ee0ed58b37667f70d3b3cae32d23001520",
                 "shasum": ""
             },
             "require": {
@@ -428,9 +428,9 @@
             "description": "Creates a api that may be used to manage schools",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-schools-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-schools-manager/tree/0.4.4"
+                "source": "https://github.com/helsingborg-stad/api-schools-manager/tree/0.4.12"
             },
-            "time": "2023-10-09T14:03:47+00:00"
+            "time": "2023-10-10T08:41:36+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
