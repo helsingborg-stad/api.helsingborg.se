@@ -373,20 +373,21 @@
         },
         {
             "name": "helsingborg-stad/api-schools-manager",
-            "version": "0.4.17",
+            "version": "0.4.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-schools-manager.git",
-                "reference": "03abaaaab0e23ea80c680b8faf128b9fe602788d"
+                "reference": "6f2248140e9a4cd4ac513aeb745c376f0e6a8067"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-manager/zipball/03abaaaab0e23ea80c680b8faf128b9fe602788d",
-                "reference": "03abaaaab0e23ea80c680b8faf128b9fe602788d",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-manager/zipball/6f2248140e9a4cd4ac513aeb745c376f0e6a8067",
+                "reference": "6f2248140e9a4cd4ac513aeb745c376f0e6a8067",
                 "shasum": ""
             },
             "require": {
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
+                "ooksanen/acf-focuspoint": "1.2.0",
                 "php": ">=8.1"
             },
             "require-dev": {
@@ -429,9 +430,9 @@
             "description": "Creates a api that may be used to manage schools",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-schools-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-schools-manager/tree/0.4.17"
+                "source": "https://github.com/helsingborg-stad/api-schools-manager/tree/0.4.18"
             },
-            "time": "2023-10-11T09:46:09+00:00"
+            "time": "2023-10-11T10:43:52+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
@@ -777,6 +778,49 @@
                 "source": "https://github.com/johnpbloch/wordpress-core-installer/tree/master"
             },
             "time": "2020-04-16T21:44:57+00:00"
+        },
+        {
+            "name": "ooksanen/acf-focuspoint",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/acf-focuspoint.git",
+                "reference": "4f21d081bd08cce16d255ac1ad0eb0c1a710e001"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-focuspoint/zipball/4f21d081bd08cce16d255ac1ad0eb0c1a710e001",
+                "reference": "4f21d081bd08cce16d255ac1ad0eb0c1a710e001",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oskari Oksanen",
+                    "email": "hello@oskarioksanen.fi"
+                }
+            ],
+            "description": "Focuspoint field for ACF",
+            "support": {
+                "source": "https://github.com/helsingborg-stad/acf-focuspoint/tree/1.2.0"
+            },
+            "funding": [
+                {
+                    "type": "custom"
+                },
+                {
+                    "type": "custom"
+                },
+                {
+                    "url": "https://paypal.me/ooksanen\"] # Replace with up to 4 custom sponsorship URLs e.g.",
+                    "type": "custom"
+                }
+            ],
+            "time": "2021-07-02T08:38:20+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",
