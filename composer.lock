@@ -780,19 +780,19 @@
         },
         {
             "name": "ooksanen/acf-focuspoint",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/acf-focuspoint.git",
-                "reference": "4f21d081bd08cce16d255ac1ad0eb0c1a710e001"
+                "reference": "a0a326a5b23d68ecd18b592928513f6f34c45139"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/acf-focuspoint/zipball/4f21d081bd08cce16d255ac1ad0eb0c1a710e001",
-                "reference": "4f21d081bd08cce16d255ac1ad0eb0c1a710e001",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-focuspoint/zipball/a0a326a5b23d68ecd18b592928513f6f34c45139",
+                "reference": "a0a326a5b23d68ecd18b592928513f6f34c45139",
                 "shasum": ""
             },
-            "type": "wordpress-plugin",
+            "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -803,23 +803,17 @@
                     "email": "hello@oskarioksanen.fi"
                 }
             ],
-            "description": "Focuspoint field for ACF",
+            "description": "Adds a image focus field",
             "support": {
-                "source": "https://github.com/helsingborg-stad/acf-focuspoint/tree/1.2.0"
+                "source": "https://github.com/helsingborg-stad/acf-focuspoint/tree/1.2.1"
             },
             "funding": [
                 {
-                    "type": "custom"
-                },
-                {
-                    "type": "custom"
-                },
-                {
-                    "url": "https://paypal.me/ooksanen\"] # Replace with up to 4 custom sponsorship URLs e.g.",
-                    "type": "custom"
+                    "url": "https://www.paypal.com/paypalme/ooksanen",
+                    "type": "other"
                 }
             ],
-            "time": "2021-07-02T08:38:20+00:00"
+            "time": "2023-10-12T05:52:37+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",
