@@ -6,10 +6,18 @@ wp-content/*
 !wp-content/themes
 wp-content/themes/municipio/
 !wp-content/object-cache.php
-!wp-content/mu-plugins
-wp-content/mu-plugins/attachmentDownloader.php
-wp-content/mu-plugins/wpmu-acf-google-maps-key
+
 !wp-admin
+
+# MU Plugins #
+##########################
+wp-content/mu-plugins
+!wp-content/mu-plugins/allowCors.php
+!wp-content/mu-plugins/DisableRealMimeCheck.php
+!wp-content/mu-plugins/EmptyCache.php
+!wp-content/mu-plugins/FakeWpContentTranslator.php
+!wp-content/mu-plugins/RewriteLangageParameter.php
+!wp-content/mu-plugins/setDefaultPolylang.php
 
 # Config files #
 ##########################

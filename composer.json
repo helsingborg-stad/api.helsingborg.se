@@ -42,6 +42,9 @@
     "path": "/",
     "wordpress-install-dir": "wp",
     "installer-paths": {
+      "wp-content/mu-plugins": [
+        "bueltge/must-use-loader"
+      ],
       "wp-content/mu-plugins/{$name}": [
         "wpackagist-plugin/simple-smtp",
         "type:wordpress-muplugin"
@@ -53,14 +56,6 @@
         "type:wordpress-theme"
       ]
     }
-  },
-  "scripts": {
-    "post-install-cmd": [
-        "@php post-install.php"
-    ],
-    "post-update-cmd": [
-        "@php post-install.php"
-    ]
   },
   "config": {
     "allow-plugins": {
