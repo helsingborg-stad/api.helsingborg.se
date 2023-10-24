@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba08983971fcdd2cd8fa45fc5b70d808",
+    "content-hash": "7afe6098c211b7c9d838b57d59acb823",
     "packages": [
         {
             "name": "bueltge/must-use-loader",
@@ -629,6 +629,43 @@
                 "source": "https://github.com/helsingborg-stad/wpmu-acf-google-maps-key/tree/1.0.0"
             },
             "time": "2023-09-26T12:49:24+00:00"
+        },
+        {
+            "name": "helsingborg-stad/wpmu-network-admin-url",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/wpmu-network-admin-url.git",
+                "reference": "5d0b2aa8a04306d90ff2934d87a67f5925cef625"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/wpmu-network-admin-url/zipball/5d0b2aa8a04306d90ff2934d87a67f5925cef625",
+                "reference": "5d0b2aa8a04306d90ff2934d87a67f5925cef625",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=7.4"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "Fixes network url's when running WordPress as multisite in a composer installed wp instance.",
+            "homepage": "https://github.com/helsingborg-stad/wpmu-network-admin-url",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/wpmu-network-admin-url/issues",
+                "source": "https://github.com/helsingborg-stad/wpmu-network-admin-url/tree/2.0.3"
+            },
+            "time": "2023-10-20T13:31:09+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
