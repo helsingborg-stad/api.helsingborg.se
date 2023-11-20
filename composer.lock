@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7afe6098c211b7c9d838b57d59acb823",
+    "content-hash": "5360ae1448e5254a934e7eaa7e7516c6",
     "packages": [
         {
             "name": "bueltge/must-use-loader",
@@ -1090,6 +1090,24 @@
             "time": "2023-06-13T06:30:34+00:00"
         },
         {
+            "name": "wpackagist-plugin/acf-extended",
+            "version": "0.8.9.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acf-extended/",
+                "reference": "tags/0.8.9.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acf-extended.0.8.9.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-extended/"
+        },
+        {
             "name": "wpackagist-plugin/classic-editor",
             "version": "0.4",
             "source": {
@@ -1206,5 +1224,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
