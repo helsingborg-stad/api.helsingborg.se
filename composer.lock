@@ -605,16 +605,16 @@
         },
         {
             "name": "helsingborg-stad/webhooks-manager",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/webhooks-manager.git",
-                "reference": "cee775aafd4c4f8aa4845ade031bcbb7bb932115"
+                "reference": "e50b6f1f53b516cc7b3ec42523b58eb130b4a94a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/webhooks-manager/zipball/cee775aafd4c4f8aa4845ade031bcbb7bb932115",
-                "reference": "cee775aafd4c4f8aa4845ade031bcbb7bb932115",
+                "url": "https://api.github.com/repos/helsingborg-stad/webhooks-manager/zipball/e50b6f1f53b516cc7b3ec42523b58eb130b4a94a",
+                "reference": "e50b6f1f53b516cc7b3ec42523b58eb130b4a94a",
                 "shasum": ""
             },
             "require": {
@@ -666,9 +666,9 @@
             "description": "Create and manage webhooks from WordPress action hooks",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/webhooks-manager/issues",
-                "source": "https://github.com/helsingborg-stad/webhooks-manager/tree/1.2.0"
+                "source": "https://github.com/helsingborg-stad/webhooks-manager/tree/1.2.1"
             },
-            "time": "2023-12-01T16:34:37+00:00"
+            "time": "2023-12-06T09:16:58+00:00"
         },
         {
             "name": "helsingborg-stad/wpmu-acf-google-maps-key",
