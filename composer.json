@@ -38,7 +38,8 @@
     "helsingborg-stad/api-schools-manager": "~0.1",
     "helsingborg-stad/wpmu-acf-google-maps-key": "^1.0",
     "helsingborg-stad/wpmu-network-admin-url": "^2.0",
-    "wpackagist-plugin/acf-extended": "0.8.9.5"
+    "wpackagist-plugin/acf-extended": "0.8.9.5",
+    "helsingborg-stad/webhooks-manager": "^1.2"
   },
   "extra": {
     "path": "/",
