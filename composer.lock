@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e9549fdc5785812095680fb2cfbc2224",
+    "content-hash": "274c24d5c2aaa2a44c316b2bb7fe15ad",
     "packages": [
         {
             "name": "bueltge/must-use-loader",
@@ -370,6 +370,73 @@
                 "source": "https://github.com/helsingborg-stad/api-alarm-manager/tree/1.3.4"
             },
             "time": "2023-06-13T08:36:28+00:00"
+        },
+        {
+            "name": "helsingborg-stad/api-event-manager",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/api-event-manager.git",
+                "reference": "ee7c0abc6698eba28e2a4fabef52b5748b6024cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/ee7c0abc6698eba28e2a4fabef52b5748b6024cd",
+                "reference": "ee7c0abc6698eba28e2a4fabef52b5748b6024cd",
+                "shasum": ""
+            },
+            "require": {
+                "helsingborg-stad/acf-export-manager": ">=1.0.0",
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "10up/wp_mock": "^1.0",
+                "brainmaestro/composer-git-hooks": "^2.8",
+                "bueltge/must-use-loader": "^1.3",
+                "codedungeon/phpunit-result-printer": "^0.32.0",
+                "composer/installers": "~1.0",
+                "lucatume/function-mocker": "^1.3",
+                "phpcompatibility/phpcompatibility-wp": "*",
+                "squizlabs/php_codesniffer": "^3.7",
+                "wp-coding-standards/wpcs": "^3.0"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "hooks": {
+                    "commit-msg": [
+                        "./bin/commit-msg.sh $1"
+                    ]
+                },
+                "installer-paths": {
+                    "/var/www/html/wp-content/mu-plugins": [
+                        "bueltge/must-use-loader"
+                    ],
+                    "/var/www/html/wp-content/mu-plugins/{$name}": [
+                        "type:wordpress-muplugin"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "EventManager\\": "source/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thor Brink",
+                    "email": "thor.brink@helsingborg.se"
+                }
+            ],
+            "description": "Creates a api that may be used to manage events",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/2.0.1"
+            },
+            "time": "2023-12-08T09:57:48+00:00"
         },
         {
             "name": "helsingborg-stad/api-schools-manager",

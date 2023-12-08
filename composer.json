@@ -39,7 +39,8 @@
     "helsingborg-stad/wpmu-acf-google-maps-key": "^1.0",
     "helsingborg-stad/wpmu-network-admin-url": "^2.0",
     "wpackagist-plugin/acf-extended": "0.8.9.5",
-    "helsingborg-stad/webhooks-manager": "^1.2"
+    "helsingborg-stad/webhooks-manager": "^1.2",
+    "helsingborg-stad/api-event-manager": "^2.0"
   },
   "extra": {
     "path": "/",
