@@ -66,5 +66,10 @@
       "composer/installers": true,
       "johnpbloch/wordpress-core-installer": true
     }
+  },
+  "scripts": {
+    "post-update-cmd": [
+      "composer dump-autoload -o --working-dir ./wp-content/plugins/api-event-manager/"
+    ]
   }
 }
