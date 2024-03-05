@@ -383,16 +383,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "2.6.0",
+            "version": "2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "40561c321f055c8fee0a5cb310a39316ee9e859e"
+                "reference": "55f514c633a9e1677a03b9d0625011f54522fb18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/40561c321f055c8fee0a5cb310a39316ee9e859e",
-                "reference": "40561c321f055c8fee0a5cb310a39316ee9e859e",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/55f514c633a9e1677a03b9d0625011f54522fb18",
+                "reference": "55f514c633a9e1677a03b9d0625011f54522fb18",
                 "shasum": ""
             },
             "require": {
@@ -452,9 +452,9 @@
             "description": "Creates a api that may be used to manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/2.6.0"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/2.6.1"
             },
-            "time": "2024-01-30T08:32:09+00:00"
+            "time": "2024-03-05T08:32:00+00:00"
         },
         {
             "name": "helsingborg-stad/api-schools-manager",
