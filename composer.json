@@ -40,7 +40,8 @@
     "helsingborg-stad/wpmu-network-admin-url": "^2.0",
     "wpackagist-plugin/acf-extended": "0.8.9.5",
     "helsingborg-stad/webhooks-manager": "^1.2",
-    "helsingborg-stad/api-event-manager": "^2.0"
+    "helsingborg-stad/api-event-manager": "^2.0",
+    "helsingborg-stad/modularity": "^2.13"
   },
   "extra": {
     "path": "/",
@@ -64,7 +65,8 @@
   "config": {
     "allow-plugins": {
       "composer/installers": true,
-      "johnpbloch/wordpress-core-installer": true
+      "johnpbloch/wordpress-core-installer": true,
+      "kylekatarnls/update-helper": true
     }
   }
 }
