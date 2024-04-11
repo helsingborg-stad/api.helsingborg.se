@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "282b4f01faf382e2c874eb7c38b00d29",
+    "content-hash": "7a9b06bdd5e1ad895e54ceeeb5e779e9",
     "packages": [
         {
             "name": "bueltge/must-use-loader",
@@ -835,6 +835,28 @@
                 "source": "https://github.com/helsingborg-stad/Modularity/tree/2.13.3"
             },
             "time": "2020-11-23T09:26:03+00:00"
+        },
+        {
+            "name": "helsingborg-stad/municipio",
+            "version": "3.48.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/Municipio.git",
+                "reference": "0d3eba55328bb38d81302b150d2e58ee6f12aa24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/0d3eba55328bb38d81302b150d2e58ee6f12aa24",
+                "reference": "0d3eba55328bb38d81302b150d2e58ee6f12aa24",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/Municipio/issues",
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.48.1"
+            },
+            "time": "2023-12-05T09:44:14+00:00"
         },
         {
             "name": "helsingborg-stad/webhooks-manager",
