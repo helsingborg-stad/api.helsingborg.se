@@ -41,7 +41,8 @@
     "wpackagist-plugin/wp-webhooks": "^2.0",
     "wpackagist-plugin/wp-nested-pages": "^3.1",
     "helsingborg-stad/api-project-manager-dashboard": "1.0.1",
-    "helsingborg-stad/api-volunteer-manager": "^0.1.0"
+    "helsingborg-stad/api-volunteer-manager": "^0.1.0",
+    "helsingborg-stad/wpmu-remove-user-endpoint": "~0.2.2"
   },
   "extra": {
     "path": "/",
