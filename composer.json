@@ -43,7 +43,8 @@
     "helsingborg-stad/api-event-manager": "^3.6.1",
     "helsingborg-stad/modularity": "^6.13.11",
     "helsingborg-stad/municipio": "^4.23",
-    "helsingborg-stad/kirki": "~5.1.2"
+    "helsingborg-stad/kirki": "~5.1.2",
+    "helsingborg-stad/component-library": "^4.6"
   },
   "extra": {
     "path": "/",
