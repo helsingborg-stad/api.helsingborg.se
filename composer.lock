@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "811592283ea3cf81c3fcd8944de63758",
+    "content-hash": "83c401a034f2483087bdccf54ead04a6",
     "packages": [
         {
             "name": "bueltge/must-use-loader",
