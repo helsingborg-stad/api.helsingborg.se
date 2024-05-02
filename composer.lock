@@ -916,16 +916,16 @@
         },
         {
             "name": "helsingborg-stad/modularity",
-            "version": "6.13.11",
+            "version": "6.13.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "25589371020c6af1ee6419cf8398b0b53457accd"
+                "reference": "afb721d4335ac27f799463e2c04d83c0ca05f0b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/25589371020c6af1ee6419cf8398b0b53457accd",
-                "reference": "25589371020c6af1ee6419cf8398b0b53457accd",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/afb721d4335ac27f799463e2c04d83c0ca05f0b1",
+                "reference": "afb721d4335ac27f799463e2c04d83c0ca05f0b1",
                 "shasum": ""
             },
             "require": {
@@ -986,9 +986,9 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/6.13.11"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/6.13.14"
             },
-            "time": "2024-05-02T08:54:54+00:00"
+            "time": "2024-05-02T09:22:48+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
