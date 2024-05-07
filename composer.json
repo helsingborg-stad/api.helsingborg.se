@@ -45,7 +45,8 @@
     "helsingborg-stad/municipio": "^4.24",
     "helsingborg-stad/kirki": "~5.1.2",
     "helsingborg-stad/component-library": "^4.8",
-    "helsingborg-stad/blade": "^3.5"
+    "helsingborg-stad/blade": "^3.5",
+    "wikimedia/composer-merge-plugin": "^2.1"
   },
   "extra": {
     "path": "/",
@@ -64,13 +65,40 @@
       "wp-content/themes/{$name}": [
         "type:wordpress-theme"
       ]
+    },
+    "merge-plugin": {
+      "include": [
+          "composer.local.json",
+          "wp-content/plugins/*/composer.json",
+          "wp-content/mu-plugins/*/composer.json",
+          "wp-content/themes/*/composer.json"
+      ],
+      "recurse": false,
+      "replace": true,
+      "ignore-duplicates": false,
+      "merge-dev": false,
+      "merge-extra": false,
+      "merge-extra-deep": false,
+      "merge-scripts": false
     }
   },
   "config": {
     "allow-plugins": {
       "composer/installers": true,
       "johnpbloch/wordpress-core-installer": true,
-      "kylekatarnls/update-helper": true
+      "kylekatarnls/update-helper": true,
+      "wikimedia/composer-merge-plugin": true
     }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "mkdir -p wp-content/uploads/cache/blade-cache",
+      "composer dump-autoload -o",
+      "[ -d vendor/helsingborg-stad/kirki ] && rsync -a vendor/helsingborg-stad/kirki/ wp-content/mu-plugins/kirki/ && rm -rf vendor/helsingborg-stad/kirki"
+    ],
+    "post-update-cmd": [
+      "composer dump-autoload -o",
+      "[ -d vendor/helsingborg-stad/kirki ] && rsync -a vendor/helsingborg-stad/kirki/ wp-content/mu-plugins/kirki/ && rm -rf vendor/helsingborg-stad/kirki"
+    ]
   }
 }

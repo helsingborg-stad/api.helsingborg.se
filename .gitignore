@@ -6,6 +6,7 @@ wp-content/*
 !wp-content/themes
 wp-content/themes/municipio/
 !wp-content/object-cache.php
+!wp-content/sunrise.php
 
 !wp-admin
 
