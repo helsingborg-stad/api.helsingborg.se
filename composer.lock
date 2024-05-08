@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e48d2523bdfc73b513ca235afbc43f40",
+    "content-hash": "c534b5a0d7c9b79b70738591d1d440a5",
     "packages": [
         {
             "name": "bueltge/must-use-loader",
@@ -764,16 +764,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "3.7.0",
+            "version": "3.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "312e7296e40a407afaa735111ee545d01be8c3f4"
+                "reference": "a07f09eb8922656fe2826f1289889c025d4c717f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/312e7296e40a407afaa735111ee545d01be8c3f4",
-                "reference": "312e7296e40a407afaa735111ee545d01be8c3f4",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/a07f09eb8922656fe2826f1289889c025d4c717f",
+                "reference": "a07f09eb8922656fe2826f1289889c025d4c717f",
                 "shasum": ""
             },
             "require": {
@@ -834,9 +834,9 @@
             "description": "Creates a api that may be used to manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.7.0"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.7.1"
             },
-            "time": "2024-05-06T11:29:28+00:00"
+            "time": "2024-05-08T13:37:49+00:00"
         },
         {
             "name": "helsingborg-stad/api-schools-manager",
@@ -1293,16 +1293,16 @@
         },
         {
             "name": "helsingborg-stad/modularity",
-            "version": "6.13.15",
+            "version": "6.13.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "a1edd089dca760e20e57a2edb58b0c7c3fee5d0d"
+                "reference": "b74f6916a031ce34c8e9c1574c4bb020c6ede8fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/a1edd089dca760e20e57a2edb58b0c7c3fee5d0d",
-                "reference": "a1edd089dca760e20e57a2edb58b0c7c3fee5d0d",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/b74f6916a031ce34c8e9c1574c4bb020c6ede8fe",
+                "reference": "b74f6916a031ce34c8e9c1574c4bb020c6ede8fe",
                 "shasum": ""
             },
             "require": {
@@ -1363,22 +1363,22 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/6.13.15"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/6.13.16"
             },
-            "time": "2024-05-08T09:14:57+00:00"
+            "time": "2024-05-08T12:39:32+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "4.25.0",
+            "version": "4.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "fac6446067a817721e76f98b03abb3d0d85f8b5b"
+                "reference": "73fb72a09db80a5c0e246d44202745ac792a0425"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/fac6446067a817721e76f98b03abb3d0d85f8b5b",
-                "reference": "fac6446067a817721e76f98b03abb3d0d85f8b5b",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/73fb72a09db80a5c0e246d44202745ac792a0425",
+                "reference": "73fb72a09db80a5c0e246d44202745ac792a0425",
                 "shasum": ""
             },
             "require": {
@@ -1431,9 +1431,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/4.25.0"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/4.27.0"
             },
-            "time": "2024-05-07T12:32:48+00:00"
+            "time": "2024-05-08T12:51:26+00:00"
         },
         {
             "name": "helsingborg-stad/webhooks-manager",
@@ -2664,16 +2664,16 @@
         },
         {
             "name": "paragonie/constant_time_encoding",
-            "version": "v2.6.3",
+            "version": "v2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/constant_time_encoding.git",
-                "reference": "58c3f47f650c94ec05a151692652a868995d2938"
+                "reference": "52a0d99e69f56b9ec27ace92ba56897fe6993105"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/constant_time_encoding/zipball/58c3f47f650c94ec05a151692652a868995d2938",
-                "reference": "58c3f47f650c94ec05a151692652a868995d2938",
+                "url": "https://api.github.com/repos/paragonie/constant_time_encoding/zipball/52a0d99e69f56b9ec27ace92ba56897fe6993105",
+                "reference": "52a0d99e69f56b9ec27ace92ba56897fe6993105",
                 "shasum": ""
             },
             "require": {
@@ -2727,7 +2727,7 @@
                 "issues": "https://github.com/paragonie/constant_time_encoding/issues",
                 "source": "https://github.com/paragonie/constant_time_encoding"
             },
-            "time": "2022-06-14T06:56:20+00:00"
+            "time": "2024-05-08T12:18:48+00:00"
         },
         {
             "name": "paragonie/random_compat",

@@ -42,7 +42,7 @@
     "helsingborg-stad/webhooks-manager": "^1.3",
     "helsingborg-stad/api-event-manager": "^3.6.1",
     "helsingborg-stad/modularity": "^6.13.11",
-    "helsingborg-stad/municipio": "^4.24",
+    "helsingborg-stad/municipio": "^4.27",
     "helsingborg-stad/kirki": "~5.1.2",
     "helsingborg-stad/component-library": "^4.8",
     "helsingborg-stad/blade": "^3.5",
