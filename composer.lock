@@ -1293,16 +1293,16 @@
         },
         {
             "name": "helsingborg-stad/modularity",
-            "version": "6.13.14",
+            "version": "6.13.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "afb721d4335ac27f799463e2c04d83c0ca05f0b1"
+                "reference": "a1edd089dca760e20e57a2edb58b0c7c3fee5d0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/afb721d4335ac27f799463e2c04d83c0ca05f0b1",
-                "reference": "afb721d4335ac27f799463e2c04d83c0ca05f0b1",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/a1edd089dca760e20e57a2edb58b0c7c3fee5d0d",
+                "reference": "a1edd089dca760e20e57a2edb58b0c7c3fee5d0d",
                 "shasum": ""
             },
             "require": {
@@ -1363,22 +1363,22 @@
             "description": "Modular component system for WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/6.13.14"
+                "source": "https://github.com/helsingborg-stad/Modularity/tree/6.13.15"
             },
-            "time": "2024-05-02T09:22:48+00:00"
+            "time": "2024-05-08T09:14:57+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "4.24.5",
+            "version": "4.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "0b92de5e8848323df46f96f7151988c68ac74095"
+                "reference": "fac6446067a817721e76f98b03abb3d0d85f8b5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/0b92de5e8848323df46f96f7151988c68ac74095",
-                "reference": "0b92de5e8848323df46f96f7151988c68ac74095",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/fac6446067a817721e76f98b03abb3d0d85f8b5b",
+                "reference": "fac6446067a817721e76f98b03abb3d0d85f8b5b",
                 "shasum": ""
             },
             "require": {
@@ -1431,9 +1431,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/4.24.5"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/4.25.0"
             },
-            "time": "2024-05-07T11:25:47+00:00"
+            "time": "2024-05-07T12:32:48+00:00"
         },
         {
             "name": "helsingborg-stad/webhooks-manager",
@@ -1582,12 +1582,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/wpservice.git",
-                "reference": "e45213236fe63a4ff39d99a8ab0d6ed9c327a5e9"
+                "reference": "3f127b78d3af78afb0f819ae4efbbe9131a1b7b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/wpservice/zipball/e45213236fe63a4ff39d99a8ab0d6ed9c327a5e9",
-                "reference": "e45213236fe63a4ff39d99a8ab0d6ed9c327a5e9",
+                "url": "https://api.github.com/repos/helsingborg-stad/wpservice/zipball/3f127b78d3af78afb0f819ae4efbbe9131a1b7b0",
+                "reference": "3f127b78d3af78afb0f819ae4efbbe9131a1b7b0",
                 "shasum": ""
             },
             "require": {
@@ -1617,9 +1617,9 @@
             "description": "Simplifies WordPress integration by providing a centralized WpService that exposes global WordPress functions in a streamlined manner. Simplify your development workflow and enhance WordPress integration with ease.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/wpservice/issues",
-                "source": "https://github.com/helsingborg-stad/wpservice/tree/1.7.0"
+                "source": "https://github.com/helsingborg-stad/wpservice/tree/1.10.0"
             },
-            "time": "2024-05-07T08:21:34+00:00"
+            "time": "2024-05-08T08:25:08+00:00"
         },
         {
             "name": "illuminate/bus",
@@ -2258,20 +2258,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "6.5.2",
+            "version": "6.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "52bffda9c0fc4dfd3c5f6e17f71ddce4fbad6038"
+                "reference": "4b2bb79af8ed93b545c4696967bca72eb09fe384"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/52bffda9c0fc4dfd3c5f6e17f71ddce4fbad6038",
-                "reference": "52bffda9c0fc4dfd3c5f6e17f71ddce4fbad6038",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/4b2bb79af8ed93b545c4696967bca72eb09fe384",
+                "reference": "4b2bb79af8ed93b545c4696967bca72eb09fe384",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "6.5.2",
+                "johnpbloch/wordpress-core": "6.5.3",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=7.0.0"
             },
@@ -2300,20 +2300,20 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2024-04-09T21:21:01+00:00"
+            "time": "2024-05-07T16:03:44+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.5.2",
+            "version": "6.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "bf083fe2944a4683461d496086ec22319cd8bdf1"
+                "reference": "2e2e090f5f9c342c302b3b1f05c20077f5253222"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/bf083fe2944a4683461d496086ec22319cd8bdf1",
-                "reference": "bf083fe2944a4683461d496086ec22319cd8bdf1",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/2e2e090f5f9c342c302b3b1f05c20077f5253222",
+                "reference": "2e2e090f5f9c342c302b3b1f05c20077f5253222",
                 "shasum": ""
             },
             "require": {
@@ -2321,7 +2321,7 @@
                 "php": ">=7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "6.5.2"
+                "wordpress/core-implementation": "6.5.3"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -2348,7 +2348,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2024-04-09T21:20:55+00:00"
+            "time": "2024-05-07T16:03:39+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
