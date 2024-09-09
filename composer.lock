@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85b1bc8c32cf9584c483962b91f01f0d",
+    "content-hash": "bbeb843d983c07d249912cfe76ff7b00",
     "packages": [
         {
             "name": "bueltge/must-use-loader",
@@ -910,16 +910,16 @@
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
-            "version": "0.3.9",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
-                "reference": "5a0d203909589f7b0dd653256a5eebe18d2ddf37"
+                "reference": "334b62dadcf0b5e42d0f498b8a326e6c54b5b5ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/5a0d203909589f7b0dd653256a5eebe18d2ddf37",
-                "reference": "5a0d203909589f7b0dd653256a5eebe18d2ddf37",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/334b62dadcf0b5e42d0f498b8a326e6c54b5b5ad",
+                "reference": "334b62dadcf0b5e42d0f498b8a326e6c54b5b5ad",
                 "shasum": ""
             },
             "require": {
@@ -951,9 +951,9 @@
             "description": "Creates a api that may be used to manage volunteer assignments",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/0.3.9"
+                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/0.4.0"
             },
-            "time": "2024-05-02T08:41:48+00:00"
+            "time": "2024-09-09T07:53:31+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
