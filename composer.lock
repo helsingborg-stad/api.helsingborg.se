@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "51e69cc6548cf9fd6993a303c1920ca9",
+    "content-hash": "c10b8d9067696be9bd7791f74a27f788",
     "packages": [
         {
             "name": "aristath/kirki",
@@ -545,16 +545,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "1.4.3",
+            "version": "v1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "8f6641e882c5c449b4a155b57fa5b6dbf67fdb35"
+                "reference": "3b7c86b4890b889af010b41da0acebd1c04923d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/8f6641e882c5c449b4a155b57fa5b6dbf67fdb35",
-                "reference": "8f6641e882c5c449b4a155b57fa5b6dbf67fdb35",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/3b7c86b4890b889af010b41da0acebd1c04923d8",
+                "reference": "3b7c86b4890b889af010b41da0acebd1c04923d8",
                 "shasum": ""
             },
             "require": {
@@ -587,9 +587,9 @@
             "description": "Manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/1.4.3"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/v1"
             },
-            "time": "2023-05-29T10:30:43+00:00"
+            "time": "2025-02-10T09:16:22+00:00"
         },
         {
             "name": "helsingborg-stad/api-project-manager",
@@ -968,6 +968,37 @@
                 "source": "https://github.com/helsingborg-stad/polylang-fallback/tree/1.0.0"
             },
             "time": "2017-12-14T13:48:01+00:00"
+        },
+        {
+            "name": "helsingborg-stad/wpmu-remove-user-endpoint",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/wpmu-remove-user-endpoint.git",
+                "reference": "cf071ea2dab48cc9df52b26ebe5ab07f19a2fa52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/wpmu-remove-user-endpoint/zipball/cf071ea2dab48cc9df52b26ebe5ab07f19a2fa52",
+                "reference": "cf071ea2dab48cc9df52b26ebe5ab07f19a2fa52",
+                "shasum": ""
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Niclas Norin",
+                    "email": "niclas.norin@helsingborg.se"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/wpmu-remove-user-endpoint/issues",
+                "source": "https://github.com/helsingborg-stad/wpmu-remove-user-endpoint/tree/0.2.2"
+            },
+            "time": "2024-03-01T09:19:59+00:00"
         },
         {
             "name": "illuminate/container",
@@ -1441,12 +1472,12 @@
             "version": "2.68.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/briannesbitt/Carbon.git",
+                "url": "https://github.com/CarbonPHP/carbon.git",
                 "reference": "4f991ed2a403c85efbc4f23eb4030063fdbe01da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/4f991ed2a403c85efbc4f23eb4030063fdbe01da",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/4f991ed2a403c85efbc4f23eb4030063fdbe01da",
                 "reference": "4f991ed2a403c85efbc4f23eb4030063fdbe01da",
                 "shasum": ""
             },
@@ -2669,14 +2700,16 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "helsingborg-stad/api-event-manager": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "platform-overrides": {
         "php": "7.2"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }

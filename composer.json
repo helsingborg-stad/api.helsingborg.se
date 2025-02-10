@@ -7,7 +7,7 @@
       "email": "webbredaktionen@helsingborg.se"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "repositories": [
     {
       "type": "composer",
@@ -20,7 +20,7 @@
   ],
   "require": {
     "composer/installers": "~1.0",
-    "helsingborg-stad/api-event-manager": ">=1.4.0",
+    "helsingborg-stad/api-event-manager": "v1.x-dev",
     "helsingborg-stad/api-alarm-manager": ">=1.2.1",
     "helsingborg-stad/lix-calculator": ">=1.0.0",
     "wpackagist-plugin/user-switching": "1.0.9",
