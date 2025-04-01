@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "177b445d1d5027ad47eb1b3bab06f5f5",
+    "content-hash": "f42bc27d41c2edf1d2efd35a6c88dc15",
     "packages": [
         {
             "name": "bueltge/must-use-loader",
@@ -586,6 +586,7 @@
                     "AcfExportManager\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -597,8 +598,8 @@
             ],
             "description": "ACF Export Manager is a extension that let's you automatically export specified your ACF fields on save.",
             "support": {
-                "source": "https://github.com/helsingborg-stad/acf-export-manager/tree/1.0.12",
-                "issues": "https://github.com/helsingborg-stad/acf-export-manager/issues"
+                "issues": "https://github.com/helsingborg-stad/acf-export-manager/issues",
+                "source": "https://github.com/helsingborg-stad/acf-export-manager/tree/1.0.12"
             },
             "time": "2023-05-25T07:56:58+00:00"
         },
@@ -716,16 +717,16 @@
         },
         {
             "name": "helsingborg-stad/api-alarm-manager",
-            "version": "2.3.0",
+            "version": "2.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-alarm-manager.git",
-                "reference": "1447349c76ee5a6ef30b09c9fdfe1d5f9b1cf146"
+                "reference": "01de391f26bf462bc1da38f5846a76c6cb567c92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-manager/zipball/1447349c76ee5a6ef30b09c9fdfe1d5f9b1cf146",
-                "reference": "1447349c76ee5a6ef30b09c9fdfe1d5f9b1cf146",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-alarm-manager/zipball/01de391f26bf462bc1da38f5846a76c6cb567c92",
+                "reference": "01de391f26bf462bc1da38f5846a76c6cb567c92",
                 "shasum": ""
             },
             "require": {
@@ -757,9 +758,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-alarm-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-alarm-manager/tree/2.3.0"
+                "source": "https://github.com/helsingborg-stad/api-alarm-manager/tree/2.3.3"
             },
-            "time": "2025-03-18T13:38:38+00:00"
+            "time": "2025-04-01T13:15:50+00:00"
         },
         {
             "name": "helsingborg-stad/api-event-manager",
@@ -4284,19 +4285,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "clark-nikdel-powell/post-type-select-for-acf": 20,
-        "enshrined/svg-sanitize": 20,
-        "jeradin/acf-dynamic-table-field": 20,
-        "jeradin/acf-website-field": 20,
-        "johannheyne/advanced-custom-fields-table-field": 20,
-        "landrok/language-detector": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": {
-        "php": "^8.2"
-    },
-    "platform-dev": {},
+    "platform": [],
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
