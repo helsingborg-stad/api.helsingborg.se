@@ -840,16 +840,16 @@
         },
         {
             "name": "helsingborg-stad/api-exhibition-manager",
-            "version": "0.4.2",
+            "version": "0.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-exhibition-manager.git",
-                "reference": "86c805af68f2c7172d59d5675d66fcc1ec516fe8"
+                "reference": "2e8d48a5e72f5e9a9986947f86e3bf83da29a687"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-exhibition-manager/zipball/86c805af68f2c7172d59d5675d66fcc1ec516fe8",
-                "reference": "86c805af68f2c7172d59d5675d66fcc1ec516fe8",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-exhibition-manager/zipball/2e8d48a5e72f5e9a9986947f86e3bf83da29a687",
+                "reference": "2e8d48a5e72f5e9a9986947f86e3bf83da29a687",
                 "shasum": ""
             },
             "require": {
@@ -881,9 +881,9 @@
             ],
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-exhibition-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-exhibition-manager/tree/0.4.2"
+                "source": "https://github.com/helsingborg-stad/api-exhibition-manager/tree/0.4.4"
             },
-            "time": "2025-08-25T11:24:01+00:00"
+            "time": "2025-08-25T11:41:44+00:00"
         },
         {
             "name": "helsingborg-stad/api-schools-manager",
