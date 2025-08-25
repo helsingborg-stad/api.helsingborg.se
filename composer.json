@@ -46,7 +46,8 @@
     "helsingborg-stad/kirki": "5.2.0",
     "helsingborg-stad/component-library": "4.19.1",
     "helsingborg-stad/blade": "3.5.1",
-    "wikimedia/composer-merge-plugin": "^2.1"
+    "wikimedia/composer-merge-plugin": "^2.1",
+    "helsingborg-stad/api-exhibition-manager": "^0.4"
   },
   "extra": {
     "path": "/",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79667c2a479c2a4a4e9691edb024ce59",
+    "content-hash": "8cacb3e86306c31ade55a2287c18036b",
     "packages": [
         {
             "name": "bueltge/must-use-loader",
@@ -837,6 +837,53 @@
                 "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.10.4"
             },
             "time": "2025-02-13T13:54:22+00:00"
+        },
+        {
+            "name": "helsingborg-stad/api-exhibition-manager",
+            "version": "0.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/api-exhibition-manager.git",
+                "reference": "86c805af68f2c7172d59d5675d66fcc1ec516fe8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-exhibition-manager/zipball/86c805af68f2c7172d59d5675d66fcc1ec516fe8",
+                "reference": "86c805af68f2c7172d59d5675d66fcc1ec516fe8",
+                "shasum": ""
+            },
+            "require": {
+                "helsingborg-stad/acf-export-manager": "^1.0.12",
+                "helsingborg-stad/wpservice": "^2.0",
+                "php": ">=8.2"
+            },
+            "require-dev": {
+                "helsingborg-stad/phpcs": "^0.2.2",
+                "php-stubs/wordpress-stubs": "^6.8",
+                "phpstan/phpstan": "^2.1",
+                "phpunit/phpunit": "^11.5"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "ApiExhibitionManager\\": "source/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thor Brink",
+                    "email": "thor.brink@helsingborg.se"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/api-exhibition-manager/issues",
+                "source": "https://github.com/helsingborg-stad/api-exhibition-manager/tree/0.4.2"
+            },
+            "time": "2025-08-25T11:24:01+00:00"
         },
         {
             "name": "helsingborg-stad/api-schools-manager",
@@ -4285,11 +4332,11 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "johannheyne/advanced-custom-fields-table-field": 20,
         "clark-nikdel-powell/post-type-select-for-acf": 20,
-        "jeradin/acf-website-field": 20,
-        "jeradin/acf-dynamic-table-field": 20,
         "enshrined/svg-sanitize": 20,
+        "jeradin/acf-dynamic-table-field": 20,
+        "jeradin/acf-website-field": 20,
+        "johannheyne/advanced-custom-fields-table-field": 20,
         "landrok/language-detector": 20
     },
     "prefer-stable": true,
@@ -4297,6 +4344,6 @@
     "platform": {
         "php": "^8.2"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
