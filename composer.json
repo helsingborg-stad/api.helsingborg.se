@@ -35,7 +35,7 @@
     "helsingborg-stad/active-directory-api-wp-integration": "^3.0",
     "helsingborg-stad/api-alarm-manager": "^2.4.1",
     "wpackagist-plugin/litespeed-cache": "^6.2.0",
-    "helsingborg-stad/api-schools-manager": "~0.22.1",
+    "helsingborg-stad/api-schools-manager": "0.23.0",
     "helsingborg-stad/wpmu-acf-google-maps-key": "^1.0",
     "helsingborg-stad/wpmu-network-admin-url": "^2.0",
     "wpackagist-plugin/acf-extended": "0.8.9.4",
