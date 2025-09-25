@@ -19,6 +19,7 @@ wp-content/mu-plugins
 !wp-content/mu-plugins/FakeWpContentTranslator.php
 !wp-content/mu-plugins/RewriteLangageParameter.php
 !wp-content/mu-plugins/setDefaultPolylang.php
+!wp-content/mu-plugins/loader.php
 
 # Config files #
 ##########################
