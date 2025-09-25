@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17887d85364cde284caf9ae34c9044b0",
+    "content-hash": "2de22267943dff6a1a7d40f9398a045c",
     "packages": [
         {
             "name": "bueltge/must-use-loader",
@@ -1172,16 +1172,16 @@
         },
         {
             "name": "helsingborg-stad/component-library",
-            "version": "4.19.1",
+            "version": "4.62.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "c86154aa56a6d0943297993450406a4748d9ba81"
+                "reference": "4e4642a060cc684cb41aa3eae9d48064f41d4301"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/c86154aa56a6d0943297993450406a4748d9ba81",
-                "reference": "c86154aa56a6d0943297993450406a4748d9ba81",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/4e4642a060cc684cb41aa3eae9d48064f41d4301",
+                "reference": "4e4642a060cc684cb41aa3eae9d48064f41d4301",
                 "shasum": ""
             },
             "require": {
@@ -1211,9 +1211,9 @@
             "description": "A library of components for use in WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/4.19.1"
+                "source": "https://github.com/helsingborg-stad/component-library/tree/4.62.2"
             },
-            "time": "2024-08-30T06:58:03+00:00"
+            "time": "2025-09-11T11:35:05+00:00"
         },
         {
             "name": "helsingborg-stad/coordinate-transformation-library",
@@ -2436,20 +2436,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "6.6.1",
+            "version": "6.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "db4751b3b3746eacc442bd3dd428491b18e8b801"
+                "reference": "f224d9b28c88048312f3fe635cb65ba66a936950"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/db4751b3b3746eacc442bd3dd428491b18e8b801",
-                "reference": "db4751b3b3746eacc442bd3dd428491b18e8b801",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/f224d9b28c88048312f3fe635cb65ba66a936950",
+                "reference": "f224d9b28c88048312f3fe635cb65ba66a936950",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "6.6.1",
+                "johnpbloch/wordpress-core": "6.8.2",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=7.0.0"
             },
@@ -2478,20 +2478,20 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2024-07-23T15:26:02+00:00"
+            "time": "2025-07-15T15:33:05+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.6.1",
+            "version": "6.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "fa02256788137720864796f1fb290db6a35cb035"
+                "reference": "316a8fe38b6dde4e4f399946809f040462038403"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/fa02256788137720864796f1fb290db6a35cb035",
-                "reference": "fa02256788137720864796f1fb290db6a35cb035",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/316a8fe38b6dde4e4f399946809f040462038403",
+                "reference": "316a8fe38b6dde4e4f399946809f040462038403",
                 "shasum": ""
             },
             "require": {
@@ -2499,7 +2499,7 @@
                 "php": ">=7.2.24"
             },
             "provide": {
-                "wordpress/core-implementation": "6.6.1"
+                "wordpress/core-implementation": "6.8.2"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -2526,7 +2526,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2024-07-23T15:25:57+00:00"
+            "time": "2025-07-15T15:32:59+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
