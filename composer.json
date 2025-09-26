@@ -43,10 +43,11 @@
     "helsingborg-stad/modularity": "6.90.23",
     "helsingborg-stad/municipio": "5.172.14",
     "helsingborg-stad/kirki": "5.2.0",
-    "helsingborg-stad/component-library": "4.62.2",
+    "helsingborg-stad/component-library": "^4.62",
     "helsingborg-stad/blade": "3.5.1",
     "wikimedia/composer-merge-plugin": "^2.1",
-    "helsingborg-stad/api-exhibition-manager": "^0.4"
+    "helsingborg-stad/api-exhibition-manager": "^0.4",
+    "helsingborg-stad/modularity-frontend-form": "^0.51.1"
   },
   "extra": {
     "path": "/",
