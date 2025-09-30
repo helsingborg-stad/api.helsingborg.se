@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d78629dd69b612c692ef5b528edddf52",
+    "content-hash": "9c0c757f961772ff5a79e1269f10762d",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -830,21 +830,20 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "3.11.9",
+            "version": "3.11.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "a69748646ae4be89250a4ea8c7f48756e4d2a9a6"
+                "reference": "76e3e3f3db6c0bd01a6b6b2442865b0094400dbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/a69748646ae4be89250a4ea8c7f48756e4d2a9a6",
-                "reference": "a69748646ae4be89250a4ea8c7f48756e4d2a9a6",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/76e3e3f3db6c0bd01a6b6b2442865b0094400dbd",
+                "reference": "76e3e3f3db6c0bd01a6b6b2442865b0094400dbd",
                 "shasum": ""
             },
             "require": {
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
-                "helsingborg-stad/acf-openstreetmap-field": "dev-main",
                 "helsingborg-stad/acfservice": "^1.0",
                 "helsingborg-stad/wpservice": "^2.0",
                 "php": ">=8.1"
@@ -900,9 +899,9 @@
             "description": "Creates a api that may be used to manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.11.9"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.11.10"
             },
-            "time": "2025-09-30T10:48:41+00:00"
+            "time": "2025-09-30T11:08:35+00:00"
         },
         {
             "name": "helsingborg-stad/api-exhibition-manager",
@@ -3880,79 +3879,6 @@
             "time": "2025-07-11T13:20:48+00:00"
         },
         {
-            "name": "spatie/schema-org",
-            "version": "3.23.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/schema-org.git",
-                "reference": "a8dc1b6fcdd06afc1ab084c3ead9b7a4c3d7a35d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/schema-org/zipball/a8dc1b6fcdd06afc1ab084c3ead9b7a4c3d7a35d",
-                "reference": "a8dc1b6fcdd06afc1ab084c3ead9b7a4c3d7a35d",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "php": "^8.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.6",
-                "graham-campbell/analyzer": "^4.2",
-                "illuminate/collections": "^8.62.0",
-                "league/flysystem": "^2.3.0 || ^3.0",
-                "pestphp/pest": "^1.21",
-                "symfony/console": "^5.3.7 || 6.0",
-                "twig/twig": "^3.3.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Spatie\\SchemaOrg\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian De Deyne",
-                    "email": "sebastian@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Tom Witkowski",
-                    "email": "dev.gummibeer@gmail.com",
-                    "homepage": "https://gummibeer.de",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A fluent builder Schema.org types and ld+json generator",
-            "homepage": "https://github.com/spatie/schema-org",
-            "keywords": [
-                "schema-org",
-                "spatie"
-            ],
-            "support": {
-                "issues": "https://github.com/spatie/schema-org/issues",
-                "source": "https://github.com/spatie/schema-org/tree/3.23.1"
-            },
-            "funding": [
-                {
-                    "url": "https://spatie.be/open-source/support-us",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/spatie",
-                    "type": "github"
-                }
-            ],
-            "time": "2025-01-31T14:54:12+00:00"
-        },
-        {
             "name": "symfony/deprecation-contracts",
             "version": "v3.6.0",
             "source": {
@@ -4827,6 +4753,7 @@
     "stability-flags": {
         "clark-nikdel-powell/post-type-select-for-acf": 20,
         "enshrined/svg-sanitize": 20,
+        "helsingborg-stad/acf-openstreetmap-field": 20,
         "jeradin/acf-dynamic-table-field": 20,
         "jeradin/acf-website-field": 20,
         "johannheyne/advanced-custom-fields-table-field": 20,
