@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c0c757f961772ff5a79e1269f10762d",
+    "content-hash": "0678439ec25d6b41d5ce997f51a7f1ed",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -629,43 +629,6 @@
                 "issues": "https://github.com/helsingborg-stad/acf-export-manager/issues"
             },
             "time": "2023-05-25T07:56:58+00:00"
-        },
-        {
-            "name": "helsingborg-stad/acf-openstreetmap-field",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/helsingborg-stad/acf-openstreetmap-field.git",
-                "reference": "a747868d38c3f4e6f9e7188db889516b5d7212c6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/acf-openstreetmap-field/zipball/a747868d38c3f4e6f9e7188db889516b5d7212c6",
-                "reference": "a747868d38c3f4e6f9e7188db889516b5d7212c6",
-                "shasum": ""
-            },
-            "default-branch": true,
-            "type": "wordpress-muplugin",
-            "autoload": {
-                "psr-4": {
-                    "AcfOpenStreetMap\\": "source/php/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Niclas Norin",
-                    "email": "niclas.norin@helsingborg.se"
-                }
-            ],
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/acf-openstreetmap-field/issues",
-                "source": "https://github.com/helsingborg-stad/acf-openstreetmap-field/tree/0.79.12"
-            },
-            "time": "2025-08-21T12:02:15+00:00"
         },
         {
             "name": "helsingborg-stad/acf-select-image-field",
@@ -1489,16 +1452,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-frontend-form",
-            "version": "0.51.1",
+            "version": "0.51.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-frontend-form.git",
-                "reference": "4901d21d7dc72d41f3cd7a324dd228a02343cc14"
+                "reference": "1bbc32452be7ee92d5c5f9813c34717631b900d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/4901d21d7dc72d41f3cd7a324dd228a02343cc14",
-                "reference": "4901d21d7dc72d41f3cd7a324dd228a02343cc14",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/1bbc32452be7ee92d5c5f9813c34717631b900d1",
+                "reference": "1bbc32452be7ee92d5c5f9813c34717631b900d1",
                 "shasum": ""
             },
             "require": {
@@ -1530,9 +1493,9 @@
             "description": "Frontend Form for Modularity.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-frontend-form/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.51.1"
+                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.51.4"
             },
-            "time": "2025-09-26T08:59:47+00:00"
+            "time": "2025-09-30T11:17:10+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
@@ -4753,7 +4716,6 @@
     "stability-flags": {
         "clark-nikdel-powell/post-type-select-for-acf": 20,
         "enshrined/svg-sanitize": 20,
-        "helsingborg-stad/acf-openstreetmap-field": 20,
         "jeradin/acf-dynamic-table-field": 20,
         "jeradin/acf-website-field": 20,
         "johannheyne/advanced-custom-fields-table-field": 20,
