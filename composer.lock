@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9844fc43131f36450b87c416aa055526",
+    "content-hash": "d78629dd69b612c692ef5b528edddf52",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -631,6 +631,43 @@
             "time": "2023-05-25T07:56:58+00:00"
         },
         {
+            "name": "helsingborg-stad/acf-openstreetmap-field",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/acf-openstreetmap-field.git",
+                "reference": "a747868d38c3f4e6f9e7188db889516b5d7212c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-openstreetmap-field/zipball/a747868d38c3f4e6f9e7188db889516b5d7212c6",
+                "reference": "a747868d38c3f4e6f9e7188db889516b5d7212c6",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-muplugin",
+            "autoload": {
+                "psr-4": {
+                    "AcfOpenStreetMap\\": "source/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Niclas Norin",
+                    "email": "niclas.norin@helsingborg.se"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/acf-openstreetmap-field/issues",
+                "source": "https://github.com/helsingborg-stad/acf-openstreetmap-field/tree/0.79.12"
+            },
+            "time": "2025-08-21T12:02:15+00:00"
+        },
+        {
             "name": "helsingborg-stad/acf-select-image-field",
             "version": "1.6.1",
             "source": {
@@ -793,24 +830,24 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "3.11.2",
+            "version": "3.11.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "00cc2978e747921fc621b879d54016c838cc9740"
+                "reference": "a69748646ae4be89250a4ea8c7f48756e4d2a9a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/00cc2978e747921fc621b879d54016c838cc9740",
-                "reference": "00cc2978e747921fc621b879d54016c838cc9740",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/a69748646ae4be89250a4ea8c7f48756e4d2a9a6",
+                "reference": "a69748646ae4be89250a4ea8c7f48756e4d2a9a6",
                 "shasum": ""
             },
             "require": {
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
+                "helsingborg-stad/acf-openstreetmap-field": "dev-main",
                 "helsingborg-stad/acfservice": "^1.0",
                 "helsingborg-stad/wpservice": "^2.0",
-                "php": ">=8.1",
-                "spatie/schema-org": "^3.14"
+                "php": ">=8.1"
             },
             "require-dev": {
                 "brainmaestro/composer-git-hooks": "^2.8",
@@ -863,9 +900,9 @@
             "description": "Creates a api that may be used to manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.11.2"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.11.9"
             },
-            "time": "2025-09-25T07:31:34+00:00"
+            "time": "2025-09-30T10:48:41+00:00"
         },
         {
             "name": "helsingborg-stad/api-exhibition-manager",
