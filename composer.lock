@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17b2085c2aa74036d1fd1136b4676e25",
+    "content-hash": "ce6cf572cdf9120798024ade5c99a8ac",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -793,16 +793,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "3.11.13",
+            "version": "3.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "cf83f9c7bb55430468a2c7ec710604aa1c30f50b"
+                "reference": "d1838de2868d89fcf53806b8f877a1716a437e84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/cf83f9c7bb55430468a2c7ec710604aa1c30f50b",
-                "reference": "cf83f9c7bb55430468a2c7ec710604aa1c30f50b",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/d1838de2868d89fcf53806b8f877a1716a437e84",
+                "reference": "d1838de2868d89fcf53806b8f877a1716a437e84",
                 "shasum": ""
             },
             "require": {
@@ -862,9 +862,9 @@
             "description": "Creates a api that may be used to manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.11.13"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.12.0"
             },
-            "time": "2025-09-30T12:14:33+00:00"
+            "time": "2025-10-01T11:03:23+00:00"
         },
         {
             "name": "helsingborg-stad/api-exhibition-manager",
