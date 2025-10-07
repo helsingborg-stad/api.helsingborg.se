@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2b0ddcdd8435fb2920940705270cda1",
+    "content-hash": "ad4068e06d0f869543dce63391350311",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -1452,16 +1452,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-frontend-form",
-            "version": "0.51.5",
+            "version": "0.52.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-frontend-form.git",
-                "reference": "9d46afb4c840e59fc7483b35f3d5e1a7dda01c5f"
+                "reference": "39f4584ebc3f795bc3c40b9997328d60d0ab4cc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/9d46afb4c840e59fc7483b35f3d5e1a7dda01c5f",
-                "reference": "9d46afb4c840e59fc7483b35f3d5e1a7dda01c5f",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/39f4584ebc3f795bc3c40b9997328d60d0ab4cc3",
+                "reference": "39f4584ebc3f795bc3c40b9997328d60d0ab4cc3",
                 "shasum": ""
             },
             "require": {
@@ -1493,9 +1493,9 @@
             "description": "Frontend Form for Modularity.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-frontend-form/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.51.5"
+                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.52.25"
             },
-            "time": "2025-10-01T09:09:09+00:00"
+            "time": "2025-10-07T07:34:54+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
