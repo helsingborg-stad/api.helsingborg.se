@@ -829,17 +829,20 @@
         },
         {
             "name": "helsingborg-stad/active-directory-api-wp-integration",
-            "version": "3.1.0",
+            "version": "3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/active-directory-api-wp-integration.git",
-                "reference": "c15350abdd63d6f980b0243e55397c28980f108d"
+                "reference": "7eb3fe2379eb9ff6030aa09bac60ad6974bd6d0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/active-directory-api-wp-integration/zipball/c15350abdd63d6f980b0243e55397c28980f108d",
-                "reference": "c15350abdd63d6f980b0243e55397c28980f108d",
+                "url": "https://api.github.com/repos/helsingborg-stad/active-directory-api-wp-integration/zipball/7eb3fe2379eb9ff6030aa09bac60ad6974bd6d0a",
+                "reference": "7eb3fe2379eb9ff6030aa09bac60ad6974bd6d0a",
                 "shasum": ""
+            },
+            "require": {
+                "helsingborg-stad/wpservice": "^2.0"
             },
             "type": "wordpress-plugin",
             "autoload": {
@@ -860,9 +863,9 @@
             "description": "Simple plugin for verification of existing WordPress users with api.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/issues",
-                "source": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/tree/3.1.0"
+                "source": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/tree/3.1.6"
             },
-            "time": "2025-05-26T12:05:11+00:00"
+            "time": "2025-11-20T08:34:18+00:00"
         },
         {
             "name": "helsingborg-stad/api-alarm-manager",
@@ -1156,16 +1159,16 @@
         },
         {
             "name": "helsingborg-stad/better-post-ui",
-            "version": "3.0.4",
+            "version": "3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/better-post-UI.git",
-                "reference": "eca3aff2105b7a6a4f413d5b91ced2beca57e48c"
+                "reference": "24e7fb5b6bbf5c1a5b28105319095e35499aa163"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/better-post-UI/zipball/eca3aff2105b7a6a4f413d5b91ced2beca57e48c",
-                "reference": "eca3aff2105b7a6a4f413d5b91ced2beca57e48c",
+                "url": "https://api.github.com/repos/helsingborg-stad/better-post-UI/zipball/24e7fb5b6bbf5c1a5b28105319095e35499aa163",
+                "reference": "24e7fb5b6bbf5c1a5b28105319095e35499aa163",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1187,9 +1190,9 @@
             "description": "Improves the UI and UX of the WordPress admin post form.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/better-post-UI/issues",
-                "source": "https://github.com/helsingborg-stad/better-post-UI/tree/3.0.4"
+                "source": "https://github.com/helsingborg-stad/better-post-UI/tree/3.0.5"
             },
-            "time": "2024-09-10T10:18:36+00:00"
+            "time": "2025-11-20T08:59:40+00:00"
         },
         {
             "name": "helsingborg-stad/blade",
@@ -3509,16 +3512,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.46",
+            "version": "3.0.48",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "56483a7de62a6c2a6635e42e93b8a9e25d4f0ec6"
+                "reference": "64065a5679c50acb886e82c07aa139b0f757bb89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/56483a7de62a6c2a6635e42e93b8a9e25d4f0ec6",
-                "reference": "56483a7de62a6c2a6635e42e93b8a9e25d4f0ec6",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/64065a5679c50acb886e82c07aa139b0f757bb89",
+                "reference": "64065a5679c50acb886e82c07aa139b0f757bb89",
                 "shasum": ""
             },
             "require": {
@@ -3599,7 +3602,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.46"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.48"
             },
             "funding": [
                 {
@@ -3615,7 +3618,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-06-26T16:29:55+00:00"
+            "time": "2025-12-15T11:51:42+00:00"
         },
         {
             "name": "pragmarx/ia-arr",
@@ -4817,15 +4820,15 @@
         },
         {
             "name": "wpackagist-plugin/redis-cache",
-            "version": "2.6.5",
+            "version": "2.7.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/2.6.5"
+                "reference": "tags/2.7.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.2.6.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.2.7.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4905,5 +4908,5 @@
         "php": "^8.2"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
