@@ -45,7 +45,7 @@
     "helsingborg-stad/blade": "3.5.1",
     "wikimedia/composer-merge-plugin": "^2.1",
     "helsingborg-stad/api-exhibition-manager": "^0.4",
-    "helsingborg-stad/modularity-frontend-form": "0.64.2"
+    "helsingborg-stad/modularity-frontend-form": "0.72.6"
   },
   "extra": {
     "path": "/",

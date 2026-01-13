@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "608bf351473df6a53915b675f4d0e0a0",
+    "content-hash": "cbbae855263f3eae5055f7e5bf27f5fe",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -1497,16 +1497,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-frontend-form",
-            "version": "0.64.2",
+            "version": "0.72.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-frontend-form.git",
-                "reference": "7945fba76c0cd80b1bbd80ee4c668c3fbf41c7b4"
+                "reference": "e1b7b4a3f9277c75301666a250aaa8a2f4847b41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/7945fba76c0cd80b1bbd80ee4c668c3fbf41c7b4",
-                "reference": "7945fba76c0cd80b1bbd80ee4c668c3fbf41c7b4",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/e1b7b4a3f9277c75301666a250aaa8a2f4847b41",
+                "reference": "e1b7b4a3f9277c75301666a250aaa8a2f4847b41",
                 "shasum": ""
             },
             "require": {
@@ -1518,6 +1518,9 @@
                 "codedungeon/phpunit-result-printer": "^0.31.0",
                 "php-stubs/wordpress-stubs": "^6.8",
                 "phpunit/phpunit": "^9.5"
+            },
+            "suggest": {
+                "helsingborg-stad/municipio": "^5.177"
             },
             "type": "wordpress-plugin",
             "autoload": {
@@ -1538,9 +1541,9 @@
             "description": "Frontend Form for Modularity.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-frontend-form/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.64.2"
+                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.72.6"
             },
-            "time": "2025-12-11T08:31:46+00:00"
+            "time": "2026-01-13T15:27:28+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
@@ -4908,5 +4911,5 @@
         "php": "^8.2"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }
