@@ -65,3 +65,4 @@ config/multisite.php
 .Trashes
 ehthumbs.db
 Thumbs.db
+.secrets
