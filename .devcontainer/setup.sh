@@ -4,6 +4,10 @@ ACF_URL="https://connect.advancedcustomfields.com/v2/plugins/download?s=web&p=pr
 WORKSPACE_PATH="/workspaces/api.helsingborg.se"
 DEVCONTAINER_PATH="${WORKSPACE_PATH}/.devcontainer"
 
+report_start() {
+    echo -e "\n🚀 Starting setup script...\n"
+}
+
 move_config_files() {
     cp ${DEVCONTAINER_PATH}/config/wp-config/* ${WORKSPACE_PATH}/config/
     cp ${DEVCONTAINER_PATH}/config/.htaccess ${WORKSPACE_PATH}/.htaccess
@@ -31,6 +35,13 @@ install_and_activate_acf_pro() {
     echo "✅ Advanced Custom Fields Pro installed and activated."
 }
 
+report_done() {
+    echo -e "\n🎉 Setup completed successfully!\n"
+    echo -e "You can now access the WordPress site at: http://localhost:8080\n"
+}
+
+report_start
 move_config_files
 install_wp
 install_and_activate_acf_pro
+report_done
