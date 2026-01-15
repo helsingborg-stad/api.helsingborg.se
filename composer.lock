@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cbbae855263f3eae5055f7e5bf27f5fe",
+    "content-hash": "b9291c9c27e227d6b5bd9afed6821a3d",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -918,16 +918,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "3.12.2",
+            "version": "3.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "6880c592239aae9e74bc7304fe552f7224819566"
+                "reference": "92a7e180f96ebc577aa3156c5eb01139e3957ae8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/6880c592239aae9e74bc7304fe552f7224819566",
-                "reference": "6880c592239aae9e74bc7304fe552f7224819566",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/92a7e180f96ebc577aa3156c5eb01139e3957ae8",
+                "reference": "92a7e180f96ebc577aa3156c5eb01139e3957ae8",
                 "shasum": ""
             },
             "require": {
@@ -987,9 +987,9 @@
             "description": "Creates a api that may be used to manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.12.2"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.12.3"
             },
-            "time": "2025-10-03T07:42:34+00:00"
+            "time": "2026-01-14T13:10:12+00:00"
         },
         {
             "name": "helsingborg-stad/api-exhibition-manager",
@@ -1250,16 +1250,16 @@
         },
         {
             "name": "helsingborg-stad/component-library",
-            "version": "4.63.0",
+            "version": "4.63.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "970cfa576501f25f8a9345dfda17dba6c63c9e14"
+                "reference": "d489eead3695772a2b3d0f27d25f0e772631909a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/970cfa576501f25f8a9345dfda17dba6c63c9e14",
-                "reference": "970cfa576501f25f8a9345dfda17dba6c63c9e14",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/d489eead3695772a2b3d0f27d25f0e772631909a",
+                "reference": "d489eead3695772a2b3d0f27d25f0e772631909a",
                 "shasum": ""
             },
             "require": {
@@ -1291,9 +1291,9 @@
             "description": "A library of components for use in WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/4.63.0"
+                "source": "https://github.com/helsingborg-stad/component-library/tree/4.63.3"
             },
-            "time": "2025-12-17T13:43:34+00:00"
+            "time": "2026-01-14T08:19:06+00:00"
         },
         {
             "name": "helsingborg-stad/coordinate-transformation-library",
@@ -1497,16 +1497,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-frontend-form",
-            "version": "0.72.6",
+            "version": "0.72.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-frontend-form.git",
-                "reference": "e1b7b4a3f9277c75301666a250aaa8a2f4847b41"
+                "reference": "96ff7994f8497cf122e0cd50da5b306b22a9e55c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/e1b7b4a3f9277c75301666a250aaa8a2f4847b41",
-                "reference": "e1b7b4a3f9277c75301666a250aaa8a2f4847b41",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/96ff7994f8497cf122e0cd50da5b306b22a9e55c",
+                "reference": "96ff7994f8497cf122e0cd50da5b306b22a9e55c",
                 "shasum": ""
             },
             "require": {
@@ -1541,22 +1541,22 @@
             "description": "Frontend Form for Modularity.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-frontend-form/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.72.6"
+                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.72.10"
             },
-            "time": "2026-01-13T15:27:28+00:00"
+            "time": "2026-01-15T10:36:07+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "6.15.5",
+            "version": "6.15.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "8e516a4aecbe75aed3cd47d4d4b8a3150c52504d"
+                "reference": "37c4380c47c6cc7456fbc194f98314c6f0dd30e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/8e516a4aecbe75aed3cd47d4d4b8a3150c52504d",
-                "reference": "8e516a4aecbe75aed3cd47d4d4b8a3150c52504d",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/37c4380c47c6cc7456fbc194f98314c6f0dd30e1",
+                "reference": "37c4380c47c6cc7456fbc194f98314c6f0dd30e1",
                 "shasum": ""
             },
             "require": {
@@ -1569,7 +1569,7 @@
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
                 "helsingborg-stad/acf-select-image-field": "1.6.1",
                 "helsingborg-stad/acfservice": "^1.0.0",
-                "helsingborg-stad/component-library": "4.63.0",
+                "helsingborg-stad/component-library": "4.63.3",
                 "helsingborg-stad/kirki": "^5.2",
                 "helsingborg-stad/schema-library": "0.5.4",
                 "helsingborg-stad/wpservice": "^2.0",
@@ -1632,9 +1632,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.15.5"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.15.23"
             },
-            "time": "2026-01-12T09:29:55+00:00"
+            "time": "2026-01-15T10:36:57+00:00"
         },
         {
             "name": "helsingborg-stad/schema-library",
@@ -4911,5 +4911,5 @@
         "php": "^8.2"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
