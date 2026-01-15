@@ -1,0 +1,34 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/php-mariadb
+{
+	"name": "Helsingborg API:s Devcontainer(PHP & MariaDB)",
+	"dockerComposeFile": "docker-compose.yml",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"service": "app",
+	"containerEnv": {
+		"XDEBUG_MODE": "off"
+	},
+	"forwardPorts": [
+		8080
+	],
+	"portsAttributes": {
+		"8080": {
+			"label": "Application",
+			"onAutoForward": "notify",
+			"elevateIfNeeded": true,
+			"protocol": "http"
+		}
+	},
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": {
+		"setup": "chmod +x .devcontainer/postCreateCommand.sh && bash .devcontainer/postCreateCommand.sh"
+	},
+	"postStartCommand": "chmod +x .devcontainer/postStartCommand.sh && bash .devcontainer/postStartCommand.sh",
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "22"
+		}
+	},
+	"remoteUser": "root"
+}

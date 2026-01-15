@@ -7,6 +7,7 @@ wp-content/*
 wp-content/themes/municipio/
 !wp-content/object-cache.php
 !wp-content/sunrise.php
+auth.json
 
 !wp-admin
 
@@ -63,3 +64,7 @@ config/*.php
 ehthumbs.db
 Thumbs.db
 .secrets
+
+# Devcontainer files #
+######################
+.devcontainer/.env

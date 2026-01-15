@@ -60,8 +60,14 @@ if (file_exists(__DIR__ . '/config/developer.php')) {
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
-/** Force the use of sunrise.php */
-define('SUNRISE', true);
+/**
+ * Autoload Vendor files or display install instructions.
+ */
+if(file_exists(__DIR__ . '/vendor/autoload.php')) {
+    require_once __DIR__ . '/vendor/autoload.php';
+} else {
+    die(file_get_contents(__DIR__ . '/install.html'));  
+}
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
