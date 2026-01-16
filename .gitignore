@@ -25,6 +25,7 @@ wp-content/mu-plugins
 # Config files #
 ##########################
 config/*.php
+.htaccess
 
 # Compiled source #
 ###################
