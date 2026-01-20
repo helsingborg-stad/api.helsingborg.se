@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cfbc7da31bad2eb60e3d230333da5026",
+    "content-hash": "8e21034b1a8ce816eb3ac0238eecac55",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -751,6 +751,42 @@
                 "issues": "https://github.com/helsingborg-stad/acf-export-manager/issues"
             },
             "time": "2023-05-25T07:56:58+00:00"
+        },
+        {
+            "name": "helsingborg-stad/acf-icon-field",
+            "version": "0.2.46",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/acf-icon-field.git",
+                "reference": "67939bb5e3b20e0125ef957d1249096800f44821"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/acf-icon-field/zipball/67939bb5e3b20e0125ef957d1249096800f44821",
+                "reference": "67939bb5e3b20e0125ef957d1249096800f44821",
+                "shasum": ""
+            },
+            "type": "wordpress-muplugin",
+            "autoload": {
+                "psr-4": {
+                    "AcfIcon\\": "source/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Niclas Norin",
+                    "email": "niclas.norin@helsingborg.se"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/acf-icon-field/issues",
+                "source": "https://github.com/helsingborg-stad/acf-icon-field/tree/0.2.46"
+            },
+            "time": "2025-12-03T12:58:00+00:00"
         },
         {
             "name": "helsingborg-stad/acf-select-image-field",
@@ -1509,16 +1545,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-frontend-form",
-            "version": "0.76.2",
+            "version": "0.76.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-frontend-form.git",
-                "reference": "b74895d5b985377351da261cb3bf4b94c73c25ec"
+                "reference": "a8238b02ff37d1d7221a9604b0a399c0a5a6d006"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/b74895d5b985377351da261cb3bf4b94c73c25ec",
-                "reference": "b74895d5b985377351da261cb3bf4b94c73c25ec",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/a8238b02ff37d1d7221a9604b0a399c0a5a6d006",
+                "reference": "a8238b02ff37d1d7221a9604b0a399c0a5a6d006",
                 "shasum": ""
             },
             "require": {
@@ -1553,9 +1589,9 @@
             "description": "Frontend Form for Modularity.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-frontend-form/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.76.2"
+                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.76.15"
             },
-            "time": "2026-01-19T13:37:02+00:00"
+            "time": "2026-01-20T08:05:54+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
