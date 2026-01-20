@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "feddb9a43f74ebd13674f5df113abaa1",
+    "content-hash": "b51b89638ecbc288d8288b5190a918fe",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -1298,16 +1298,16 @@
         },
         {
             "name": "helsingborg-stad/component-library",
-            "version": "4.63.5",
+            "version": "4.64.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "eebc44b47cae1eaeccfc6a246ca78bf28f19580d"
+                "reference": "5cb98d9be0dbef5a9a0c6eaec6011535a377272d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/eebc44b47cae1eaeccfc6a246ca78bf28f19580d",
-                "reference": "eebc44b47cae1eaeccfc6a246ca78bf28f19580d",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/5cb98d9be0dbef5a9a0c6eaec6011535a377272d",
+                "reference": "5cb98d9be0dbef5a9a0c6eaec6011535a377272d",
                 "shasum": ""
             },
             "require": {
@@ -1339,9 +1339,9 @@
             "description": "A library of components for use in WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/4.63.5"
+                "source": "https://github.com/helsingborg-stad/component-library/tree/4.64.0"
             },
-            "time": "2026-01-20T10:26:21+00:00"
+            "time": "2026-01-20T15:30:37+00:00"
         },
         {
             "name": "helsingborg-stad/coordinate-transformation-library",
@@ -1595,16 +1595,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "6.15.35",
+            "version": "6.15.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "f4bc31619d8068fbc9957d3dfccf66cfaa25d936"
+                "reference": "de4b440bf0ffac0fb76563b18426a5186ea129e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/f4bc31619d8068fbc9957d3dfccf66cfaa25d936",
-                "reference": "f4bc31619d8068fbc9957d3dfccf66cfaa25d936",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/de4b440bf0ffac0fb76563b18426a5186ea129e2",
+                "reference": "de4b440bf0ffac0fb76563b18426a5186ea129e2",
                 "shasum": ""
             },
             "require": {
@@ -1617,7 +1617,7 @@
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
                 "helsingborg-stad/acf-select-image-field": "1.6.1",
                 "helsingborg-stad/acfservice": "^1.0.0",
-                "helsingborg-stad/component-library": "4.63.5",
+                "helsingborg-stad/component-library": "4.64.0",
                 "helsingborg-stad/kirki": "^5.2",
                 "helsingborg-stad/schema-library": "0.5.4",
                 "helsingborg-stad/wpservice": "^2.0",
@@ -1680,9 +1680,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.15.35"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.15.37"
             },
-            "time": "2026-01-20T11:44:43+00:00"
+            "time": "2026-01-20T15:56:16+00:00"
         },
         {
             "name": "helsingborg-stad/schema-library",
@@ -4959,5 +4959,5 @@
         "php": "^8.2"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
