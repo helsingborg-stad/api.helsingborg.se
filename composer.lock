@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08a1232fddcf904d4664e10b75456598",
+    "content-hash": "fa6827af209acea688cd1ab0db9178d4",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -1545,16 +1545,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-frontend-form",
-            "version": "0.77.4",
+            "version": "0.77.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-frontend-form.git",
-                "reference": "c54ccdfc65225b6e058bd1934e0010623631765c"
+                "reference": "877144ad6dfb750ac40f1c524ee13f6e75133487"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/c54ccdfc65225b6e058bd1934e0010623631765c",
-                "reference": "c54ccdfc65225b6e058bd1934e0010623631765c",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/877144ad6dfb750ac40f1c524ee13f6e75133487",
+                "reference": "877144ad6dfb750ac40f1c524ee13f6e75133487",
                 "shasum": ""
             },
             "require": {
@@ -1589,22 +1589,22 @@
             "description": "Frontend Form for Modularity.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-frontend-form/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.77.4"
+                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.77.11"
             },
-            "time": "2026-01-21T12:38:53+00:00"
+            "time": "2026-01-21T14:13:04+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "6.15.47",
+            "version": "6.15.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "c15ae4088668f630a9ce6e94205d301d1d90f58e"
+                "reference": "e0d66cc7a1327060985a7d4c28987622af5db8a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/c15ae4088668f630a9ce6e94205d301d1d90f58e",
-                "reference": "c15ae4088668f630a9ce6e94205d301d1d90f58e",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e0d66cc7a1327060985a7d4c28987622af5db8a1",
+                "reference": "e0d66cc7a1327060985a7d4c28987622af5db8a1",
                 "shasum": ""
             },
             "require": {
@@ -1680,9 +1680,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.15.47"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.15.49"
             },
-            "time": "2026-01-21T12:20:07+00:00"
+            "time": "2026-01-21T13:29:45+00:00"
         },
         {
             "name": "helsingborg-stad/schema-library",
