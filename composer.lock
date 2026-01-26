@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9216da8fcb6046bef74e6bbb23bceb4d",
+    "content-hash": "930eeb7f9d5375240b9d6221ae1e2016",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -193,39 +193,37 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.12.0",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19"
+                "reference": "12fb2dfe5e16183de69e784a7b84046c43d97e8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/d20a64ed3c94748397ff5973488761b22f6d3f19",
-                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19",
+                "url": "https://api.github.com/repos/composer/installers/zipball/12fb2dfe5e16183de69e784a7b84046c43d97e8e",
+                "reference": "12fb2dfe5e16183de69e784a7b84046c43d97e8e",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0 || ^2.0"
-            },
-            "replace": {
-                "roundcube/plugin-installer": "*",
-                "shama/baton": "*"
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "composer/composer": "1.6.* || ^2.0",
-                "composer/semver": "^1 || ^3",
-                "phpstan/phpstan": "^0.12.55",
-                "phpstan/phpstan-phpunit": "^0.12.16",
-                "symfony/phpunit-bridge": "^4.2 || ^5",
-                "symfony/process": "^2.3"
+                "composer/composer": "^1.10.27 || ^2.7",
+                "composer/semver": "^1.7.2 || ^3.4.0",
+                "phpstan/phpstan": "^1.11",
+                "phpstan/phpstan-phpunit": "^1",
+                "symfony/phpunit-bridge": "^7.1.1",
+                "symfony/process": "^5 || ^6 || ^7"
             },
             "type": "composer-plugin",
             "extra": {
                 "class": "Composer\\Installers\\Plugin",
                 "branch-alias": {
-                    "dev-main": "1.x-dev"
-                }
+                    "dev-main": "2.x-dev"
+                },
+                "plugin-modifies-install-path": true
             },
             "autoload": {
                 "psr-4": {
@@ -246,7 +244,6 @@
             "description": "A multi-framework Composer library installer",
             "homepage": "https://composer.github.io/installers/",
             "keywords": [
-                "Craft",
                 "Dolibarr",
                 "Eliasis",
                 "Hurad",
@@ -267,7 +264,6 @@
                 "Whmcs",
                 "WolfCMS",
                 "agl",
-                "aimeos",
                 "annotatecms",
                 "attogram",
                 "bitrix",
@@ -276,6 +272,7 @@
                 "cockpit",
                 "codeigniter",
                 "concrete5",
+                "concreteCMS",
                 "croogo",
                 "dokuwiki",
                 "drupal",
@@ -286,7 +283,6 @@
                 "grav",
                 "installer",
                 "itop",
-                "joomla",
                 "known",
                 "kohana",
                 "laravel",
@@ -295,6 +291,7 @@
                 "magento",
                 "majima",
                 "mako",
+                "matomo",
                 "mediawiki",
                 "miaoxing",
                 "modulework",
@@ -314,9 +311,7 @@
                 "silverstripe",
                 "sydes",
                 "sylius",
-                "symfony",
                 "tastyigniter",
-                "typo3",
                 "wordpress",
                 "yawik",
                 "zend",
@@ -324,7 +319,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/v1.12.0"
+                "source": "https://github.com/composer/installers/tree/v2.3.0"
             },
             "funding": [
                 {
@@ -340,7 +335,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-13T08:19:44+00:00"
+            "time": "2024-06-24T20:46:46+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -736,6 +731,7 @@
                     "AcfExportManager\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -747,8 +743,8 @@
             ],
             "description": "ACF Export Manager is a extension that let's you automatically export specified your ACF fields on save.",
             "support": {
-                "source": "https://github.com/helsingborg-stad/acf-export-manager/tree/1.0.12",
-                "issues": "https://github.com/helsingborg-stad/acf-export-manager/issues"
+                "issues": "https://github.com/helsingborg-stad/acf-export-manager/issues",
+                "source": "https://github.com/helsingborg-stad/acf-export-manager/tree/1.0.12"
             },
             "time": "2023-05-25T07:56:58+00:00"
         },
@@ -954,16 +950,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "3.12.9",
+            "version": "3.12.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "0f0f4784194668d6d4dce2a29ea36b2a94b0921a"
+                "reference": "3171458967b6749f7ac094a496915b8202fce7f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/0f0f4784194668d6d4dce2a29ea36b2a94b0921a",
-                "reference": "0f0f4784194668d6d4dce2a29ea36b2a94b0921a",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/3171458967b6749f7ac094a496915b8202fce7f7",
+                "reference": "3171458967b6749f7ac094a496915b8202fce7f7",
                 "shasum": ""
             },
             "require": {
@@ -1023,9 +1019,9 @@
             "description": "Creates a api that may be used to manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.12.9"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.12.13"
             },
-            "time": "2026-01-21T12:45:09+00:00"
+            "time": "2026-01-22T13:28:44+00:00"
         },
         {
             "name": "helsingborg-stad/api-exhibition-manager",
@@ -1391,20 +1387,20 @@
         },
         {
             "name": "helsingborg-stad/force-ssl",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/force-ssl.git",
-                "reference": "262ae92e2a290ae43e845c9ddbcaeb08133862f2"
+                "reference": "cbf245462cdb3e611c51f3ecf70f5c22a1788be6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/force-ssl/zipball/262ae92e2a290ae43e845c9ddbcaeb08133862f2",
-                "reference": "262ae92e2a290ae43e845c9ddbcaeb08133862f2",
+                "url": "https://api.github.com/repos/helsingborg-stad/force-ssl/zipball/cbf245462cdb3e611c51f3ecf70f5c22a1788be6",
+                "reference": "cbf245462cdb3e611c51f3ecf70f5c22a1788be6",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "^2.3"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -1420,9 +1416,9 @@
             "description": "Force users to use ssl",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/force-ssl/issues",
-                "source": "https://github.com/helsingborg-stad/force-ssl/tree/3.0.2"
+                "source": "https://github.com/helsingborg-stad/force-ssl/tree/3.0.3"
             },
-            "time": "2023-09-28T08:32:37+00:00"
+            "time": "2026-01-23T12:15:13+00:00"
         },
         {
             "name": "helsingborg-stad/kirki",
@@ -1595,22 +1591,22 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "6.15.51",
+            "version": "6.15.63",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "211e66f5bc2a77aa381c622d7094ef18be410280"
+                "reference": "51b8188f5da66335ee72b41725534fa6ec862365"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/211e66f5bc2a77aa381c622d7094ef18be410280",
-                "reference": "211e66f5bc2a77aa381c622d7094ef18be410280",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/51b8188f5da66335ee72b41725534fa6ec862365",
+                "reference": "51b8188f5da66335ee72b41725534fa6ec862365",
                 "shasum": ""
             },
             "require": {
                 "astrotomic/php-deepface": "^0.4.0",
                 "clark-nikdel-powell/post-type-select-for-acf": "dev-master",
-                "composer/installers": "^1.0",
+                "composer/installers": "^2.3",
                 "dompdf/dompdf": "^2.0.4",
                 "enshrined/svg-sanitize": "dev-master",
                 "freshleafmedia/autofocus": "^1.0",
@@ -1680,9 +1676,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.15.51"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.15.63"
             },
-            "time": "2026-01-22T11:37:12+00:00"
+            "time": "2026-01-26T06:19:29+00:00"
         },
         {
             "name": "helsingborg-stad/schema-library",
@@ -1790,20 +1786,20 @@
         },
         {
             "name": "helsingborg-stad/wpmu-acf-google-maps-key",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/wpmu-acf-google-maps-key.git",
-                "reference": "42ea1e32260b93f9a09cecbbd716b2b30947fee2"
+                "reference": "15b95a3534122f6051f96e01334982f655598786"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/wpmu-acf-google-maps-key/zipball/42ea1e32260b93f9a09cecbbd716b2b30947fee2",
-                "reference": "42ea1e32260b93f9a09cecbbd716b2b30947fee2",
+                "url": "https://api.github.com/repos/helsingborg-stad/wpmu-acf-google-maps-key/zipball/15b95a3534122f6051f96e01334982f655598786",
+                "reference": "15b95a3534122f6051f96e01334982f655598786",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0",
+                "composer/installers": "^2.3",
                 "php": ">=7.4"
             },
             "type": "wordpress-muplugin",
@@ -1821,26 +1817,26 @@
             "homepage": "https://github.com/helsingborg-stad/wpmu-acf-google-maps-key",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/wpmu-acf-google-maps-key/issues",
-                "source": "https://github.com/helsingborg-stad/wpmu-acf-google-maps-key/tree/1.0.0"
+                "source": "https://github.com/helsingborg-stad/wpmu-acf-google-maps-key/tree/1.0.1"
             },
-            "time": "2023-09-26T12:49:24+00:00"
+            "time": "2026-01-23T12:19:10+00:00"
         },
         {
             "name": "helsingborg-stad/wpmu-network-admin-url",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/wpmu-network-admin-url.git",
-                "reference": "5d0b2aa8a04306d90ff2934d87a67f5925cef625"
+                "reference": "5f571b1aa0321b1028bc6b94c533123a8701e22c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/wpmu-network-admin-url/zipball/5d0b2aa8a04306d90ff2934d87a67f5925cef625",
-                "reference": "5d0b2aa8a04306d90ff2934d87a67f5925cef625",
+                "url": "https://api.github.com/repos/helsingborg-stad/wpmu-network-admin-url/zipball/5f571b1aa0321b1028bc6b94c533123a8701e22c",
+                "reference": "5f571b1aa0321b1028bc6b94c533123a8701e22c",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0",
+                "composer/installers": "^v2.3",
                 "php": ">=7.4"
             },
             "type": "wordpress-muplugin",
@@ -1858,9 +1854,9 @@
             "homepage": "https://github.com/helsingborg-stad/wpmu-network-admin-url",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/wpmu-network-admin-url/issues",
-                "source": "https://github.com/helsingborg-stad/wpmu-network-admin-url/tree/2.0.3"
+                "source": "https://github.com/helsingborg-stad/wpmu-network-admin-url/tree/2.0.4"
             },
-            "time": "2023-10-20T13:31:09+00:00"
+            "time": "2026-01-23T12:25:48+00:00"
         },
         {
             "name": "helsingborg-stad/wpservice",
@@ -4296,16 +4292,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v7.4.3",
+            "version": "v7.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "2f8e1a6cdf590ca63715da4d3a7a3327404a523f"
+                "reference": "626f07a53f4b4e2f00e11824cc29f928d797783b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/2f8e1a6cdf590ca63715da4d3a7a3327404a523f",
-                "reference": "2f8e1a6cdf590ca63715da4d3a7a3327404a523f",
+                "url": "https://api.github.com/repos/symfony/process/zipball/626f07a53f4b4e2f00e11824cc29f928d797783b",
+                "reference": "626f07a53f4b4e2f00e11824cc29f928d797783b",
                 "shasum": ""
             },
             "require": {
@@ -4337,7 +4333,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/v7.4.3"
+                "source": "https://github.com/symfony/process/tree/v7.4.4"
             },
             "funding": [
                 {
@@ -4357,20 +4353,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-12-19T10:00:43+00:00"
+            "time": "2026-01-20T09:23:51+00:00"
         },
         {
             "name": "symfony/translation",
-            "version": "v6.4.31",
+            "version": "v6.4.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "81579408ecf7dc5aa2d8462a6d5c3a430a80e6f2"
+                "reference": "d6cc8e2fdd484f2f41d25938b0e8e3915de3cfbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/81579408ecf7dc5aa2d8462a6d5c3a430a80e6f2",
-                "reference": "81579408ecf7dc5aa2d8462a6d5c3a430a80e6f2",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/d6cc8e2fdd484f2f41d25938b0e8e3915de3cfbc",
+                "reference": "d6cc8e2fdd484f2f41d25938b0e8e3915de3cfbc",
                 "shasum": ""
             },
             "require": {
@@ -4436,7 +4432,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v6.4.31"
+                "source": "https://github.com/symfony/translation/tree/v6.4.32"
             },
             "funding": [
                 {
@@ -4456,7 +4452,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-12-18T11:37:55+00:00"
+            "time": "2026-01-12T19:15:33+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -4542,16 +4538,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v7.4.3",
+            "version": "v7.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "7e99bebcb3f90d8721890f2963463280848cba92"
+                "reference": "0e4769b46a0c3c62390d124635ce59f66874b282"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/7e99bebcb3f90d8721890f2963463280848cba92",
-                "reference": "7e99bebcb3f90d8721890f2963463280848cba92",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/0e4769b46a0c3c62390d124635ce59f66874b282",
+                "reference": "0e4769b46a0c3c62390d124635ce59f66874b282",
                 "shasum": ""
             },
             "require": {
@@ -4605,7 +4601,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v7.4.3"
+                "source": "https://github.com/symfony/var-dumper/tree/v7.4.4"
             },
             "funding": [
                 {
@@ -4625,7 +4621,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-12-18T07:04:31+00:00"
+            "time": "2026-01-01T22:13:48+00:00"
         },
         {
             "name": "voku/portable-ascii",
@@ -4945,19 +4941,12 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "clark-nikdel-powell/post-type-select-for-acf": 20,
-        "enshrined/svg-sanitize": 20,
-        "jeradin/acf-dynamic-table-field": 20,
-        "jeradin/acf-website-field": 20,
-        "johannheyne/advanced-custom-fields-table-field": 20,
-        "landrok/language-detector": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.2"
+        "php": ">=7.4"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }
