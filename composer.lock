@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "930eeb7f9d5375240b9d6221ae1e2016",
+    "content-hash": "1fcde38cdbf8b8a605a7eb9e11ba0bfd",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -731,7 +731,6 @@
                     "AcfExportManager\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -743,8 +742,8 @@
             ],
             "description": "ACF Export Manager is a extension that let's you automatically export specified your ACF fields on save.",
             "support": {
-                "issues": "https://github.com/helsingborg-stad/acf-export-manager/issues",
-                "source": "https://github.com/helsingborg-stad/acf-export-manager/tree/1.0.12"
+                "source": "https://github.com/helsingborg-stad/acf-export-manager/tree/1.0.12",
+                "issues": "https://github.com/helsingborg-stad/acf-export-manager/issues"
             },
             "time": "2023-05-25T07:56:58+00:00"
         },
@@ -950,16 +949,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "3.12.13",
+            "version": "3.12.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "3171458967b6749f7ac094a496915b8202fce7f7"
+                "reference": "b83cb0af1b542b7d3869eb4354e9af22ef888252"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/3171458967b6749f7ac094a496915b8202fce7f7",
-                "reference": "3171458967b6749f7ac094a496915b8202fce7f7",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/b83cb0af1b542b7d3869eb4354e9af22ef888252",
+                "reference": "b83cb0af1b542b7d3869eb4354e9af22ef888252",
                 "shasum": ""
             },
             "require": {
@@ -1019,9 +1018,9 @@
             "description": "Creates a api that may be used to manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.12.13"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.12.14"
             },
-            "time": "2026-01-22T13:28:44+00:00"
+            "time": "2026-01-26T12:48:40+00:00"
         },
         {
             "name": "helsingborg-stad/api-exhibition-manager",
@@ -1541,16 +1540,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-frontend-form",
-            "version": "0.77.15",
+            "version": "0.77.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-frontend-form.git",
-                "reference": "dec4048c63eda83bba4055765ce99e338e8e73c5"
+                "reference": "6f1b7465acb9d4c693791bb4d2a5422ac4411a81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/dec4048c63eda83bba4055765ce99e338e8e73c5",
-                "reference": "dec4048c63eda83bba4055765ce99e338e8e73c5",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/6f1b7465acb9d4c693791bb4d2a5422ac4411a81",
+                "reference": "6f1b7465acb9d4c693791bb4d2a5422ac4411a81",
                 "shasum": ""
             },
             "require": {
@@ -1585,9 +1584,9 @@
             "description": "Frontend Form for Modularity.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-frontend-form/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.77.15"
+                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.77.17"
             },
-            "time": "2026-01-22T08:51:36+00:00"
+            "time": "2026-01-26T12:48:31+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
@@ -4941,11 +4940,18 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": {
+        "clark-nikdel-powell/post-type-select-for-acf": 20,
+        "enshrined/svg-sanitize": 20,
+        "jeradin/acf-dynamic-table-field": 20,
+        "jeradin/acf-website-field": 20,
+        "johannheyne/advanced-custom-fields-table-field": 20,
+        "landrok/language-detector": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.4"
+        "php": "^8.2"
     },
     "platform-dev": {},
     "plugin-api-version": "2.6.0"
