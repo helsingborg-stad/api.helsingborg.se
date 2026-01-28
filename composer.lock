@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9216da8fcb6046bef74e6bbb23bceb4d",
+    "content-hash": "c1923e42df14d1687aa2cd2aecad9cf5",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -954,16 +954,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "3.12.9",
+            "version": "3.12.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "0f0f4784194668d6d4dce2a29ea36b2a94b0921a"
+                "reference": "143c9bed1ccf52e107bfd523a44fc87395be6b18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/0f0f4784194668d6d4dce2a29ea36b2a94b0921a",
-                "reference": "0f0f4784194668d6d4dce2a29ea36b2a94b0921a",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/143c9bed1ccf52e107bfd523a44fc87395be6b18",
+                "reference": "143c9bed1ccf52e107bfd523a44fc87395be6b18",
                 "shasum": ""
             },
             "require": {
@@ -1023,9 +1023,9 @@
             "description": "Creates a api that may be used to manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.12.9"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.12.16"
             },
-            "time": "2026-01-21T12:45:09+00:00"
+            "time": "2026-01-28T12:24:43+00:00"
         },
         {
             "name": "helsingborg-stad/api-exhibition-manager",
@@ -3563,16 +3563,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.48",
+            "version": "3.0.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "64065a5679c50acb886e82c07aa139b0f757bb89"
+                "reference": "6233a1e12584754e6b5daa69fe1289b47775c1b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/64065a5679c50acb886e82c07aa139b0f757bb89",
-                "reference": "64065a5679c50acb886e82c07aa139b0f757bb89",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/6233a1e12584754e6b5daa69fe1289b47775c1b9",
+                "reference": "6233a1e12584754e6b5daa69fe1289b47775c1b9",
                 "shasum": ""
             },
             "require": {
@@ -3653,7 +3653,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.48"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.49"
             },
             "funding": [
                 {
@@ -3669,7 +3669,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-12-15T11:51:42+00:00"
+            "time": "2026-01-27T09:17:28+00:00"
         },
         {
             "name": "pragmarx/ia-arr",
@@ -4959,5 +4959,5 @@
         "php": "^8.2"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }
