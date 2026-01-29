@@ -39,7 +39,7 @@
     "helsingborg-stad/wpmu-network-admin-url": "2.0.4",
     "wpackagist-plugin/acf-extended": "0.8.9.4",
     "helsingborg-stad/webhooks-manager": "1.3.0",
-    "helsingborg-stad/api-event-manager": "3.12.16",
+    "helsingborg-stad/api-event-manager": "3.12.17",
     "helsingborg-stad/municipio": "6.15.65",
     "helsingborg-stad/blade": "3.5.1",
     "wikimedia/composer-merge-plugin": "^2.1",
