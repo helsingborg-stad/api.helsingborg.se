@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d0a0d0e419a8e674390b2996d6291a5f",
+    "content-hash": "3c793c27075f1e43ea8359a2eb5d0dc4",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -949,16 +949,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "3.12.17",
+            "version": "3.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "81538570631ea633ddbe46ce0a06fdfea3687cd6"
+                "reference": "0c2c92b770e0c5cbd8b5692201d8cddf18a84619"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/81538570631ea633ddbe46ce0a06fdfea3687cd6",
-                "reference": "81538570631ea633ddbe46ce0a06fdfea3687cd6",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/0c2c92b770e0c5cbd8b5692201d8cddf18a84619",
+                "reference": "0c2c92b770e0c5cbd8b5692201d8cddf18a84619",
                 "shasum": ""
             },
             "require": {
@@ -1018,9 +1018,9 @@
             "description": "Creates a api that may be used to manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.12.17"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.14.0"
             },
-            "time": "2026-01-29T08:08:19+00:00"
+            "time": "2026-02-09T10:47:09+00:00"
         },
         {
             "name": "helsingborg-stad/api-exhibition-manager",
@@ -1293,16 +1293,16 @@
         },
         {
             "name": "helsingborg-stad/component-library",
-            "version": "4.65.5",
+            "version": "4.65.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "12f3e78c0afb04e7eb91259499be985774af8739"
+                "reference": "ce31cd3b4e330dc8cb027a3d3c3d1cee68f19623"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/12f3e78c0afb04e7eb91259499be985774af8739",
-                "reference": "12f3e78c0afb04e7eb91259499be985774af8739",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/ce31cd3b4e330dc8cb027a3d3c3d1cee68f19623",
+                "reference": "ce31cd3b4e330dc8cb027a3d3c3d1cee68f19623",
                 "shasum": ""
             },
             "require": {
@@ -1334,9 +1334,9 @@
             "description": "A library of components for use in WordPress",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/4.65.5"
+                "source": "https://github.com/helsingborg-stad/component-library/tree/4.65.6"
             },
-            "time": "2026-01-27T07:50:39+00:00"
+            "time": "2026-01-27T13:39:54+00:00"
         },
         {
             "name": "helsingborg-stad/coordinate-transformation-library",
@@ -1540,16 +1540,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-frontend-form",
-            "version": "0.77.17",
+            "version": "0.79.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-frontend-form.git",
-                "reference": "6f1b7465acb9d4c693791bb4d2a5422ac4411a81"
+                "reference": "50f91bc109db67586de43831faa32230da00264c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/6f1b7465acb9d4c693791bb4d2a5422ac4411a81",
-                "reference": "6f1b7465acb9d4c693791bb4d2a5422ac4411a81",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/50f91bc109db67586de43831faa32230da00264c",
+                "reference": "50f91bc109db67586de43831faa32230da00264c",
                 "shasum": ""
             },
             "require": {
@@ -1584,22 +1584,22 @@
             "description": "Frontend Form for Modularity.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-frontend-form/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.77.17"
+                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.79.0"
             },
-            "time": "2026-01-26T12:48:31+00:00"
+            "time": "2026-02-06T09:38:14+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "6.15.65",
+            "version": "6.18.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "e822976a5e5832432fd6547c6ec936d9c98bea4a"
+                "reference": "adcdd47d477e765e73ac6dcb68d56bf47105bc63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e822976a5e5832432fd6547c6ec936d9c98bea4a",
-                "reference": "e822976a5e5832432fd6547c6ec936d9c98bea4a",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/adcdd47d477e765e73ac6dcb68d56bf47105bc63",
+                "reference": "adcdd47d477e765e73ac6dcb68d56bf47105bc63",
                 "shasum": ""
             },
             "require": {
@@ -1612,7 +1612,7 @@
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
                 "helsingborg-stad/acf-select-image-field": "1.6.1",
                 "helsingborg-stad/acfservice": "^1.0.0",
-                "helsingborg-stad/component-library": "4.65.5",
+                "helsingborg-stad/component-library": "4.65.6",
                 "helsingborg-stad/kirki": "^5.2",
                 "helsingborg-stad/schema-library": "0.5.4",
                 "helsingborg-stad/wpservice": "^2.0",
@@ -1675,9 +1675,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.15.65"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.18.23"
             },
-            "time": "2026-01-27T09:04:04+00:00"
+            "time": "2026-02-09T09:36:35+00:00"
         },
         {
             "name": "helsingborg-stad/schema-library",
@@ -3158,16 +3158,16 @@
         },
         {
             "name": "nette/schema",
-            "version": "v1.3.3",
+            "version": "v1.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/schema.git",
-                "reference": "2befc2f42d7c715fd9d95efc31b1081e5d765004"
+                "reference": "086497a2f34b82fede9b5a41cc8e131d087cd8f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/schema/zipball/2befc2f42d7c715fd9d95efc31b1081e5d765004",
-                "reference": "2befc2f42d7c715fd9d95efc31b1081e5d765004",
+                "url": "https://api.github.com/repos/nette/schema/zipball/086497a2f34b82fede9b5a41cc8e131d087cd8f7",
+                "reference": "086497a2f34b82fede9b5a41cc8e131d087cd8f7",
                 "shasum": ""
             },
             "require": {
@@ -3175,8 +3175,8 @@
                 "php": "8.1 - 8.5"
             },
             "require-dev": {
-                "nette/tester": "^2.5.2",
-                "phpstan/phpstan-nette": "^2.0@stable",
+                "nette/tester": "^2.6",
+                "phpstan/phpstan": "^2.0@stable",
                 "tracy/tracy": "^2.8"
             },
             "type": "library",
@@ -3217,22 +3217,22 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/schema/issues",
-                "source": "https://github.com/nette/schema/tree/v1.3.3"
+                "source": "https://github.com/nette/schema/tree/v1.3.4"
             },
-            "time": "2025-10-30T22:57:59+00:00"
+            "time": "2026-02-08T02:54:00+00:00"
         },
         {
             "name": "nette/utils",
-            "version": "v4.1.1",
+            "version": "v4.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "c99059c0315591f1a0db7ad6002000288ab8dc72"
+                "reference": "f76b5dc3d6c6d3043c8d937df2698515b99cbaf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/c99059c0315591f1a0db7ad6002000288ab8dc72",
-                "reference": "c99059c0315591f1a0db7ad6002000288ab8dc72",
+                "url": "https://api.github.com/repos/nette/utils/zipball/f76b5dc3d6c6d3043c8d937df2698515b99cbaf5",
+                "reference": "f76b5dc3d6c6d3043c8d937df2698515b99cbaf5",
                 "shasum": ""
             },
             "require": {
@@ -3245,7 +3245,7 @@
             "require-dev": {
                 "jetbrains/phpstorm-attributes": "^1.2",
                 "nette/tester": "^2.5",
-                "phpstan/phpstan-nette": "^2.0@stable",
+                "phpstan/phpstan": "^2.0@stable",
                 "tracy/tracy": "^2.9"
             },
             "suggest": {
@@ -3306,9 +3306,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.1.1"
+                "source": "https://github.com/nette/utils/tree/v4.1.2"
             },
-            "time": "2025-12-22T12:14:32+00:00"
+            "time": "2026-02-03T17:21:09+00:00"
         },
         {
             "name": "ooksanen/acf-focuspoint",
@@ -4291,16 +4291,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v7.4.4",
+            "version": "v7.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "626f07a53f4b4e2f00e11824cc29f928d797783b"
+                "reference": "608476f4604102976d687c483ac63a79ba18cc97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/626f07a53f4b4e2f00e11824cc29f928d797783b",
-                "reference": "626f07a53f4b4e2f00e11824cc29f928d797783b",
+                "url": "https://api.github.com/repos/symfony/process/zipball/608476f4604102976d687c483ac63a79ba18cc97",
+                "reference": "608476f4604102976d687c483ac63a79ba18cc97",
                 "shasum": ""
             },
             "require": {
@@ -4332,7 +4332,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/v7.4.4"
+                "source": "https://github.com/symfony/process/tree/v7.4.5"
             },
             "funding": [
                 {
@@ -4352,7 +4352,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-01-20T09:23:51+00:00"
+            "time": "2026-01-26T15:07:59+00:00"
         },
         {
             "name": "symfony/translation",
