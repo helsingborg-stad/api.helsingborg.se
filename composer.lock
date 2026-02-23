@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1cde573aca589cce26d8df95a13de29",
+    "content-hash": "3129550f135389776f6d2ccc5513875d",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -1820,6 +1820,43 @@
                 "source": "https://github.com/helsingborg-stad/wpmu-acf-google-maps-key/tree/1.0.1"
             },
             "time": "2026-01-23T12:19:10+00:00"
+        },
+        {
+            "name": "helsingborg-stad/wpmu-allow-cors",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/wpmu-allow-cors.git",
+                "reference": "6c201427b1e579a8f7d386741ad636c0c488f078"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/wpmu-allow-cors/zipball/6c201427b1e579a8f7d386741ad636c0c488f078",
+                "reference": "6c201427b1e579a8f7d386741ad636c0c488f078",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^2.3",
+                "php": ">=7.4"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "AllowCors requests for wp api.",
+            "homepage": "https://github.com/helsingborg-stad/wpmu-allow-cors",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/wpmu-allow-cors/issues",
+                "source": "https://github.com/helsingborg-stad/wpmu-allow-cors/tree/1.0.0"
+            },
+            "time": "2026-02-23T15:00:01+00:00"
         },
         {
             "name": "helsingborg-stad/wpmu-network-admin-url",
@@ -4871,10 +4908,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
+    "platform": [],
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
