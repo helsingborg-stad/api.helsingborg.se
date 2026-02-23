@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c793c27075f1e43ea8359a2eb5d0dc4",
+    "content-hash": "a3e11204bf7943fac9f151980af04b1e",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -612,16 +612,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.11.1",
+            "version": "v7.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "d1e91ecf8c598d073d0995afa8cd5c75c6e19e66"
+                "reference": "5645b43af647b6947daac1d0f659dd1fbe8d3b65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/d1e91ecf8c598d073d0995afa8cd5c75c6e19e66",
-                "reference": "d1e91ecf8c598d073d0995afa8cd5c75c6e19e66",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/5645b43af647b6947daac1d0f659dd1fbe8d3b65",
+                "reference": "5645b43af647b6947daac1d0f659dd1fbe8d3b65",
                 "shasum": ""
             },
             "require": {
@@ -669,9 +669,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.11.1"
+                "source": "https://github.com/firebase/php-jwt/tree/v7.0.2"
             },
-            "time": "2025-04-09T20:32:01+00:00"
+            "time": "2025-12-16T22:17:28+00:00"
         },
         {
             "name": "freshleafmedia/autofocus",
@@ -860,16 +860,16 @@
         },
         {
             "name": "helsingborg-stad/active-directory-api-wp-integration",
-            "version": "3.1.6",
+            "version": "3.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/active-directory-api-wp-integration.git",
-                "reference": "7eb3fe2379eb9ff6030aa09bac60ad6974bd6d0a"
+                "reference": "8787947e9d81cac78cc09b5ac825055e1bda0dea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/active-directory-api-wp-integration/zipball/7eb3fe2379eb9ff6030aa09bac60ad6974bd6d0a",
-                "reference": "7eb3fe2379eb9ff6030aa09bac60ad6974bd6d0a",
+                "url": "https://api.github.com/repos/helsingborg-stad/active-directory-api-wp-integration/zipball/8787947e9d81cac78cc09b5ac825055e1bda0dea",
+                "reference": "8787947e9d81cac78cc09b5ac825055e1bda0dea",
                 "shasum": ""
             },
             "require": {
@@ -894,9 +894,9 @@
             "description": "Simple plugin for verification of existing WordPress users with api.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/issues",
-                "source": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/tree/3.1.6"
+                "source": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/tree/3.1.8"
             },
-            "time": "2025-11-20T08:34:18+00:00"
+            "time": "2026-02-11T13:35:05+00:00"
         },
         {
             "name": "helsingborg-stad/api-alarm-manager",
@@ -1071,16 +1071,16 @@
         },
         {
             "name": "helsingborg-stad/api-schools-manager",
-            "version": "0.25.6",
+            "version": "0.25.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-schools-manager.git",
-                "reference": "3a25a79fb119b88b784910fde9f2e2dc1c340140"
+                "reference": "881558e73f0d9150c68cd687337819d7d0fe6d4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-manager/zipball/3a25a79fb119b88b784910fde9f2e2dc1c340140",
-                "reference": "3a25a79fb119b88b784910fde9f2e2dc1c340140",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-manager/zipball/881558e73f0d9150c68cd687337819d7d0fe6d4e",
+                "reference": "881558e73f0d9150c68cd687337819d7d0fe6d4e",
                 "shasum": ""
             },
             "require": {
@@ -1137,32 +1137,32 @@
             "description": "Creates a api that may be used to manage schools",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-schools-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-schools-manager/tree/0.25.6"
+                "source": "https://github.com/helsingborg-stad/api-schools-manager/tree/0.25.7"
             },
-            "time": "2025-11-06T07:49:54+00:00"
+            "time": "2026-02-23T10:05:15+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
-            "version": "0.5.0",
+            "version": "0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-volunteer-manager.git",
-                "reference": "d9f9866d8691abb4a1981c8616332a83eecbd4e3"
+                "reference": "c24dee8ee1a08c886c554d630051518d2c5d5118"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/d9f9866d8691abb4a1981c8616332a83eecbd4e3",
-                "reference": "d9f9866d8691abb4a1981c8616332a83eecbd4e3",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-volunteer-manager/zipball/c24dee8ee1a08c886c554d630051518d2c5d5118",
+                "reference": "c24dee8ee1a08c886c554d630051518d2c5d5118",
                 "shasum": ""
             },
             "require": {
-                "firebase/php-jwt": "^6.4",
+                "firebase/php-jwt": "^7.0",
                 "helsingborg-stad/acf-export-manager": ">=1.0.0"
             },
             "require-dev": {
                 "brain/monkey": "^2.6",
                 "codedungeon/phpunit-result-printer": "^0.32.0",
-                "mockery/mockery": "dev-master@dev",
+                "mockery/mockery": "1.6.12",
                 "phpunit/phpunit": "^9.6"
             },
             "type": "wordpress-plugin",
@@ -1184,22 +1184,22 @@
             "description": "Creates a api that may be used to manage volunteer assignments",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-volunteer-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/0.5.0"
+                "source": "https://github.com/helsingborg-stad/api-volunteer-manager/tree/0.5.1"
             },
-            "time": "2024-12-05T13:33:28+00:00"
+            "time": "2026-02-23T12:38:45+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
-            "version": "3.1.0",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/better-post-UI.git",
-                "reference": "eaabfd76d6c1c725d3c163022707c4c829b9c1bd"
+                "reference": "0838a809b5184df64fcd4146bb43b8b9e08bfbbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/better-post-UI/zipball/eaabfd76d6c1c725d3c163022707c4c829b9c1bd",
-                "reference": "eaabfd76d6c1c725d3c163022707c4c829b9c1bd",
+                "url": "https://api.github.com/repos/helsingborg-stad/better-post-UI/zipball/0838a809b5184df64fcd4146bb43b8b9e08bfbbe",
+                "reference": "0838a809b5184df64fcd4146bb43b8b9e08bfbbe",
                 "shasum": ""
             },
             "require": {
@@ -1233,9 +1233,9 @@
             "description": "Improves the UI and UX of the WordPress admin post form.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/better-post-UI/issues",
-                "source": "https://github.com/helsingborg-stad/better-post-UI/tree/3.1.0"
+                "source": "https://github.com/helsingborg-stad/better-post-UI/tree/3.1.2"
             },
-            "time": "2026-01-16T09:42:02+00:00"
+            "time": "2026-02-16T09:39:23+00:00"
         },
         {
             "name": "helsingborg-stad/blade",
@@ -2591,20 +2591,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "6.8.2",
+            "version": "6.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "f224d9b28c88048312f3fe635cb65ba66a936950"
+                "reference": "46b4f217817e43cf49f4dbb824f0b755fcff11ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/f224d9b28c88048312f3fe635cb65ba66a936950",
-                "reference": "f224d9b28c88048312f3fe635cb65ba66a936950",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/46b4f217817e43cf49f4dbb824f0b755fcff11ee",
+                "reference": "46b4f217817e43cf49f4dbb824f0b755fcff11ee",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "6.8.2",
+                "johnpbloch/wordpress-core": "6.9.1",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=7.0.0"
             },
@@ -2633,20 +2633,20 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2025-07-15T15:33:05+00:00"
+            "time": "2026-02-03T18:03:53+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.8.2",
+            "version": "6.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "316a8fe38b6dde4e4f399946809f040462038403"
+                "reference": "840ffab74cb3d19cc0076363358f783041b5f3cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/316a8fe38b6dde4e4f399946809f040462038403",
-                "reference": "316a8fe38b6dde4e4f399946809f040462038403",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/840ffab74cb3d19cc0076363358f783041b5f3cf",
+                "reference": "840ffab74cb3d19cc0076363358f783041b5f3cf",
                 "shasum": ""
             },
             "require": {
@@ -2654,7 +2654,7 @@
                 "php": ">=7.2.24"
             },
             "provide": {
-                "wordpress/core-implementation": "6.8.2"
+                "wordpress/core-implementation": "6.9.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -2681,7 +2681,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2025-07-15T15:32:59+00:00"
+            "time": "2026-02-03T18:03:48+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -3158,16 +3158,16 @@
         },
         {
             "name": "nette/schema",
-            "version": "v1.3.4",
+            "version": "v1.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/schema.git",
-                "reference": "086497a2f34b82fede9b5a41cc8e131d087cd8f7"
+                "reference": "f0ab1a3cda782dbc5da270d28545236aa80c4002"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/schema/zipball/086497a2f34b82fede9b5a41cc8e131d087cd8f7",
-                "reference": "086497a2f34b82fede9b5a41cc8e131d087cd8f7",
+                "url": "https://api.github.com/repos/nette/schema/zipball/f0ab1a3cda782dbc5da270d28545236aa80c4002",
+                "reference": "f0ab1a3cda782dbc5da270d28545236aa80c4002",
                 "shasum": ""
             },
             "require": {
@@ -3175,8 +3175,10 @@
                 "php": "8.1 - 8.5"
             },
             "require-dev": {
+                "nette/phpstan-rules": "^1.0",
                 "nette/tester": "^2.6",
-                "phpstan/phpstan": "^2.0@stable",
+                "phpstan/extension-installer": "^1.4@stable",
+                "phpstan/phpstan": "^2.1.39@stable",
                 "tracy/tracy": "^2.8"
             },
             "type": "library",
@@ -3217,22 +3219,22 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/schema/issues",
-                "source": "https://github.com/nette/schema/tree/v1.3.4"
+                "source": "https://github.com/nette/schema/tree/v1.3.5"
             },
-            "time": "2026-02-08T02:54:00+00:00"
+            "time": "2026-02-23T03:47:12+00:00"
         },
         {
             "name": "nette/utils",
-            "version": "v4.1.2",
+            "version": "v4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "f76b5dc3d6c6d3043c8d937df2698515b99cbaf5"
+                "reference": "bb3ea637e3d131d72acc033cfc2746ee893349fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/f76b5dc3d6c6d3043c8d937df2698515b99cbaf5",
-                "reference": "f76b5dc3d6c6d3043c8d937df2698515b99cbaf5",
+                "url": "https://api.github.com/repos/nette/utils/zipball/bb3ea637e3d131d72acc033cfc2746ee893349fe",
+                "reference": "bb3ea637e3d131d72acc033cfc2746ee893349fe",
                 "shasum": ""
             },
             "require": {
@@ -3244,8 +3246,10 @@
             },
             "require-dev": {
                 "jetbrains/phpstorm-attributes": "^1.2",
+                "nette/phpstan-rules": "^1.0",
                 "nette/tester": "^2.5",
-                "phpstan/phpstan": "^2.0@stable",
+                "phpstan/extension-installer": "^1.4@stable",
+                "phpstan/phpstan": "^2.1@stable",
                 "tracy/tracy": "^2.9"
             },
             "suggest": {
@@ -3306,9 +3310,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.1.2"
+                "source": "https://github.com/nette/utils/tree/v4.1.3"
             },
-            "time": "2026-02-03T17:21:09+00:00"
+            "time": "2026-02-13T03:05:33+00:00"
         },
         {
             "name": "ooksanen/acf-focuspoint",
@@ -4848,15 +4852,15 @@
         },
         {
             "name": "wpackagist-plugin/litespeed-cache",
-            "version": "6.5.4",
+            "version": "7.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/litespeed-cache/",
-                "reference": "tags/6.5.4"
+                "reference": "tags/7.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.6.5.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.7.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4917,35 +4921,17 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-rest-api-log/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-rest-filter",
-            "version": "1.4.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-rest-filter/",
-                "reference": "tags/1.4.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-rest-filter.1.4.3.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-rest-filter/"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "clark-nikdel-powell/post-type-select-for-acf": 20,
-        "enshrined/svg-sanitize": 20,
-        "jeradin/acf-dynamic-table-field": 20,
-        "jeradin/acf-website-field": 20,
         "johannheyne/advanced-custom-fields-table-field": 20,
+        "clark-nikdel-powell/post-type-select-for-acf": 20,
+        "jeradin/acf-website-field": 20,
+        "jeradin/acf-dynamic-table-field": 20,
+        "enshrined/svg-sanitize": 20,
         "landrok/language-detector": 20
     },
     "prefer-stable": true,
@@ -4953,6 +4939,6 @@
     "platform": {
         "php": "^8.2"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
