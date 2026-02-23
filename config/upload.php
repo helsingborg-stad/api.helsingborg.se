@@ -1,7 +1,22 @@
 <?php
 
+define('FS_CHMOD_FILE', 0644);
+define('FS_CHMOD_DIR', 0755);
+define('FS_METHOD', 'direct');
+
 /**
-* Set memory limit
+* Allow unfiltered uploads.
+* This should not be used in production.
 */
 
-define('WP_MEMORY_LIMIT', '64M');
+define('ALLOW_UNFILTERED_UPLOADS', false);
+
+/**
+* Set upload max file size. This may
+* also be changed in configuration of the machine.
+*/
+
+/*
+@ini_set('upload_max_size', '256M');
+@ini_set('post_max_size', '256M');
+*/

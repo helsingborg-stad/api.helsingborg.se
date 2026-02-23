@@ -30,11 +30,11 @@ This guide provides instructions for setting up and working with the Municipio D
     `.devcontainer/scripts/setup.sh`
 
 6. **Access the local site**
-    Open your browser and navigate to [https://localhost:8443](https://localhost:8443).
+    Open your browser and navigate to [https://localhost:9443](https://localhost:9443).
 
 ### Accessing the Local Site
 
-- Navigate to [https://localhost:8443](https://localhost:8443) in your browser.
+- Navigate to [https://localhost:9443](https://localhost:9443) in your browser.
 - Accept the self-signed certificate warning if prompted.
 - Default login credentials:
   - **Username:** `superadmin`
@@ -114,7 +114,7 @@ The script will:
 - You may be prompted for your SSH password/key passphrase
 - If the local site already exists, you'll be asked whether to delete it
 - The script requires SSH access to the remote server
-- After migration, access your site at `https://localhost:8443/<LOCAL_SITE_SLUG>`
+- After migration, access your site at `https://localhost:9443/<LOCAL_SITE_SLUG>`
 
 ## Documentation for setup-dev-package.sh Script
 The `setup-dev-package.sh` script is a utility designed to streamline the development process by providing a clean and efficient development environment. It automates the process of downloading an editable version of the selected plugin. All other plugins in the environment will be reset to their production release versions. This ensures that only the selected plugin is in a development state, avoiding unnecessary builds for untouched packages.

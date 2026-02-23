@@ -25,7 +25,7 @@ else
 fi
 
 ### CONFIGURATION ###
-LOCAL_SITE_DOMAIN="localhost:8443"
+LOCAL_SITE_DOMAIN="localhost:9443"
 
 #############################################################################
 # Helper Functions

@@ -1,16 +1,18 @@
 <?php
 
 /**
-* Tell WordPress to load from local wp-content, and not vendor wp.
-*/
-define('WP_CONTENT_DIR', dirname(dirname(__FILE__)) . '/wp-content');
-define('WP_CONTENT_URL', 'http://g.se/wp-content');
+ * Tell WordPress to load from local wp-content, and not vendor wp.
+ */
+$localSiteDomain = 'localhost:9443';
 
+define('WP_CONTENT_DIR', dirname(dirname(__FILE__)) . '/wp-content');
+define('WP_CONTENT_URL', 'https://' . $localSiteDomain . '/wp-content');
+    
 /**
  * Use municipio as default theme.
  * @var string
  */
- define('WP_DEFAULT_THEME', 'blank');
+ define('WP_DEFAULT_THEME', 'municipio');
 
 /**
  * Limit number of post revisions per post
@@ -23,7 +25,7 @@ define('WP_POST_REVISIONS', 10);
  * @default: 60 seconds
  * @var integer
  */
-define('AUTOSAVE_INTERVAL', 120);
+define('AUTOSAVE_INTERVAL', 60);
 
 /**
  * Change the time interval for how often the trash will empty itself
@@ -31,3 +33,8 @@ define('AUTOSAVE_INTERVAL', 120);
  * @var integer
  */
 define('EMPTY_TRASH_DAYS', 30);
+
+/**
+ * Disable the WordPress theme/plugin editor
+ */
+define('DISALLOW_FILE_EDIT', true);
