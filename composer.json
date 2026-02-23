@@ -41,7 +41,6 @@
     "helsingborg-stad/api-event-manager": "3.14.0",
     "helsingborg-stad/municipio": "6.26.0",
     "helsingborg-stad/blade": "3.5.1",
-    "wikimedia/composer-merge-plugin": "^2.1",
     "helsingborg-stad/api-exhibition-manager": "^0.4",
     "helsingborg-stad/modularity-frontend-form": "0.80.0",
     "helsingborg-stad/acf-icon-field": "0.2.46"
@@ -60,29 +59,13 @@
       "wp-content/themes/{$name}": [
         "type:wordpress-theme"
       ]
-    },
-    "merge-plugin": {
-      "include": [
-        "composer.local.json",
-        "wp-content/plugins/*/composer.json",
-        "wp-content/mu-plugins/*/composer.json",
-        "wp-content/themes/*/composer.json"
-      ],
-      "recurse": false,
-      "replace": true,
-      "ignore-duplicates": false,
-      "merge-dev": false,
-      "merge-extra": false,
-      "merge-extra-deep": false,
-      "merge-scripts": false
     }
   },
   "config": {
     "allow-plugins": {
       "composer/installers": true,
       "johnpbloch/wordpress-core-installer": true,
-      "kylekatarnls/update-helper": true,
-      "wikimedia/composer-merge-plugin": true
+      "kylekatarnls/update-helper": true
     }
   },
   "scripts": {
