@@ -1540,16 +1540,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-frontend-form",
-            "version": "0.79.0",
+            "version": "0.80.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-frontend-form.git",
-                "reference": "50f91bc109db67586de43831faa32230da00264c"
+                "reference": "011c734e6f0b5757f28f2c4fc1863434570b64df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/50f91bc109db67586de43831faa32230da00264c",
-                "reference": "50f91bc109db67586de43831faa32230da00264c",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/011c734e6f0b5757f28f2c4fc1863434570b64df",
+                "reference": "011c734e6f0b5757f28f2c4fc1863434570b64df",
                 "shasum": ""
             },
             "require": {
@@ -1584,22 +1584,22 @@
             "description": "Frontend Form for Modularity.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-frontend-form/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.79.0"
+                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.80.0"
             },
-            "time": "2026-02-06T09:38:14+00:00"
+            "time": "2026-02-11T07:46:21+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "6.18.23",
+            "version": "6.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "adcdd47d477e765e73ac6dcb68d56bf47105bc63"
+                "reference": "ac4981b157d09a081ecad2981e6b434fff4405ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/adcdd47d477e765e73ac6dcb68d56bf47105bc63",
-                "reference": "adcdd47d477e765e73ac6dcb68d56bf47105bc63",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/ac4981b157d09a081ecad2981e6b434fff4405ae",
+                "reference": "ac4981b157d09a081ecad2981e6b434fff4405ae",
                 "shasum": ""
             },
             "require": {
@@ -1675,9 +1675,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.18.23"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.26.0"
             },
-            "time": "2026-02-09T09:36:35+00:00"
+            "time": "2026-02-23T10:57:31+00:00"
         },
         {
             "name": "helsingborg-stad/schema-library",
@@ -4927,11 +4927,11 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "johannheyne/advanced-custom-fields-table-field": 20,
         "clark-nikdel-powell/post-type-select-for-acf": 20,
-        "jeradin/acf-website-field": 20,
-        "jeradin/acf-dynamic-table-field": 20,
         "enshrined/svg-sanitize": 20,
+        "jeradin/acf-dynamic-table-field": 20,
+        "jeradin/acf-website-field": 20,
+        "johannheyne/advanced-custom-fields-table-field": 20,
         "landrok/language-detector": 20
     },
     "prefer-stable": true,
@@ -4939,6 +4939,6 @@
     "platform": {
         "php": "^8.2"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
