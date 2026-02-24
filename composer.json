@@ -44,7 +44,8 @@
     "helsingborg-stad/api-exhibition-manager": "^0.4",
     "helsingborg-stad/modularity-frontend-form": "0.80.0",
     "helsingborg-stad/acf-icon-field": "0.2.46",
-    "helsingborg-stad/wpmu-allow-cors": "^1.0"
+    "helsingborg-stad/wpmu-allow-cors": "^1.0",
+    "helsingborg-stad/municipio-blank": "^1.0"
   },
   "extra": {
     "path": "/",

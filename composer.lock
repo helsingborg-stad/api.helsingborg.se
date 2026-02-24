@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3129550f135389776f6d2ccc5513875d",
+    "content-hash": "1e15fac671977acf6d7f7c1a8cb5400b",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -1679,6 +1679,41 @@
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/6.26.0"
             },
             "time": "2026-02-23T10:57:31+00:00"
+        },
+        {
+            "name": "helsingborg-stad/municipio-blank",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/municipio-blank.git",
+                "reference": "3654ed4fe8e8b7de798a407edcfc7e4f1ffb54e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/municipio-blank/zipball/3654ed4fe8e8b7de798a407edcfc7e4f1ffb54e4",
+                "reference": "3654ed4fe8e8b7de798a407edcfc7e4f1ffb54e4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "wordpress-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "homepage": "http://getmunicipio.com"
+                }
+            ],
+            "description": "A blank WordPress theme that redirects to the wp-json API. Use when a site is only used as a backend API.",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/municipio-blank/issues",
+                "source": "https://github.com/helsingborg-stad/municipio-blank/tree/1.0.0"
+            },
+            "time": "2026-02-24T08:20:02+00:00"
         },
         {
             "name": "helsingborg-stad/schema-library",

@@ -3,22 +3,14 @@
 wp/
 vendor/
 wp-content/*
-!wp-content/themes
-wp-content/themes/municipio/
+wp-content/themes
 !wp-content/object-cache.php
-!wp-content/sunrise.php
 
 !wp-admin
 
 # MU Plugins #
 ##########################
 wp-content/mu-plugins
-!wp-content/mu-plugins/allowCors.php
-!wp-content/mu-plugins/DisableRealMimeCheck.php
-!wp-content/mu-plugins/EmptyCache.php
-!wp-content/mu-plugins/FakeWpContentTranslator.php
-!wp-content/mu-plugins/RewriteLangageParameter.php
-!wp-content/mu-plugins/setDefaultPolylang.php
 !wp-content/mu-plugins/loader.php
 
 # Config files #
