@@ -25,7 +25,7 @@ else
 fi
 
 ### CONFIGURATION ###
-LOCAL_SITE_DOMAIN="localhost:8443"
+LOCAL_SITE_DOMAIN="localhost:9443"
 
 #############################################################################
 # Helper Functions
@@ -73,10 +73,6 @@ confirm_action() {
 # Check if setup has already been run
 check_existing_setup() {
     local setup_detected=0
-
-    if [ -f "./.htaccess" ]; then
-        setup_detected=1
-    fi
 
     if [ -d "./config" ] && [ "$(ls -A ./config 2>/dev/null)" ]; then
         setup_detected=1
@@ -164,12 +160,6 @@ wp db import ./db/seed.sql --quiet --skip-plugins --skip-themes --allow-root --u
 print_info "Running search-replace for local domain..."
 wp search-replace dev.local.municipio.tech "${LOCAL_SITE_DOMAIN}" --quiet --skip-plugins --skip-themes --network --all-tables --allow-root --url="${LOCAL_SITE_DOMAIN}"
 print_success "Database imported"
-
-# Step 5: Add .htaccess
-print_header "Adding .htaccess"
-print_info "Copying .htaccess from devcontainer config..."
-cp ./.devcontainer/config/.htaccess ./.htaccess
-print_success ".htaccess added"
 
 # Step 6: Set up cache directories
 print_header "Setting Up Cache"

@@ -18,20 +18,67 @@
  * @package WordPress
  */
 
+require_once __DIR__ . '/config/memory.php';
 require_once __DIR__ . '/config/salts.php';
-require_once __DIR__ . '/config/cache.php';
-require_once __DIR__ . '/config/cookie.php';
 require_once __DIR__ . '/config/content.php';
 require_once __DIR__ . '/config/database.php';
 require_once __DIR__ . '/config/plugins.php';
 require_once __DIR__ . '/config/update.php';
 require_once __DIR__ . '/config/upload.php';
+require_once __DIR__ . '/config/cron.php';
 
 /**
- * SMTP configuration.
+ * Active directory configuration
+ *
+ * Configuration for the active directory login functionality
  */
-if (file_exists(__DIR__ . '/config/smtp.php')) {
-    require_once __DIR__ . '/config/smtp.php';
+if (file_exists(__DIR__ . '/config/ad.php')) {
+    require_once __DIR__ . '/config/ad.php';
+}
+
+/**
+ * Search concfiguration
+ *
+ * Configuration for the search functionality
+ */
+if (file_exists(__DIR__ . '/config/search.php')) {
+    require_once __DIR__ . '/config/search.php';
+}
+
+/**
+ * Sentry error tracking.
+ *
+ * Configuration for the error tracking functionality
+ */
+if (file_exists(__DIR__ . '/config/sentry.php')) {
+    require_once __DIR__ . '/config/sentry.php';
+}
+
+/**
+ * Cookie settings
+ *
+ * To enable this site as a multisite please rename the config/cookie-example.php file to
+ * cookie.php, then go ahead and edit the configurations
+ */
+if (file_exists(__DIR__ . '/config/cookie.php')) {
+    require_once __DIR__ . '/config/cookie.php';
+}
+
+/**
+ * Cache settings
+ *
+ * To enable this site as a multisite please rename the config/cache-example.php file to
+ * cache.php, then go ahead and edit the configurations
+ */
+if (file_exists(__DIR__ . '/config/cache.php')) {
+    require_once __DIR__ . '/config/cache.php';
+}
+
+/**
+ * Script settings
+ */
+if (file_exists(__DIR__ . '/config/scripts.php')) {
+    require_once __DIR__ . '/config/scripts.php';
 }
 
 /**
@@ -54,14 +101,32 @@ if (file_exists(__DIR__ . '/config/developer.php')) {
     require_once __DIR__ . '/config/developer.php';
 }
 
+/**
+ * Tideways settings
+ *
+ * You can create a file called "tideways.php" in the config dir and
+ * put your tideways configurations inside.
+ */
+if (file_exists(__DIR__ . '/config/tideways.php')) {
+    require_once __DIR__ . '/config/tideways.php';
+}
+
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
-if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+if (!defined('ABSPATH')) {
+    define('ABSPATH', dirname(__FILE__) . '/');
+}
 
-/** Force the use of sunrise.php */
-define('SUNRISE', true);
+/**
+ * Autoload Vendor files or display install instructions.
+ */
+if(file_exists(__DIR__ . '/vendor/autoload.php')) {
+    require_once __DIR__ . '/vendor/autoload.php';
+} else {
+    die(file_get_contents(__DIR__ . '/install.html'));  
+}
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');

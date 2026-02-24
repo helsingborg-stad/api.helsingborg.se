@@ -1,12 +1,14 @@
 <?php
 
-define('WP_ALLOW_MULTISITE', true);
+/**
+ * Tell WordPress to be used as network
+ */
+$localSiteDomain = 'localhost:9443';
 
+define('WP_ALLOW_MULTISITE', true);
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', false);
-define('DOMAIN_CURRENT_SITE', 'api.municipio.tech');
 define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
-
-define('WP_LOAD_PATH', __DIR__ . '/../wp/');
+define('DOMAIN_CURRENT_SITE', $localSiteDomain);

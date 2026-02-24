@@ -7,7 +7,7 @@
 	"service": "app",
 	"forwardPorts": [
 		9443,
-		3306,
+		9306,
 		9080
 	],
 	"containerEnv": {
@@ -44,7 +44,7 @@
 						"requireLocalPort": true,
 						"protocol": "https"
 					},
-					"3306": {
+					"9306": {
 						"label": "Database",
 						"onAutoForward": "notify",
 						"requireLocalPort": false
