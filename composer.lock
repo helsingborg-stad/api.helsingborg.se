@@ -1591,16 +1591,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "6.26.0",
+            "version": "6.26.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "ac4981b157d09a081ecad2981e6b434fff4405ae"
+                "reference": "9e4b754e7e8eb4033d539c669b3475dfcfbf2d16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/ac4981b157d09a081ecad2981e6b434fff4405ae",
-                "reference": "ac4981b157d09a081ecad2981e6b434fff4405ae",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/9e4b754e7e8eb4033d539c669b3475dfcfbf2d16",
+                "reference": "9e4b754e7e8eb4033d539c669b3475dfcfbf2d16",
                 "shasum": ""
             },
             "require": {
@@ -1676,9 +1676,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.26.0"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.26.6"
             },
-            "time": "2026-02-23T10:57:31+00:00"
+            "time": "2026-02-24T09:24:22+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-blank",
