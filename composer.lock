@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dd3d7bbd8b7bcfc8b6b14c438486f298",
+    "content-hash": "2eedc55ea760a97e9afe5c22e1904c89",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -1141,6 +1141,55 @@
                 "source": "https://github.com/helsingborg-stad/api-schools-manager/tree/0.25.7"
             },
             "time": "2026-02-23T10:05:15+00:00"
+        },
+        {
+            "name": "helsingborg-stad/api-sponsor-manager",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/api-sponsor-manager.git",
+                "reference": "bfce558709c63845f194bfa6c466fecb8cf0cf4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-sponsor-manager/zipball/bfce558709c63845f194bfa6c466fecb8cf0cf4f",
+                "reference": "bfce558709c63845f194bfa6c466fecb8cf0cf4f",
+                "shasum": ""
+            },
+            "require": {
+                "helsingborg-stad/acfservice": "^1.0",
+                "helsingborg-stad/wpservice": "^2.0",
+                "helsingborg-stad/wputilservice": "^0.2.44"
+            },
+            "require-dev": {
+                "carthage-software/mago": "^1.6",
+                "phpunit/phpunit": "^11.5"
+            },
+            "suggest": {
+                "helsingborg-stad/municipio": "^6.0.0"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "ApiSponsorManager\\": "source/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolas Ramsted",
+                    "email": "nikolas.ramstedt@helsingborg.se"
+                }
+            ],
+            "description": "Manages looking for sponsor listnings.",
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/api-sponsor-manager/issues",
+                "source": "https://github.com/helsingborg-stad/api-sponsor-manager/tree/1.0.0"
+            },
+            "time": "2026-03-05T15:08:54+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
@@ -4974,10 +5023,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
