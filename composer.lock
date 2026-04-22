@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6daf1db38770b163c76c3395433bb88",
+    "content-hash": "d0d29a62dd0daee9764154ce4f240f32",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -1590,16 +1590,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-frontend-form",
-            "version": "0.81.0",
+            "version": "0.81.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-frontend-form.git",
-                "reference": "72276478cb7d86d58bc2a4d8fdc85448228b74f7"
+                "reference": "e26ff7efa9efa607b23fdd8c83a0faaed003f4b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/72276478cb7d86d58bc2a4d8fdc85448228b74f7",
-                "reference": "72276478cb7d86d58bc2a4d8fdc85448228b74f7",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/e26ff7efa9efa607b23fdd8c83a0faaed003f4b7",
+                "reference": "e26ff7efa9efa607b23fdd8c83a0faaed003f4b7",
                 "shasum": ""
             },
             "require": {
@@ -1634,9 +1634,9 @@
             "description": "Frontend Form for Modularity.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-frontend-form/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.81.0"
+                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.81.2"
             },
-            "time": "2026-03-05T14:36:51+00:00"
+            "time": "2026-03-30T06:51:37+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
@@ -5029,10 +5029,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
