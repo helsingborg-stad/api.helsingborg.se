@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "00f56c384d05c7c46a0164be2af36569",
+    "content-hash": "d3a1457a629793320a5930d20866e3a7",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -1245,16 +1245,16 @@
         },
         {
             "name": "helsingborg-stad/api-sponsor-manager",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-sponsor-manager.git",
-                "reference": "ee0ecdce59d1de1328472badf2dc79b2136757ce"
+                "reference": "870ea352067afdfa907c76e7331376052b083871"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-sponsor-manager/zipball/ee0ecdce59d1de1328472badf2dc79b2136757ce",
-                "reference": "ee0ecdce59d1de1328472badf2dc79b2136757ce",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-sponsor-manager/zipball/870ea352067afdfa907c76e7331376052b083871",
+                "reference": "870ea352067afdfa907c76e7331376052b083871",
                 "shasum": ""
             },
             "require": {
@@ -1288,9 +1288,9 @@
             "description": "Manages looking for sponsor listnings.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-sponsor-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-sponsor-manager/tree/1.0.1"
+                "source": "https://github.com/helsingborg-stad/api-sponsor-manager/tree/1.0.2"
             },
-            "time": "2026-04-10T16:11:40+00:00"
+            "time": "2026-04-24T06:55:02+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
@@ -5206,10 +5206,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
