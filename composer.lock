@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3a1457a629793320a5930d20866e3a7",
+    "content-hash": "14ab767195e5d0910445b4ed077b94e8",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -1691,20 +1691,20 @@
         },
         {
             "name": "helsingborg-stad/modularity-frontend-form",
-            "version": "0.81.2",
+            "version": "0.81.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-frontend-form.git",
-                "reference": "e26ff7efa9efa607b23fdd8c83a0faaed003f4b7"
+                "reference": "d4b6568f984828be41116b73416785dea8bce48f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/e26ff7efa9efa607b23fdd8c83a0faaed003f4b7",
-                "reference": "e26ff7efa9efa607b23fdd8c83a0faaed003f4b7",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-frontend-form/zipball/d4b6568f984828be41116b73416785dea8bce48f",
+                "reference": "d4b6568f984828be41116b73416785dea8bce48f",
                 "shasum": ""
             },
             "require": {
-                "helsingborg-stad/acfservice": "^1.0.1",
+                "helsingborg-stad/acfservice": "^1.3.0",
                 "helsingborg-stad/wpservice": "^2.0"
             },
             "require-dev": {
@@ -1735,9 +1735,9 @@
             "description": "Frontend Form for Modularity.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/modularity-frontend-form/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.81.2"
+                "source": "https://github.com/helsingborg-stad/modularity-frontend-form/tree/0.81.4"
             },
-            "time": "2026-03-30T06:51:37+00:00"
+            "time": "2026-05-06T13:09:41+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
