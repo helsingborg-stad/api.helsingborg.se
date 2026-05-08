@@ -15,10 +15,8 @@ wp-content/mu-plugins
 
 # Config files #
 ##########################
-config/database.php
-config/salts.php
-config/developer.php
-config/multisite.php
+config/*
+.htaccess
 
 # Compiled source #
 ###################

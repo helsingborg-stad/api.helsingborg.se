@@ -93,6 +93,12 @@
     ],
     "dev": [
       ".devcontainer/scripts/setup-dev-package.sh"
+    ],
+    "devcontainer:setup": [
+      ".devcontainer/scripts/setup.sh"
+    ],
+    "devcontainer:migrate": [
+      ".devcontainer/scripts/migrate.sh"
     ]
   }
 }

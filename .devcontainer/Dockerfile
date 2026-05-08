@@ -45,12 +45,6 @@ RUN curl -O https://raw.githubusercontent.com/wp-cli/wp-cli/master/utils/wp-comp
     && mv wp-completion.bash /etc/bash_completion.d/wp-completion.bash \
     && echo "source /etc/bash_completion.d/wp-completion.bash" >> ~/.bashrc
 
-# Generate self-signed SSL certificate and add to site conf
-RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/apache-selfsigned.key -out /etc/ssl/certs/apache-selfsigned.crt \
-    -subj "/C=US/ST=State/L=City/O=Organization/OU=Unit/CN=example.com" \
-    && sed -i 's/SSLCertificateFile\t\/etc\/ssl\/certs\/ssl-cert-snakeoil.pem/SSLCertificateFile \/etc\/ssl\/certs\/apache-selfsigned.crt/g' /etc/apache2/sites-available/default-ssl.conf \
-    && sed -i 's/SSLCertificateKeyFile \/etc\/ssl\/private\/ssl-cert-snakeoil.key/SSLCertificateKeyFile \/etc\/ssl\/private\/apache-selfsigned.key/g' /etc/apache2/sites-available/default-ssl.conf
-
 # Install github cli
 RUN (type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \
 	&& sudo mkdir -p -m 755 /etc/apt/keyrings \
@@ -66,5 +60,4 @@ RUN (type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \
 RUN apt-get update && apt-get install -y libtidy-dev \
     && docker-php-ext-install tidy
 
-RUN a2enmod headers mime rewrite ssl
-RUN a2ensite default-ssl
+RUN a2enmod headers mime rewrite
