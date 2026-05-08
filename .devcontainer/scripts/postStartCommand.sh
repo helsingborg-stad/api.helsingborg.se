@@ -7,5 +7,4 @@ echo "✅ Apache2 started."
 # List exposed ports
 echo ""
 echo "🔌 Exposed ports:"
-echo "WordPress: https://localhost:9443"
-echo "phpMyAdmin: http://localhost:9080"
+echo "WordPress: http://localhost:9080"

@@ -3,10 +3,10 @@
 /**
  * Tell WordPress to load from local wp-content, and not vendor wp.
  */
-$localSiteDomain = 'localhost:9443';
+$localSiteDomain = 'localhost:9080';
 
 define('WP_CONTENT_DIR', dirname(dirname(__FILE__)) . '/wp-content');
-define('WP_CONTENT_URL', 'https://' . $localSiteDomain . '/wp-content');
+define('WP_CONTENT_URL', 'http://' . $localSiteDomain . '/wp-content');
     
 /**
  * Use municipio as default theme.
