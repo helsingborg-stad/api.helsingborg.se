@@ -13,7 +13,7 @@
  */
 
 // Local site domain (fixed for devcontainer)
-$localSiteDomain = 'localhost:8080';
+$localSiteDomain = 'localhost:9080';
 
 // Activate debug mode on all environments using ?debug flag.
 if (isset($_GET['debug'])) {

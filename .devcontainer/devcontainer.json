@@ -7,8 +7,7 @@
 	"service": "app",
 	"forwardPorts": [
 		8080,
-		9306,
-		9080
+		9306
 	],
 	"containerEnv": {
 		"XDEBUG_MODE": "off"
@@ -46,11 +45,6 @@
 					},
 					"9306": {
 						"label": "Database",
-						"onAutoForward": "notify",
-						"requireLocalPort": false
-					},
-					"9080": {
-						"label": "PhpMyAdmin",
 						"onAutoForward": "notify",
 						"requireLocalPort": false
 					}

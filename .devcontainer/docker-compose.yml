@@ -7,7 +7,7 @@ services:
         imageVariant: 8.3-bullseye
 
     ports:
-      - 80:80
+      - 9080:8080
 
     volumes:
       - ../..:/workspaces:cached
