@@ -704,6 +704,62 @@
             "time": "2025-08-12T15:43:45+00:00"
         },
         {
+            "name": "erusev/parsedown",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "96baaad00f71ba04d76e45b4620f54d3beabd6f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/96baaad00f71ba04d76e45b4620f54d3beabd6f7",
+                "reference": "96baaad00f71ba04d76e45b4620f54d3beabd6f7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.5|^8.5|^9.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/erusev/parsedown/issues",
+                "source": "https://github.com/erusev/parsedown/tree/1.8.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/erusev",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-02-16T11:41:01+00:00"
+        },
+        {
             "name": "firebase/php-jwt",
             "version": "v7.0.5",
             "source": {
@@ -1051,19 +1107,20 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "3.15.1",
+            "version": "3.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "b59b46eaba6eeb76e91a21ad64b4b6327666df3c"
+                "reference": "009235000e1032379d6d1346c291b48b00c3d537"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/b59b46eaba6eeb76e91a21ad64b4b6327666df3c",
-                "reference": "b59b46eaba6eeb76e91a21ad64b4b6327666df3c",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/009235000e1032379d6d1346c291b48b00c3d537",
+                "reference": "009235000e1032379d6d1346c291b48b00c3d537",
                 "shasum": ""
             },
             "require": {
+                "erusev/parsedown": "*",
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
                 "helsingborg-stad/acfservice": "^1.0",
                 "helsingborg-stad/wpservice": "^2.0",
@@ -1072,13 +1129,9 @@
             "require-dev": {
                 "brainmaestro/composer-git-hooks": "^2.8",
                 "codedungeon/phpunit-result-printer": "^0.32.0",
-                "composer/installers": "~1.0",
-                "johnpbloch/wordpress-core": "dev-master",
                 "php-stubs/wordpress-stubs": "dev-master",
-                "phpstan/phpstan": "2.0.x-dev",
                 "phpunit/phpunit": "^9.6",
                 "squizlabs/php_codesniffer": "^3.7",
-                "wikimedia/composer-merge-plugin": "^2.1",
                 "wp-coding-standards/wpcs": "^3.0"
             },
             "type": "wordpress-plugin",
@@ -1120,9 +1173,9 @@
             "description": "Creates a api that may be used to manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.15.1"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.18.0"
             },
-            "time": "2026-05-07T05:25:17+00:00"
+            "time": "2026-05-13T08:36:55+00:00"
         },
         {
             "name": "helsingborg-stad/api-exhibition-manager",
@@ -1741,16 +1794,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "6.45.0",
+            "version": "6.46.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "170caa4724a5a5345f6884215c23483789dff853"
+                "reference": "22b7aa1a403f110c650792ce1b509965ed16e422"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/170caa4724a5a5345f6884215c23483789dff853",
-                "reference": "170caa4724a5a5345f6884215c23483789dff853",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/22b7aa1a403f110c650792ce1b509965ed16e422",
+                "reference": "22b7aa1a403f110c650792ce1b509965ed16e422",
                 "shasum": ""
             },
             "require": {
@@ -1826,9 +1879,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.45.0"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.46.0"
             },
-            "time": "2026-05-07T13:58:09+00:00"
+            "time": "2026-05-11T08:29:20+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-blank",
@@ -3485,16 +3538,16 @@
         },
         {
             "name": "nette/utils",
-            "version": "v4.1.3",
+            "version": "v4.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "bb3ea637e3d131d72acc033cfc2746ee893349fe"
+                "reference": "7da6c396d7ebe142bc857c20479d5e70a5e1aac7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/bb3ea637e3d131d72acc033cfc2746ee893349fe",
-                "reference": "bb3ea637e3d131d72acc033cfc2746ee893349fe",
+                "url": "https://api.github.com/repos/nette/utils/zipball/7da6c396d7ebe142bc857c20479d5e70a5e1aac7",
+                "reference": "7da6c396d7ebe142bc857c20479d5e70a5e1aac7",
                 "shasum": ""
             },
             "require": {
@@ -3570,9 +3623,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.1.3"
+                "source": "https://github.com/nette/utils/tree/v4.1.4"
             },
-            "time": "2026-02-13T03:05:33+00:00"
+            "time": "2026-05-11T20:49:54+00:00"
         },
         {
             "name": "ooksanen/acf-focuspoint",
