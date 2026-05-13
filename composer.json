@@ -47,7 +47,8 @@
     "helsingborg-stad/wpmu-allow-cors": "^1.0",
     "helsingborg-stad/municipio-blank": "^1.0",
     "helsingborg-stad/wpmu-remove-user-endpoint": "^0.2.2",
-    "helsingborg-stad/api-sponsor-manager": "1.0.2"
+    "helsingborg-stad/api-sponsor-manager": "1.0.2",
+    "wpackagist-plugin/simplify-admin-menus": "^1.3"
   },
   "extra": {
     "path": "/",

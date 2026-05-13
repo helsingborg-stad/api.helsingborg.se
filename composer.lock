@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6abdc1e4f011b7f57d807a1eaba182ac",
+    "content-hash": "a05c16b59cdd7039859c56465e5cf2a5",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -5187,6 +5187,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/simple-smtp/"
+        },
+        {
+            "name": "wpackagist-plugin/simplify-admin-menus",
+            "version": "1.3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simplify-admin-menus/",
+                "reference": "tags/1.3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simplify-admin-menus.1.3.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simplify-admin-menus/"
         },
         {
             "name": "wpackagist-plugin/wp-rest-api-log",
