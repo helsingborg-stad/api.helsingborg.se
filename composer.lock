@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "24aebc4a2d1806d703a403a3546bde47",
+    "content-hash": "57fd1787c3a824424142d9d4cdebfa23",
     "packages": [
         {
             "name": "astrotomic/php-deepface",
@@ -1107,16 +1107,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager",
-            "version": "3.18.0",
+            "version": "3.18.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager.git",
-                "reference": "009235000e1032379d6d1346c291b48b00c3d537"
+                "reference": "2e79bcd0167d4ca8ebf766f4d525d3e9968b85ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/009235000e1032379d6d1346c291b48b00c3d537",
-                "reference": "009235000e1032379d6d1346c291b48b00c3d537",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager/zipball/2e79bcd0167d4ca8ebf766f4d525d3e9968b85ce",
+                "reference": "2e79bcd0167d4ca8ebf766f4d525d3e9968b85ce",
                 "shasum": ""
             },
             "require": {
@@ -1173,9 +1173,9 @@
             "description": "Creates a api that may be used to manage events",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-event-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.18.0"
+                "source": "https://github.com/helsingborg-stad/api-event-manager/tree/3.18.2"
             },
-            "time": "2026-05-13T08:36:55+00:00"
+            "time": "2026-05-18T08:30:22+00:00"
         },
         {
             "name": "helsingborg-stad/api-exhibition-manager",
@@ -1794,16 +1794,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "6.46.0",
+            "version": "6.46.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "22b7aa1a403f110c650792ce1b509965ed16e422"
+                "reference": "b4e4315e93a14fc2c2eea86dce47a5e32f798e93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/22b7aa1a403f110c650792ce1b509965ed16e422",
-                "reference": "22b7aa1a403f110c650792ce1b509965ed16e422",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/b4e4315e93a14fc2c2eea86dce47a5e32f798e93",
+                "reference": "b4e4315e93a14fc2c2eea86dce47a5e32f798e93",
                 "shasum": ""
             },
             "require": {
@@ -1879,9 +1879,9 @@
             "description": "A bootstrap theme for creating municipality sites.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.46.0"
+                "source": "https://github.com/helsingborg-stad/Municipio/tree/6.46.2"
             },
-            "time": "2026-05-11T08:29:20+00:00"
+            "time": "2026-05-13T14:25:28+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-blank",
@@ -4545,16 +4545,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v7.4.8",
+            "version": "v7.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "60f19cd3badc8de688421e21e4305eba50f8089a"
+                "reference": "d9593c9efa40499eb078b81144de42cbc28a31f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/60f19cd3badc8de688421e21e4305eba50f8089a",
-                "reference": "60f19cd3badc8de688421e21e4305eba50f8089a",
+                "url": "https://api.github.com/repos/symfony/process/zipball/d9593c9efa40499eb078b81144de42cbc28a31f0",
+                "reference": "d9593c9efa40499eb078b81144de42cbc28a31f0",
                 "shasum": ""
             },
             "require": {
@@ -4586,7 +4586,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/v7.4.8"
+                "source": "https://github.com/symfony/process/tree/v7.4.11"
             },
             "funding": [
                 {
@@ -4606,7 +4606,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-03-24T13:12:05+00:00"
+            "time": "2026-05-11T16:55:21+00:00"
         },
         {
             "name": "symfony/translation",
