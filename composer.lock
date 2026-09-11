@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5f88beecc1daaaaabe1b9ee6f1b6b2a5",
+    "content-hash": "ac8599f3820914392881935a45a07516",
     "packages": [
         {
             "name": "adbario/php-dot-notation",
@@ -1413,16 +1413,16 @@
         },
         {
             "name": "helsingborg-stad/api-sponsor-manager",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-sponsor-manager.git",
-                "reference": "738b8ac9cd8bd1a95282a28fc1231523c7766cd4"
+                "reference": "ca19f7a80d106ff378f0f1b2a1fe4e15ee9e0cd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-sponsor-manager/zipball/738b8ac9cd8bd1a95282a28fc1231523c7766cd4",
-                "reference": "738b8ac9cd8bd1a95282a28fc1231523c7766cd4",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-sponsor-manager/zipball/ca19f7a80d106ff378f0f1b2a1fe4e15ee9e0cd0",
+                "reference": "ca19f7a80d106ff378f0f1b2a1fe4e15ee9e0cd0",
                 "shasum": ""
             },
             "require": {
@@ -1456,9 +1456,9 @@
             "description": "Manages looking for sponsor listnings.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-sponsor-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-sponsor-manager/tree/1.0.3"
+                "source": "https://github.com/helsingborg-stad/api-sponsor-manager/tree/1.0.4"
             },
-            "time": "2026-09-08T11:37:24+00:00"
+            "time": "2026-09-11T09:48:59+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
