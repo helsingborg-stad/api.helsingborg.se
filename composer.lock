@@ -1413,16 +1413,16 @@
         },
         {
             "name": "helsingborg-stad/api-sponsor-manager",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-sponsor-manager.git",
-                "reference": "7773eb7770f18318303c10590921fdf4113a860a"
+                "reference": "8a371dcd83a6cf1afdc61dfa54370b0db7ec5efe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-sponsor-manager/zipball/7773eb7770f18318303c10590921fdf4113a860a",
-                "reference": "7773eb7770f18318303c10590921fdf4113a860a",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-sponsor-manager/zipball/8a371dcd83a6cf1afdc61dfa54370b0db7ec5efe",
+                "reference": "8a371dcd83a6cf1afdc61dfa54370b0db7ec5efe",
                 "shasum": ""
             },
             "require": {
@@ -1456,9 +1456,9 @@
             "description": "Manages looking for sponsor listnings.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-sponsor-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-sponsor-manager/tree/1.0.5"
+                "source": "https://github.com/helsingborg-stad/api-sponsor-manager/tree/1.0.6"
             },
-            "time": "2026-09-11T12:44:53+00:00"
+            "time": "2026-09-14T08:04:48+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
