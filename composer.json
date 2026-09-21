@@ -42,7 +42,7 @@
     "helsingborg-stad/municipio": "7.9.2",
     "helsingborg-stad/blade": "3.5.1",
     "helsingborg-stad/api-exhibition-manager": "0.5.0",
-    "helsingborg-stad/modularity-frontend-form": "0.83.6",
+    "helsingborg-stad/modularity-frontend-form": "^0.84.0",
     "helsingborg-stad/acf-icon-field": "0.2.46",
     "helsingborg-stad/wpmu-allow-cors": "^1.0",
     "helsingborg-stad/municipio-blank": "^1.0",
@@ -58,12 +58,8 @@
         "wpackagist-plugin/simple-smtp",
         "type:wordpress-muplugin"
       ],
-      "wp-content/plugins/{$name}": [
-        "type:wordpress-plugin"
-      ],
-      "wp-content/themes/{$name}": [
-        "type:wordpress-theme"
-      ]
+      "wp-content/plugins/{$name}": ["type:wordpress-plugin"],
+      "wp-content/themes/{$name}": ["type:wordpress-theme"]
     }
   },
   "config": {
@@ -78,9 +74,7 @@
       "mkdir -p wp-content/uploads/cache/blade-cache",
       "composer dump-autoload -o"
     ],
-    "post-update-cmd": [
-      "composer dump-autoload -o"
-    ],
+    "post-update-cmd": ["composer dump-autoload -o"],
     "update-lockfile": "command -v act >/dev/null 2>&1 || brew install act; act -j composer-update --bind",
     "resolve-conflicts": [
       "git fetch origin",
@@ -92,14 +86,8 @@
       "bash -c 'set -euo pipefail; composer outdated --direct --format=json --ignore-platform-req=ext-imagick | jq -c \".installed[] | select(.latest != null and .latest != \\\"[none matched]\\\" and (.latest | startswith(\\\"dev-\\\") | not)) | {name:.name, version:.latest}\" | while read -r row; do PKG=$(echo \"$row\" | jq -r .name); VER=$(echo \"$row\" | jq -r .version); CURRENT=$(jq -r --arg p \"$PKG\" \".require[\\$p] // \\\"\\\"\" composer.json); if [ -z \"$CURRENT\" ]; then echo \"Skipping $PKG (not in root composer.json)\"; elif [[ \"$CURRENT\" == dev-* ]]; then echo \"Skipping $PKG (current version is dev)\"; else echo \"Updating $PKG to $VER\"; jq --arg p \"$PKG\" --arg v \"$VER\" \".require[\\$p] = \\$v\" composer.json > composer.json.tmp && mv composer.json.tmp composer.json; fi; done'",
       "composer update --lock --ignore-platform-req=ext-imagick -W"
     ],
-    "dev": [
-      ".devcontainer/scripts/setup-dev-package.sh"
-    ],
-    "devcontainer:setup": [
-      ".devcontainer/scripts/setup.sh"
-    ],
-    "devcontainer:migrate": [
-      ".devcontainer/scripts/migrate.sh"
-    ]
+    "dev": [".devcontainer/scripts/setup-dev-package.sh"],
+    "devcontainer:setup": [".devcontainer/scripts/setup.sh"],
+    "devcontainer:migrate": [".devcontainer/scripts/migrate.sh"]
   }
 }
