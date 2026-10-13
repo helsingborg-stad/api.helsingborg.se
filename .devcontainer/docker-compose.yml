@@ -3,8 +3,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      args:
-        imageVariant: 8.3-bullseye
 
     ports:
       - 9080:8080

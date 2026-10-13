@@ -1,5 +1,5 @@
 ARG imageVariant
-FROM mcr.microsoft.com/devcontainers/php:1-${imageVariant}
+FROM mcr.microsoft.com/devcontainers/php:8.3-bookworm
 
 # Remove yarn apt repo - GPG key (62D54FD4003F6525) is no longer valid
 RUN rm -f /etc/apt/sources.list.d/yarn.list
