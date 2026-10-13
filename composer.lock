@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2fe03e05390388c374593841db36b50",
+    "content-hash": "cfa24d2736fe5c157f3852d043fdf4b0",
     "packages": [
         {
             "name": "adbario/php-dot-notation",
@@ -1534,16 +1534,16 @@
         },
         {
             "name": "helsingborg-stad/api-schools-manager",
-            "version": "0.25.7",
+            "version": "0.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-schools-manager.git",
-                "reference": "881558e73f0d9150c68cd687337819d7d0fe6d4e"
+                "reference": "16e53cade50ac8d939c8906b5444520bedbcff59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-manager/zipball/881558e73f0d9150c68cd687337819d7d0fe6d4e",
-                "reference": "881558e73f0d9150c68cd687337819d7d0fe6d4e",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-schools-manager/zipball/16e53cade50ac8d939c8906b5444520bedbcff59",
+                "reference": "16e53cade50ac8d939c8906b5444520bedbcff59",
                 "shasum": ""
             },
             "require": {
@@ -1600,9 +1600,9 @@
             "description": "Creates a api that may be used to manage schools",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-schools-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-schools-manager/tree/0.25.7"
+                "source": "https://github.com/helsingborg-stad/api-schools-manager/tree/0.26.0"
             },
-            "time": "2026-02-23T10:05:15+00:00"
+            "time": "2026-10-13T07:41:02+00:00"
         },
         {
             "name": "helsingborg-stad/api-sponsor-manager",
@@ -4091,16 +4091,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.55",
+            "version": "3.0.57",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "db9744e6d47e742b1f974e965ad49bdd041105af"
+                "reference": "d17e0ddaeaf6f22f7e007cbb437d78792fe2a0e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/db9744e6d47e742b1f974e965ad49bdd041105af",
-                "reference": "db9744e6d47e742b1f974e965ad49bdd041105af",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/d17e0ddaeaf6f22f7e007cbb437d78792fe2a0e4",
+                "reference": "d17e0ddaeaf6f22f7e007cbb437d78792fe2a0e4",
                 "shasum": ""
             },
             "require": {
@@ -4181,7 +4181,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.55"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.57"
             },
             "funding": [
                 {
@@ -4197,7 +4197,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-14T23:24:10+00:00"
+            "time": "2026-08-26T12:13:21+00:00"
         },
         {
             "name": "pragmarx/ia-arr",
@@ -5161,16 +5161,16 @@
         },
         {
             "name": "symfony/polyfill-php82",
-            "version": "v1.38.1",
+            "version": "v1.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php82.git",
-                "reference": "002dc0cfe5fd4ed6033d48f27d4f19a486c4b04b"
+                "reference": "843bbe8b2a7934307b749751eede0f111f5d1cfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php82/zipball/002dc0cfe5fd4ed6033d48f27d4f19a486c4b04b",
-                "reference": "002dc0cfe5fd4ed6033d48f27d4f19a486c4b04b",
+                "url": "https://api.github.com/repos/symfony/polyfill-php82/zipball/843bbe8b2a7934307b749751eede0f111f5d1cfc",
+                "reference": "843bbe8b2a7934307b749751eede0f111f5d1cfc",
                 "shasum": ""
             },
             "require": {
@@ -5217,7 +5217,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php82/tree/v1.38.1"
+                "source": "https://github.com/symfony/polyfill-php82/tree/v1.43.0"
             },
             "funding": [
                 {
@@ -5237,7 +5237,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-05-26T12:45:58+00:00"
+            "time": "2026-09-25T15:50:05+00:00"
         },
         {
             "name": "symfony/process",
@@ -5814,15 +5814,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-rest-api-log",
-            "version": "1.7.0",
+            "version": "1.7.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-rest-api-log/",
-                "reference": "tags/1.7.0"
+                "reference": "tags/1.7.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-rest-api-log.1.7.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-rest-api-log.1.7.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5839,5 +5839,5 @@
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
