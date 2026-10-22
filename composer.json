@@ -48,7 +48,8 @@
     "helsingborg-stad/municipio-blank": "^1.0",
     "helsingborg-stad/wpmu-remove-user-endpoint": "^0.2.2",
     "helsingborg-stad/api-sponsor-manager": "1.0.7",
-    "wpackagist-plugin/simplify-admin-menus": "^1.3"
+    "wpackagist-plugin/simplify-admin-menus": "^1.3",
+    "helsingborg-stad/municipio-clone": "1.6.6"
   },
   "extra": {
     "path": "/",
