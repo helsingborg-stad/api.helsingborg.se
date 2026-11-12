@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5645cc00f3e9df131258db9a5c2777c6",
+    "content-hash": "45169130e5c882bb496aaf2ca2654b5d",
     "packages": [
         {
             "name": "adbario/php-dot-notation",
@@ -2565,6 +2565,37 @@
                 "source": "https://github.com/helsingborg-stad/psr-logger/tree/0.2.9"
             },
             "time": "2026-06-16T14:27:27+00:00"
+        },
+        {
+            "name": "helsingborg-stad/s3-uploads-custom-endpoint",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/s3-uploads-custom-endpoint.git",
+                "reference": "e9b66b4747a83ec2c3c13ebc81d37857e1c4230f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/s3-uploads-custom-endpoint/zipball/e9b66b4747a83ec2c3c13ebc81d37857e1c4230f",
+                "reference": "e9b66b4747a83ec2c3c13ebc81d37857e1c4230f",
+                "shasum": ""
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joel Bernerman",
+                    "email": "joel.bernerman@helsingborg.se"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/helsingborg-stad/s3-uploads-custom-endpoint/issues",
+                "source": "https://github.com/helsingborg-stad/s3-uploads-custom-endpoint/tree/2.0.0"
+            },
+            "time": "2023-09-26T12:49:16+00:00"
         },
         {
             "name": "helsingborg-stad/schema-library",
