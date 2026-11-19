@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "caa6037e3a4b5d81ebb07778a406b6d8",
+    "content-hash": "b9807568eedd2d032b7c3e127d943b69",
     "packages": [
         {
             "name": "adbario/php-dot-notation",
@@ -1202,85 +1202,6 @@
             "time": "2023-11-30T14:50:21+00:00"
         },
         {
-            "name": "giggsey/libphonenumber-for-php-lite",
-            "version": "9.0.43",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/giggsey/libphonenumber-for-php-lite.git",
-                "reference": "e3c20f1eea133cb67b1f31ad86b0f4049c6fa4d8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php-lite/zipball/e3c20f1eea133cb67b1f31ad86b0f4049c6fa4d8",
-                "reference": "e3c20f1eea133cb67b1f31ad86b0f4049c6fa4d8",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8.1",
-                "symfony/polyfill-mbstring": "^1.17"
-            },
-            "conflict": {
-                "giggsey/libphonenumber-for-php": "*"
-            },
-            "require-dev": {
-                "ext-dom": "*",
-                "friendsofphp/php-cs-fixer": "^3.71",
-                "infection/infection": "^0.29|^0.31.0",
-                "nette/php-generator": "^4.1",
-                "php-coveralls/php-coveralls": "^2.7",
-                "phpstan/extension-installer": "^1.4.3",
-                "phpstan/phpstan": "^2.1.7",
-                "phpstan/phpstan-deprecation-rules": "^2.0.1",
-                "phpstan/phpstan-phpunit": "^2.0.4",
-                "phpstan/phpstan-strict-rules": "^2.0.3",
-                "phpunit/phpunit": "^10.5.45",
-                "symfony/console": "^6.4",
-                "symfony/filesystem": "^6.4",
-                "symfony/process": "^6.4"
-            },
-            "suggest": {
-                "giggsey/libphonenumber-for-php": "Use libphonenumber-for-php for geocoding, carriers, timezones and matching"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "9.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "libphonenumber\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Joshua Gigg",
-                    "email": "giggsey@gmail.com",
-                    "homepage": "https://giggsey.com/"
-                }
-            ],
-            "description": "A lite version of giggsey/libphonenumber-for-php, which is a PHP Port of Google's libphonenumber",
-            "homepage": "https://github.com/giggsey/libphonenumber-for-php-lite",
-            "keywords": [
-                "geocoding",
-                "geolocation",
-                "libphonenumber",
-                "mobile",
-                "phonenumber",
-                "validation"
-            ],
-            "support": {
-                "issues": "https://github.com/giggsey/libphonenumber-for-php-lite/issues",
-                "source": "https://github.com/giggsey/libphonenumber-for-php-lite"
-            },
-            "time": "2026-11-06T09:59:40+00:00",
-            "published-time": "2026-11-06T10:42:31+00:00"
-        },
-        {
             "name": "guzzlehttp/guzzle",
             "version": "8.5.0",
             "source": {
@@ -1685,47 +1606,6 @@
             "time": "2025-12-03T12:58:00+00:00"
         },
         {
-            "name": "helsingborg-stad/acf-phone-number-field",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/helsingborg-stad/acf-phone-number-field.git",
-                "reference": "2e2befad34d3c6463e27d80de07903900dcfefaa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/acf-phone-number-field/zipball/2e2befad34d3c6463e27d80de07903900dcfefaa",
-                "reference": "2e2befad34d3c6463e27d80de07903900dcfefaa",
-                "shasum": ""
-            },
-            "require": {
-                "giggsey/libphonenumber-for-php-lite": "^9.0",
-                "php": "^8.3"
-            },
-            "require-dev": {
-                "carthage-software/mago": "1.59.0",
-                "phpunit/phpunit": "~9.6.0",
-                "yoast/phpunit-polyfills": "^1.1"
-            },
-            "type": "wordpress-muplugin",
-            "autoload": {
-                "psr-4": {
-                    "AcfPhoneNumberField\\": "source/php/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "International phone number field for Advanced Custom Fields.",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/acf-phone-number-field/issues",
-                "source": "https://github.com/helsingborg-stad/acf-phone-number-field/tree/1.0.0"
-            },
-            "time": "2026-11-12T14:35:40+00:00",
-            "published-time": "2026-11-12T14:48:03+00:00"
-        },
-        {
             "name": "helsingborg-stad/acf-select-image-field",
             "version": "1.6.1",
             "source": {
@@ -2089,16 +1969,17 @@
         },
         {
             "name": "helsingborg-stad/api-sponsor-manager",
-            "version": "1.1.0",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-sponsor-manager.git",
-                "reference": "c75f097af139e4ce683c650f66c0d5dce06c8575"
+                "reference": "0c46f042368d99ae325c97dd7fa66572e951529a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/helsingborg-stad/api-sponsor-manager/releases/download/%prettyVersion%/api-sponsor-manager-%prettyVersion%.zip",
-                "reference": "c75f097af139e4ce683c650f66c0d5dce06c8575"
+                "url": "https://api.github.com/repos/helsingborg-stad/api-sponsor-manager/zipball/0c46f042368d99ae325c97dd7fa66572e951529a",
+                "reference": "0c46f042368d99ae325c97dd7fa66572e951529a",
+                "shasum": ""
             },
             "require": {
                 "helsingborg-stad/acf-export-manager": "^1.0",
@@ -2136,10 +2017,9 @@
             "description": "Manages looking for sponsor listnings.",
             "support": {
                 "issues": "https://github.com/helsingborg-stad/api-sponsor-manager/issues",
-                "source": "https://github.com/helsingborg-stad/api-sponsor-manager/tree/1.1.0"
+                "source": "https://github.com/helsingborg-stad/api-sponsor-manager/tree/1.0.7"
             },
-            "time": "2026-11-19T14:56:03+00:00",
-            "published-time": "2026-11-19T14:56:48+00:00"
+            "time": "2026-09-25T11:27:21+00:00"
         },
         {
             "name": "helsingborg-stad/api-volunteer-manager",
@@ -6718,5 +6598,5 @@
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
-    "plugin-api-version": "2.11.0"
+    "plugin-api-version": "2.9.0"
 }
