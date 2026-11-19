@@ -51,8 +51,7 @@
     "wpackagist-plugin/simplify-admin-menus": "^1.3",
     "helsingborg-stad/municipio-clone": "1.6.6",
     "humanmade/s3-uploads": "3.0.13",
-    "helsingborg-stad/s3-uploads-custom-endpoint": "2.0.0",
-    "helsingborg-stad/acf-phone-number-field": "1.0.0"
+    "helsingborg-stad/s3-uploads-custom-endpoint": "2.0.0"
   },
   "extra": {
     "path": "/",
